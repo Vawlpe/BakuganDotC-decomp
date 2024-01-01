@@ -1,0 +1,6 @@
+[submodule "UOFW Headers"]
+	path = "misc/UOFW Header"
+	url = https://github.com/Vawlpe/uofw-headers.git
+[submodule "misc/uofw-headers"]
+	path = misc/uofw-headers
+	url = https://github.com/Vawlpe/uofw-headers.git
