@@ -1,0 +1,91 @@
+#include "ULUS10536_MYTHREAD-MAIN.BIN.h"
+
+void FUN_088f89ec(int param_1)
+
+{
+  undefined auVar1 [12];
+  undefined auVar2 [16];
+  undefined auVar3 [16];
+  undefined auVar4 [16];
+  undefined auVar5 [16];
+  undefined auVar6 [16];
+  undefined auVar7 [16];
+  undefined auVar8 [16];
+  undefined auVar9 [64];
+  undefined4 uVar10;
+  undefined auVar11 [64];
+  undefined (*pauVar12) [16];
+  undefined (*pauVar13) [12];
+  undefined4 in_V7D;
+  
+  pauVar12 = (undefined (*) [16])(*(int *)(param_1 + 0x90) + 0x10);
+  vpfxs(3,2,0x11,0x10);
+  auVar2 = vmov_q(*pauVar12);
+  vpfxs(0x12,3,0,0x11);
+  auVar3 = vmov_q(*pauVar12);
+  vpfxs(1,0x10,3,0x12);
+  auVar4 = vmov_q(*pauVar12);
+  vpfxs(3,2,0x11,0);
+  auVar5 = vmov_q(*pauVar12);
+  vpfxs(0x12,3,0,1);
+  auVar6 = vmov_q(*pauVar12);
+  vpfxs(1,0x10,3,2);
+  auVar7 = vmov_q(*pauVar12);
+  vpfxs(0x10,0x11,0x12,3);
+  auVar8 = vmov_q(*pauVar12);
+  auVar9._48_16_ = auVar8;
+  auVar9._44_4_ = auVar7._12_4_;
+  auVar9._40_4_ = auVar7._8_4_;
+  auVar9._36_4_ = auVar7._4_4_;
+  auVar9._32_4_ = auVar7._0_4_;
+  auVar9._28_4_ = auVar6._12_4_;
+  auVar9._24_4_ = auVar6._8_4_;
+  auVar9._20_4_ = auVar6._4_4_;
+  auVar9._16_4_ = auVar6._0_4_;
+  auVar9._12_4_ = auVar5._12_4_;
+  auVar9._8_4_ = auVar5._8_4_;
+  auVar9._4_4_ = auVar5._4_4_;
+  auVar9._0_4_ = auVar5._0_4_;
+  auVar11._48_16_ = *pauVar12;
+  auVar11._44_4_ = auVar4._12_4_;
+  auVar11._40_4_ = auVar4._8_4_;
+  auVar11._36_4_ = auVar4._4_4_;
+  auVar11._32_4_ = auVar4._0_4_;
+  auVar11._28_4_ = auVar3._12_4_;
+  auVar11._24_4_ = auVar3._8_4_;
+  auVar11._20_4_ = auVar3._4_4_;
+  auVar11._16_4_ = auVar3._0_4_;
+  auVar11._12_4_ = auVar2._12_4_;
+  auVar11._8_4_ = auVar2._8_4_;
+  auVar11._4_4_ = auVar2._4_4_;
+  auVar11._0_4_ = auVar2._0_4_;
+  auVar9 = vmmul_q(auVar9,auVar11);
+  vidt_q();
+  vidt_q();
+  auVar3._8_8_ = auVar9._16_8_;
+  auVar3._4_4_ = auVar9._4_4_;
+  auVar3._0_4_ = auVar9._0_4_;
+  auVar2._12_4_ = DAT_08abfa1c;
+  auVar2._8_4_ = DAT_08abfa18;
+  auVar2._4_4_ = DAT_08abfa14;
+  auVar2._0_4_ = DAT_08abfa10;
+  auVar2 = vtfm4_q(auVar3,auVar2);
+  *(int *)(param_1 + 0x40) = auVar2._0_4_;
+  *(int *)(param_1 + 0x44) = auVar2._4_4_;
+  *(int *)(param_1 + 0x48) = auVar2._8_4_;
+  *(int *)(param_1 + 0x4c) = auVar2._12_4_;
+  pauVar13 = (undefined (*) [12])(param_1 + 0x40);
+  auVar1 = vscl_t(*pauVar13,*(undefined4 *)(param_1 + 0x94));
+  *(int *)*pauVar13 = auVar1._0_4_;
+  *(int *)(param_1 + 0x44) = auVar1._4_4_;
+  *(int *)(param_1 + 0x48) = auVar1._8_4_;
+  *(undefined4 *)(param_1 + 0x4c) = in_V7D;
+  uVar10 = *(undefined4 *)(param_1 + 0x4c);
+  auVar1 = vadd_t(*pauVar13,*(undefined (*) [12])(*(int *)(*(int *)(param_1 + 4) + 0x38) + 0x40));
+  *(int *)*pauVar13 = auVar1._0_4_;
+  *(int *)(param_1 + 0x44) = auVar1._4_4_;
+  *(int *)(param_1 + 0x48) = auVar1._8_4_;
+  *(undefined4 *)(param_1 + 0x4c) = uVar10;
+  return;
+}
+

@@ -1,0 +1,113 @@
+#include "ULUS10536_MYTHREAD-MAIN.BIN.h"
+
+int FUN_088a3b10(int param_1,undefined4 *param_2)
+
+{
+  undefined auVar1 [16];
+  undefined auVar2 [16];
+  undefined auVar3 [16];
+  undefined auVar4 [16];
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  int iVar8;
+  int iVar9;
+  float fVar10;
+  undefined4 in_V72;
+  undefined4 in_V76;
+  undefined4 in_V7A;
+  undefined4 in_V7C;
+  undefined4 in_V7E;
+  undefined4 local_50;
+  float fStack_4c;
+  undefined4 uStack_48;
+  undefined4 uStack_44;
+  undefined4 local_40;
+  float local_3c;
+  undefined4 uStack_38;
+  undefined4 uStack_34;
+  int local_20;
+  
+  FUN_088ab2d0(param_1,0xb0,param_2);
+  *(undefined **)(param_1 + 0x14) = &DAT_08af2524;
+  FUN_088a8f2c(&local_40,*(int *)(param_1 + 0x130) + 0xb0,0x3fbf2500);
+  *param_2 = local_40;
+  param_2[1] = local_3c;
+  param_2[2] = uStack_38;
+  param_2[3] = uStack_34;
+  *(undefined4 *)(param_1 + 0x344) = 0;
+  *(undefined4 *)(param_1 + 0x348) = 0;
+  *(undefined4 *)(param_1 + 0x380) = 0;
+  *(undefined4 *)(param_1 + 0x350) = 0;
+  *(undefined4 *)(param_1 + 0x360) = 5;
+  *(undefined *)(param_1 + 0xbc) = 0;
+  *(undefined4 *)(param_1 + 0x228) = 0;
+  *(undefined4 *)(param_1 + 800) = 0;
+  local_3c = local_3c + 70.0;
+  local_20 = 0;
+  FUN_089d8634();
+  uVar7 = FUN_089d81a4();
+  FUN_089d816c(1);
+  iVar8 = FUN_089d7d74(0x680,0,0);
+  FUN_089d816c(uVar7);
+  FUN_089d866c();
+  iVar9 = local_20;
+  if (iVar8 != 0) {
+    local_50 = local_40;
+    fStack_4c = local_3c;
+    uStack_48 = uStack_38;
+    uStack_44 = uStack_34;
+    FUN_0885b894(0x43160000,0x428c0000,iVar8,&local_50,1,5);
+    iVar9 = iVar8;
+  }
+  *(int *)(param_1 + 800) = iVar9;
+  *(undefined *)(param_1 + 900) = 0;
+  *(undefined4 *)(param_1 + 0x154) = 0;
+  *(undefined4 *)(param_1 + 0x354) = 0;
+  *(undefined4 *)(param_1 + 0x358) = 0;
+  *(undefined4 *)(param_1 + 0x340) = 0;
+  *(undefined4 *)(param_1 + 0x370) = in_V72;
+  *(undefined4 *)(param_1 + 0x374) = in_V76;
+  *(undefined4 *)(param_1 + 0x378) = in_V7A;
+  *(undefined4 *)(param_1 + 0x37c) = in_V7E;
+  *(undefined4 *)(param_1 + 0x324) = 0;
+  fVar10 = (float)param_2[1];
+  iVar9 = FUN_088a9614(param_1);
+  fVar10 = fVar10 + -(*(float *)(iVar9 + 4) * *(float *)(param_1 + 0x44));
+  param_2[1] = fVar10;
+  *(float *)(param_1 + 0x24) = fVar10;
+  uVar7 = param_2[3];
+  *(undefined4 *)(param_1 + 0x34) = uVar7;
+  iVar9 = *(int *)(param_1 + 0x130);
+  uVar7 = vmul_s(uVar7,in_V7C);
+  auVar3 = vrot_q(uVar7,1,0,3,0);
+  auVar1 = vidt_q();
+  auVar4 = vrot_q(uVar7,2,0,1,0);
+  auVar2 = vidt_q();
+  *(int *)(iVar9 + 0x80) = auVar3._0_4_;
+  *(int *)(iVar9 + 0x84) = auVar3._4_4_;
+  *(int *)(iVar9 + 0x88) = auVar3._8_4_;
+  *(int *)(iVar9 + 0x8c) = auVar3._12_4_;
+  *(int *)(iVar9 + 0x90) = auVar1._0_4_;
+  *(int *)(iVar9 + 0x94) = auVar1._4_4_;
+  *(int *)(iVar9 + 0x98) = auVar1._8_4_;
+  *(int *)(iVar9 + 0x9c) = auVar1._12_4_;
+  *(int *)(iVar9 + 0xa0) = auVar4._0_4_;
+  *(int *)(iVar9 + 0xa4) = auVar4._4_4_;
+  *(int *)(iVar9 + 0xa8) = auVar4._8_4_;
+  *(int *)(iVar9 + 0xac) = auVar4._12_4_;
+  *(int *)(iVar9 + 0xb0) = auVar2._0_4_;
+  *(int *)(iVar9 + 0xb4) = auVar2._4_4_;
+  *(int *)(iVar9 + 0xb8) = auVar2._8_4_;
+  *(int *)(iVar9 + 0xbc) = auVar2._12_4_;
+  iVar9 = *(int *)(param_1 + 0x130);
+  uVar7 = *(undefined4 *)(param_1 + 0x24);
+  uVar5 = *(undefined4 *)(param_1 + 0x28);
+  uVar6 = *(undefined4 *)(param_1 + 0x2c);
+  *(undefined4 *)(iVar9 + 0xb0) = *(undefined4 *)(param_1 + 0x20);
+  *(undefined4 *)(iVar9 + 0xb4) = uVar7;
+  *(undefined4 *)(iVar9 + 0xb8) = uVar5;
+  *(undefined4 *)(iVar9 + 0xbc) = uVar6;
+  return param_1;
+}
+

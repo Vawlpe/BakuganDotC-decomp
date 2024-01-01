@@ -1,0 +1,90 @@
+#include "ULUS10536_MYTHREAD-MAIN.BIN.h"
+
+void FUN_089de624(int param_1)
+
+{
+  undefined auVar1 [64];
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  int iVar5;
+  undefined4 in_V72;
+  undefined4 in_V73;
+  undefined4 in_V76;
+  undefined4 in_V77;
+  undefined4 in_V7A;
+  undefined4 in_V7B;
+  undefined4 in_V7E;
+  undefined4 in_V7F;
+  
+  *(undefined4 *)(param_1 + 0x20) = in_V73;
+  *(undefined4 *)(param_1 + 0x24) = in_V77;
+  *(undefined4 *)(param_1 + 0x28) = in_V7B;
+  *(undefined4 *)(param_1 + 0x2c) = in_V7F;
+  *(undefined4 *)(param_1 + 0x30) = in_V72;
+  *(undefined4 *)(param_1 + 0x34) = in_V76;
+  *(undefined4 *)(param_1 + 0x38) = in_V7A;
+  *(undefined4 *)(param_1 + 0x3c) = in_V7E;
+  *(undefined4 *)(param_1 + 0x80) = in_V72;
+  *(undefined4 *)(param_1 + 0x84) = in_V76;
+  *(undefined4 *)(param_1 + 0x88) = in_V7A;
+  *(undefined4 *)(param_1 + 0x8c) = in_V7E;
+  *(undefined4 *)(param_1 + 0x40) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x44) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x48) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x4c) = 0;
+  *(undefined4 *)(param_1 + 0x50) = in_V73;
+  *(undefined4 *)(param_1 + 0x54) = in_V77;
+  *(undefined4 *)(param_1 + 0x58) = in_V7B;
+  *(undefined4 *)(param_1 + 0x5c) = in_V7F;
+  uVar4 = DAT_08b0019c;
+  uVar3 = DAT_08b00198;
+  uVar2 = DAT_08b00194;
+  *(undefined4 *)(param_1 + 0x60) = DAT_08b00190;
+  *(undefined4 *)(param_1 + 100) = uVar2;
+  *(undefined4 *)(param_1 + 0x68) = uVar3;
+  *(undefined4 *)(param_1 + 0x6c) = uVar4;
+  uVar4 = DAT_08b0019c;
+  uVar3 = DAT_08b00198;
+  uVar2 = DAT_08b00194;
+  *(undefined4 *)(param_1 + 0x70) = DAT_08b00190;
+  *(undefined4 *)(param_1 + 0x74) = uVar2;
+  *(undefined4 *)(param_1 + 0x78) = uVar3;
+  *(undefined4 *)(param_1 + 0x7c) = uVar4;
+  *(undefined4 *)(param_1 + 0xb4) = 0x3f800000;
+  *(undefined *)(param_1 + 0xb0) = 0;
+  *(undefined *)(param_1 + 0xb8) = 1;
+  *(undefined *)(param_1 + 0xb9) = 0;
+  *(undefined *)(param_1 + 0xbc) = 0;
+  *(undefined *)(param_1 + 0xba) = 0;
+  strcpy(param_1 + 0xbd,"No Name");
+  *(undefined4 *)(param_1 + 0x128) = 0;
+  iVar5 = FUN_08a150d8();
+  *(int *)(param_1 + 0x130) = iVar5;
+  auVar1 = vmidt_q();
+  *(int *)(iVar5 + 0x80) = auVar1._0_4_;
+  *(int *)(iVar5 + 0x84) = auVar1._16_4_;
+  *(int *)(iVar5 + 0x88) = auVar1._32_4_;
+  *(int *)(iVar5 + 0x8c) = auVar1._48_4_;
+  *(int *)(iVar5 + 0x90) = auVar1._4_4_;
+  *(int *)(iVar5 + 0x94) = auVar1._20_4_;
+  *(int *)(iVar5 + 0x98) = auVar1._36_4_;
+  *(int *)(iVar5 + 0x9c) = auVar1._52_4_;
+  *(int *)(iVar5 + 0xa0) = auVar1._8_4_;
+  *(int *)(iVar5 + 0xa4) = auVar1._24_4_;
+  *(int *)(iVar5 + 0xa8) = auVar1._40_4_;
+  *(int *)(iVar5 + 0xac) = auVar1._56_4_;
+  *(int *)(iVar5 + 0xb0) = auVar1._12_4_;
+  *(int *)(iVar5 + 0xb4) = auVar1._28_4_;
+  *(int *)(iVar5 + 0xb8) = auVar1._44_4_;
+  *(int *)(iVar5 + 0xbc) = auVar1._60_4_;
+  *(undefined *)(param_1 + 0x134) = 0;
+  *(undefined4 *)(param_1 + 0x138) = 0xffffffff;
+  *(undefined *)(param_1 + 0x13c) = 0;
+  *(undefined *)(param_1 + 0xbb) = 0;
+  *(undefined *)(param_1 + 0x13d) = 0;
+  *(undefined4 *)(param_1 + 0xe0) = 0;
+  *(undefined4 *)(param_1 + 300) = 0;
+  return;
+}
+

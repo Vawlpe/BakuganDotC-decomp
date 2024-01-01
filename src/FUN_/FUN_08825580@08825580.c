@@ -1,0 +1,26 @@
+#include "ULUS10536_MYTHREAD-MAIN.BIN.h"
+
+void FUN_08825580(void)
+
+{
+  DAT_08b00204 = 0;
+  DAT_08b00200 = 0;
+  DAT_08b00208 = 0;
+  DAT_08b00214 = 0;
+  DAT_08b00210 = 0;
+  DAT_08b00218 = 0;
+  DAT_08b00224 = 0;
+  DAT_08b00220 = 0;
+  DAT_08b00228 = 0;
+  DAT_08b00234 = 0;
+  DAT_08b00230 = 0;
+  DAT_08b00238 = 0;
+  DAT_08b00244 = 0;
+  DAT_08b00240 = 0;
+  DAT_08b00248 = 0;
+  DAT_08b00254 = 0;
+  DAT_08b00250 = 0;
+  DAT_08b00258 = 0;
+  return;
+}
+

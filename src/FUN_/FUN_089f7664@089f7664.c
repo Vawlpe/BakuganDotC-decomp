@@ -1,0 +1,15 @@
+#include "ULUS10536_MYTHREAD-MAIN.BIN.h"
+
+void FUN_089f7664(void)
+
+{
+  FUN_089f7638();
+  DAT_08ac6168 = 0;
+  FUN_089f72ac(&DAT_08ac6020,"FeedBackTex",0);
+  FUN_08a0fb44(FUN_089f68dc,FUN_089f69a4);
+  FUN_08a0fb88(FUN_089f6944,FUN_089f69e0);
+  FUN_08a0fca4(FUN_089f68dc,FUN_089f69a4,0x10,0);
+  FUN_08a0fce0(FUN_089f6944,FUN_089f69e0,0x40,0);
+  return;
+}
+

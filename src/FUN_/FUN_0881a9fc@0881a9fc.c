@@ -1,0 +1,10 @@
+#include "ULUS10536_MYTHREAD-MAIN.BIN.h"
+
+void FUN_0881a9fc(void)
+
+{
+  FUN_0881a998(DAT_08b00260);
+  FUN_0881a998(DAT_08b00270);
+  return;
+}
+

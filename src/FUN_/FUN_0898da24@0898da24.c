@@ -1,0 +1,167 @@
+#include "ULUS10536_MYTHREAD-MAIN.BIN.h"
+
+void FUN_0898da24(int param_1)
+
+{
+  char cVar1;
+  undefined (*pauVar2) [12];
+  undefined auVar3 [12];
+  undefined auVar4 [12];
+  undefined auVar5 [12];
+  undefined auVar6 [16];
+  undefined auVar7 [16];
+  undefined auVar8 [12];
+  undefined auVar9 [12];
+  undefined auVar10 [64];
+  undefined auVar11 [16];
+  undefined auVar12 [16];
+  undefined4 uVar13;
+  undefined4 uVar14;
+  undefined4 uVar15;
+  undefined4 uVar16;
+  undefined auVar17 [64];
+  int iVar18;
+  undefined4 uVar19;
+  undefined4 uVar20;
+  undefined4 uVar21;
+  undefined4 uVar22;
+  undefined4 in_V7C;
+  
+  if ((*(char *)(param_1 + 0x1264) != '\0') &&
+     (*(int *)(param_1 + *(char *)(param_1 + 0xe78) * 4 + 0x1208) != 0)) {
+    if (*(char *)(param_1 + *(char *)(param_1 + 0xe78) + 0x1220) == '\0') {
+      iVar18 = *(int *)(*(int *)(param_1 + *(char *)(param_1 + 0xe78) * 4 + 0x1208) + 0x130);
+      uVar19 = vmul_s(0x3d23d70a,in_V7C);
+      auVar11 = vrot_q(uVar19,1,0,3,0);
+      auVar6 = vidt_q();
+      auVar12 = vrot_q(uVar19,2,0,1,0);
+      auVar7 = vidt_q();
+      auVar10._48_16_ = auVar7;
+      auVar10._44_4_ = auVar12._12_4_;
+      auVar10._40_4_ = auVar12._8_4_;
+      auVar10._36_4_ = auVar12._4_4_;
+      auVar10._32_4_ = auVar12._0_4_;
+      auVar10._28_4_ = auVar6._12_4_;
+      auVar10._24_4_ = auVar6._8_4_;
+      auVar10._20_4_ = auVar6._4_4_;
+      auVar10._16_4_ = auVar6._0_4_;
+      auVar10._12_4_ = auVar11._12_4_;
+      auVar10._8_4_ = auVar11._8_4_;
+      auVar10._4_4_ = auVar11._4_4_;
+      auVar10._0_4_ = auVar11._0_4_;
+      auVar10 = vmmul_q(*(undefined (*) [64])(iVar18 + 0x80),auVar10);
+      *(int *)*(undefined (*) [64])(iVar18 + 0x80) = auVar10._0_4_;
+      *(int *)(iVar18 + 0x84) = auVar10._4_4_;
+      *(int *)(iVar18 + 0x88) = auVar10._8_4_;
+      *(int *)(iVar18 + 0x8c) = auVar10._12_4_;
+      *(int *)(iVar18 + 0x90) = auVar10._16_4_;
+      *(int *)(iVar18 + 0x94) = auVar10._20_4_;
+      *(int *)(iVar18 + 0x98) = auVar10._24_4_;
+      *(int *)(iVar18 + 0x9c) = auVar10._28_4_;
+      *(int *)(iVar18 + 0xa0) = auVar10._32_4_;
+      *(int *)(iVar18 + 0xa4) = auVar10._36_4_;
+      *(int *)(iVar18 + 0xa8) = auVar10._40_4_;
+      *(int *)(iVar18 + 0xac) = auVar10._44_4_;
+      *(int *)(iVar18 + 0xb0) = auVar10._48_4_;
+      *(int *)(iVar18 + 0xb4) = auVar10._52_4_;
+      *(int *)(iVar18 + 0xb8) = auVar10._56_4_;
+      *(int *)(iVar18 + 0xbc) = auVar10._60_4_;
+      cVar1 = *(char *)(param_1 + 0xe78);
+    }
+    else {
+      iVar18 = *(int *)(*(int *)(param_1 + *(char *)(param_1 + 0xe78) * 4 + 0x1208) + 0x130);
+      uVar19 = vmul_s(0x3ca3d70a,in_V7C);
+      auVar11 = vrot_q(uVar19,1,0,3,0);
+      auVar6 = vidt_q();
+      auVar12 = vrot_q(uVar19,2,0,1,0);
+      auVar7 = vidt_q();
+      auVar17._48_16_ = auVar7;
+      auVar17._44_4_ = auVar12._12_4_;
+      auVar17._40_4_ = auVar12._8_4_;
+      auVar17._36_4_ = auVar12._4_4_;
+      auVar17._32_4_ = auVar12._0_4_;
+      auVar17._28_4_ = auVar6._12_4_;
+      auVar17._24_4_ = auVar6._8_4_;
+      auVar17._20_4_ = auVar6._4_4_;
+      auVar17._16_4_ = auVar6._0_4_;
+      auVar17._12_4_ = auVar11._12_4_;
+      auVar17._8_4_ = auVar11._8_4_;
+      auVar17._4_4_ = auVar11._4_4_;
+      auVar17._0_4_ = auVar11._0_4_;
+      auVar10 = vmmul_q(*(undefined (*) [64])(iVar18 + 0x80),auVar17);
+      *(int *)*(undefined (*) [64])(iVar18 + 0x80) = auVar10._0_4_;
+      *(int *)(iVar18 + 0x84) = auVar10._4_4_;
+      *(int *)(iVar18 + 0x88) = auVar10._8_4_;
+      *(int *)(iVar18 + 0x8c) = auVar10._12_4_;
+      *(int *)(iVar18 + 0x90) = auVar10._16_4_;
+      *(int *)(iVar18 + 0x94) = auVar10._20_4_;
+      *(int *)(iVar18 + 0x98) = auVar10._24_4_;
+      *(int *)(iVar18 + 0x9c) = auVar10._28_4_;
+      *(int *)(iVar18 + 0xa0) = auVar10._32_4_;
+      *(int *)(iVar18 + 0xa4) = auVar10._36_4_;
+      *(int *)(iVar18 + 0xa8) = auVar10._40_4_;
+      *(int *)(iVar18 + 0xac) = auVar10._44_4_;
+      *(int *)(iVar18 + 0xb0) = auVar10._48_4_;
+      *(int *)(iVar18 + 0xb4) = auVar10._52_4_;
+      *(int *)(iVar18 + 0xb8) = auVar10._56_4_;
+      *(int *)(iVar18 + 0xbc) = auVar10._60_4_;
+      cVar1 = *(char *)(param_1 + 0xe78);
+    }
+    iVar18 = *(int *)(*(int *)(param_1 + cVar1 * 4 + 0x1208) + 0x130);
+    pauVar2 = (undefined (*) [12])(iVar18 + 0x90);
+    uVar15 = *(undefined4 *)(iVar18 + 0x9c);
+    uVar19 = *(undefined4 *)(iVar18 + 0xb0);
+    uVar13 = *(undefined4 *)(iVar18 + 0xb4);
+    uVar14 = *(undefined4 *)(iVar18 + 0xb8);
+    uVar16 = *(undefined4 *)(iVar18 + 0xbc);
+    auVar8 = vzero_t();
+    auVar4 = vcrsp_t(*(undefined (*) [12])(iVar18 + 0x80),*pauVar2);
+    auVar5 = vcrsp_t(*pauVar2,auVar4);
+    uVar20 = vdot_t(auVar5,auVar5);
+    uVar21 = vdot_t(*pauVar2,*pauVar2);
+    uVar22 = vdot_t(auVar4,auVar4);
+    auVar3._8_4_ = uVar22;
+    auVar3._4_4_ = uVar21;
+    auVar3._0_4_ = uVar20;
+    auVar9 = vrsq_t(auVar3);
+    auVar5 = vscl_t(auVar5,auVar9._0_4_);
+    auVar3 = vscl_t(*pauVar2,auVar9._4_4_);
+    auVar4 = vscl_t(auVar4,auVar9._8_4_);
+    *(int *)*(undefined (*) [12])(iVar18 + 0x80) = auVar5._0_4_;
+    *(int *)(iVar18 + 0x84) = auVar5._4_4_;
+    *(int *)(iVar18 + 0x88) = auVar5._8_4_;
+    *(int *)(iVar18 + 0x8c) = auVar8._0_4_;
+    *(int *)(iVar18 + 0x90) = auVar3._0_4_;
+    *(int *)(iVar18 + 0x94) = auVar3._4_4_;
+    *(int *)(iVar18 + 0x98) = auVar3._8_4_;
+    *(undefined4 *)(iVar18 + 0x9c) = uVar15;
+    *(int *)(iVar18 + 0xa0) = auVar4._0_4_;
+    *(int *)(iVar18 + 0xa4) = auVar4._4_4_;
+    *(int *)(iVar18 + 0xa8) = auVar4._8_4_;
+    *(int *)(iVar18 + 0xac) = auVar8._8_4_;
+    *(undefined4 *)(iVar18 + 0xb0) = uVar19;
+    *(undefined4 *)(iVar18 + 0xb4) = uVar13;
+    *(undefined4 *)(iVar18 + 0xb8) = uVar14;
+    *(undefined4 *)(iVar18 + 0xbc) = uVar16;
+    param_1 = param_1 + *(char *)(param_1 + 0xe78) * 4;
+    iVar18 = *(int *)(*(int *)(param_1 + 0x1208) + 0x130);
+    uVar19 = *(undefined4 *)(param_1 + 0x1294);
+    auVar6 = vscl_q(*(undefined (*) [16])(iVar18 + 0x80),uVar19);
+    auVar7 = vscl_q(*(undefined (*) [16])(iVar18 + 0x90),uVar19);
+    auVar11 = vscl_q(*(undefined (*) [16])(iVar18 + 0xa0),uVar19);
+    *(int *)*(undefined (*) [16])(iVar18 + 0x80) = auVar6._0_4_;
+    *(int *)(iVar18 + 0x84) = auVar6._4_4_;
+    *(int *)(iVar18 + 0x88) = auVar6._8_4_;
+    *(int *)(iVar18 + 0x8c) = auVar6._12_4_;
+    *(int *)(iVar18 + 0x90) = auVar7._0_4_;
+    *(int *)(iVar18 + 0x94) = auVar7._4_4_;
+    *(int *)(iVar18 + 0x98) = auVar7._8_4_;
+    *(int *)(iVar18 + 0x9c) = auVar7._12_4_;
+    *(int *)(iVar18 + 0xa0) = auVar11._0_4_;
+    *(int *)(iVar18 + 0xa4) = auVar11._4_4_;
+    *(int *)(iVar18 + 0xa8) = auVar11._8_4_;
+    *(int *)(iVar18 + 0xac) = auVar11._12_4_;
+  }
+  return;
+}
+
