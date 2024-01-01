@@ -1,22 +1,22 @@
 #include "ULUS10536_MYTHREAD-MAIN.BIN.h"
 
-undefined * memset_jak(undefined *param_1,undefined param_2,int param_3)
+undefined * memset_jak(undefined *ptr,undefined value,int numBytes)
 
 {
-  bool bVar1;
-  int iVar2;
-  undefined *puVar3;
+  int i;
+  undefined *current;
+  bool condition;
   
-  iVar2 = param_3 + -1;
-  puVar3 = param_1;
-  if (param_3 != 0) {
+  i = numBytes + -1;
+  current = ptr;
+  if (numBytes != 0) {
     do {
-      *puVar3 = param_2;
-      puVar3 = puVar3 + 1;
-      bVar1 = iVar2 != 0;
-      iVar2 = iVar2 + -1;
-    } while (bVar1);
+      *current = value;
+      current = current + 1;
+      condition = i != 0;
+      i = i + -1;
+    } while (condition);
   }
-  return param_1;
+  return ptr;
 }
 

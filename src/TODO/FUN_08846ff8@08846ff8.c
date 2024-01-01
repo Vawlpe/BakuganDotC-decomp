@@ -1,0 +1,96 @@
+#include "ULUS10536_MYTHREAD-MAIN.BIN.h"
+
+int FUN_08846ff8(int param_1)
+
+{
+  undefined4 uVar1;
+  undefined4 *puVar2;
+  undefined4 in_V72;
+  undefined4 in_V76;
+  undefined4 in_V7A;
+  undefined4 in_V7E;
+  
+  FUN_089e2910();
+  *(undefined **)(param_1 + 0x20) = &DAT_08af186c;
+  FUN_089e29e4(param_1);
+  *(undefined4 *)(param_1 + 0x50) = 0;
+  *(undefined4 *)(param_1 + 0x54) = 0x42700000;
+  *(undefined4 *)(param_1 + 0x58) = 0x42b40000;
+  *(undefined4 *)(param_1 + 0x5c) = 0;
+  *(undefined4 *)(param_1 + 0x60) = 0;
+  *(undefined4 *)(param_1 + 100) = 0;
+  *(undefined4 *)(param_1 + 0x68) = 0x41a00000;
+  *(undefined4 *)(param_1 + 0x6c) = 0;
+  *(undefined4 *)(param_1 + 0x40) = 0x41f00000;
+  *(undefined4 *)(param_1 + 0x44) = 0x4708b800;
+  *(undefined4 *)(param_1 + 0x158) = 0x42480000;
+  FUN_089e2b14(param_1,0xffffffff);
+  puVar2 = (undefined4 *)(param_1 + 0x2f0);
+  *puVar2 = in_V72;
+  *(undefined4 *)(param_1 + 0x2f4) = in_V76;
+  *(undefined4 *)(param_1 + 0x2f8) = in_V7A;
+  *(undefined4 *)(param_1 + 0x2fc) = in_V7E;
+  uVar1 = _DONE_Get_DAT_08AC5258();
+  FUN_089c00ac(uVar1,puVar2,puVar2);
+  *(undefined4 *)(param_1 + 0x2ac) = 0;
+  *(undefined4 *)(param_1 + 0x2a0) = 0;
+  *(undefined4 *)(param_1 + 0x2a8) = 0;
+  *(undefined4 *)(param_1 + 0x2b0) = in_V72;
+  *(undefined4 *)(param_1 + 0x2b4) = in_V76;
+  *(undefined4 *)(param_1 + 0x2b8) = in_V7A;
+  *(undefined4 *)(param_1 + 700) = in_V7E;
+  *(undefined4 *)(param_1 + 0x2d0) = in_V72;
+  *(undefined4 *)(param_1 + 0x2d4) = in_V76;
+  *(undefined4 *)(param_1 + 0x2d8) = in_V7A;
+  *(undefined4 *)(param_1 + 0x2dc) = in_V7E;
+  *(undefined4 *)(param_1 + 0x2c0) = in_V72;
+  *(undefined4 *)(param_1 + 0x2c4) = in_V76;
+  *(undefined4 *)(param_1 + 0x2c8) = in_V7A;
+  *(undefined4 *)(param_1 + 0x2cc) = in_V7E;
+  *(undefined4 *)(param_1 + 0x2e0) = in_V72;
+  *(undefined4 *)(param_1 + 0x2e4) = in_V76;
+  *(undefined4 *)(param_1 + 0x2e8) = in_V7A;
+  *(undefined4 *)(param_1 + 0x2ec) = in_V7E;
+  *(undefined4 *)(param_1 + 0x304) = 0;
+  *(undefined4 *)(param_1 + 0x308) = 0;
+  *(undefined4 *)(param_1 + 0x300) = 0;
+  *(undefined4 *)(param_1 + 0x314) = 0x42aa0000;
+  *(undefined4 *)(param_1 + 0x318) = 0;
+  *(undefined4 *)(param_1 + 0x31c) = 0;
+  *(undefined4 *)(param_1 + 800) = 0;
+  *(undefined4 *)(param_1 + 0x2a4) = 0;
+  *(undefined *)(param_1 + 0x324) = 0;
+  *(undefined4 *)(param_1 + 0x328) = 0;
+  *(undefined4 *)(param_1 + 0x32c) = 0;
+  *(undefined4 *)(param_1 + 0x34c) = 0;
+  *(undefined4 *)(param_1 + 0x354) = 0;
+  *(undefined4 *)(param_1 + 0x358) = 0;
+  *(undefined4 *)(param_1 + 0x360) = in_V72;
+  *(undefined4 *)(param_1 + 0x364) = in_V76;
+  *(undefined4 *)(param_1 + 0x368) = in_V7A;
+  *(undefined4 *)(param_1 + 0x36c) = in_V7E;
+  *(undefined4 *)(param_1 + 0x370) = in_V72;
+  *(undefined4 *)(param_1 + 0x374) = in_V76;
+  *(undefined4 *)(param_1 + 0x378) = in_V7A;
+  *(undefined4 *)(param_1 + 0x37c) = in_V7E;
+  *(undefined4 *)(param_1 + 0x2a8) = 0;
+  *(undefined4 *)(param_1 + 0x38c) = 0x43e10000;
+  *(undefined4 *)(param_1 + 0x388) = 0;
+  *(undefined4 *)(param_1 + 0x390) = 0;
+  *(undefined4 *)(param_1 + 0x394) = 0;
+  *(undefined4 *)(param_1 + 0x398) = 0x42200000;
+  *(undefined4 *)(param_1 + 0x39c) = 0x42200000;
+  *(undefined4 *)(param_1 + 0x334) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x380) = 0;
+  *(undefined4 *)(param_1 + 900) = 0;
+  *(undefined4 *)(param_1 + 0x3fc) = 0;
+  *(undefined4 *)(param_1 + 0x3f8) = 0;
+  *(undefined4 *)(param_1 + 0x3f4) = 0;
+  *(undefined4 *)(param_1 + 0x350) = 0x3ea0d97c;
+  *(undefined4 *)(param_1 + 0x3a0) = 0;
+  *(undefined4 *)(param_1 + 0x338) = 0;
+  *(undefined4 *)(param_1 + 0x344) = 0x3e685696;
+  *(undefined4 *)(param_1 + 0x348) = 0x3ea0d97c;
+  return param_1;
+}
+
