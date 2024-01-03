@@ -40,7 +40,7 @@ void FUN_089cc460(undefined4 param_1,int param_2)
     if (iVar3 != 0) {
       *(int *)(DAT_08ac58e0 + param_2 * 4 + 8) = iVar3;
     }
-    uVar1 = _DONE_GetPtr_DAT_08AC51F8();
+    uVar1 = DONE_GetPtr_DAT_08AC51F8();
     FUN_089bca20(uVar1);
   }
   return;

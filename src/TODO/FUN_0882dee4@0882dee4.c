@@ -32,7 +32,7 @@ void FUN_0882dee4(int param_1)
   case 1:
     *(undefined4 *)(param_1 + 0xa10) = 0;
     *(undefined4 *)(param_1 + 0x9e8) = 0;
-    uVar19 = _DONE_Get_DAT_08AAC9E0();
+    uVar19 = DONE_Get_DAT_08AAC9E0();
     iVar9 = FUN_0880d0ac(uVar19,7);
     pfVar14 = (float *)(iVar15 + 0x60);
     pfVar11 = (float *)(iVar16 + 0x60);

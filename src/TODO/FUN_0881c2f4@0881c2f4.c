@@ -106,9 +106,9 @@ void FUN_0881c2f4(int param_1)
   if (bVar3) {
     *(undefined4 *)(param_1 + 4) = 8;
     *(undefined4 *)(param_1 + 8) = 0;
-    iVar4 = _DONE_NotZero_DAT_08AAC9E0();
+    iVar4 = DONE_NotZero_DAT_08AAC9E0();
     if (iVar4 != 0) {
-      uVar6 = _DONE_Get_DAT_08AAC9E0();
+      uVar6 = DONE_Get_DAT_08AAC9E0();
       FUN_0880d0e8(uVar6,0x80);
     }
   }

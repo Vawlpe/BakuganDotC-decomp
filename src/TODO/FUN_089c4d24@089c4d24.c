@@ -15,7 +15,7 @@ void FUN_089c4d24(undefined4 *param_1,int param_2,int param_3)
   }
   param_1[0x11] = param_1[0x12];
   param_1[0x12] = param_2;
-  piVar1 = (int *)_DONE_Get_DAT_08AC5874();
+  piVar1 = (int *)DONE_Get_DAT_08AC5874();
   iVar2 = ((param_3 * 0xac44) / 1000) / *piVar1;
   param_1[0x14] = iVar2;
   param_1[0x13] = iVar2;

@@ -71,7 +71,7 @@ void FUN_089bd3f4(uint *param_1)
         param_1[4] = 0;
       }
       else {
-        uVar2 = _DONE_GetPtr_DAT_08AC58E0();
+        uVar2 = DONE_GetPtr_DAT_08AC58E0();
         iVar1 = FUN_089cc300(uVar2);
         if (iVar1 != 0) {
           cVar3 = *(char *)(param_1 + 1);

@@ -86,7 +86,7 @@ int FUN_088acecc(int param_1,float *param_2)
   else {
     if (iVar1 < 0xe) {
       if (*(int *)(DAT_08ac58c4 + 0x20) == 2) {
-        uVar4 = _DONE_Get_DAT_08AAC9E0();
+        uVar4 = DONE_Get_DAT_08AAC9E0();
         iVar2 = FUN_0880d0ac(uVar4,7);
         if (iVar2 != 1) {
           return 0;

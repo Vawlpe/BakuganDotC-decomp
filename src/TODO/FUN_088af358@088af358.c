@@ -285,9 +285,9 @@ void FUN_088af358(int param_1)
     }
     break;
   case 2:
-    iVar19 = _DONE_NotZero_DAT_08AC5258();
+    iVar19 = DONE_NotZero_DAT_08AC5258();
     if (iVar19 != 0) {
-      uVar25 = _DONE_Get_DAT_08AC5258();
+      uVar25 = DONE_Get_DAT_08AC5258();
       FUN_089c00c4(uVar25,0x2000e6,*(int *)(param_1 + 0x130) + 0xb0,0,1);
     }
     iVar19 = FUN_088ace70(param_1);

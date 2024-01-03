@@ -61,9 +61,9 @@ undefined4 FUN_08963444(int param_1)
       }
     }
 LAB_08963688:
-    iVar5 = _DONE_NotZero_DAT_08AC5874();
+    iVar5 = DONE_NotZero_DAT_08AC5874();
     if (iVar5 != 0) {
-      uVar7 = _DONE_Get_DAT_08AC5874();
+      uVar7 = DONE_Get_DAT_08AC5874();
       FUN_089c6350(uVar7,1,0,0);
     }
     FUN_0895ae70(param_1);
@@ -99,7 +99,7 @@ LAB_08963688:
     *(undefined *)(param_1 + 0x4f94) = 0;
     uVar11 = 0;
     do {
-      piVar4 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar4 = (int *)DONE_Get_DAT_08AAC9E0();
       uVar11 = uVar11 + 1;
       if ((int)uVar11 < 0) {
         uVar10 = -(-uVar11 & 7) & 0x1f;

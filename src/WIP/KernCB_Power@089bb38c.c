@@ -1,6 +1,6 @@
 #include "ULUS10536_MYTHREAD-MAIN.BIN.h"
 
-undefined4 _WIP_KernCB_Power(undefined4 param_1,undefined4 param_2)
+undefined4 WIP_KernCB_Power(undefined4 param_1,undefined4 param_2)
 
 {
   DAT_08ac5200 = param_2;

@@ -16,7 +16,7 @@ void FUN_089c41b4(int param_1)
   iVar3 = *(int *)(param_1 + 0x28);
   if (iVar3 < 1) {
     if (-1 < iVar3) {
-      iVar3 = _DONE_NotZero_DAT_08AC61E8();
+      iVar3 = DONE_NotZero_DAT_08AC61E8();
       if (iVar3 != 0) {
         uVar6 = FUN_089fce94();
         iVar4 = param_1 + 0x2c;
@@ -47,7 +47,7 @@ void FUN_089c41b4(int param_1)
               uVar7 = *(undefined4 *)(param_1 + 0xc);
               uVar8 = *(undefined4 *)(param_1 + 0x10);
               uVar5 = 99;
-              uVar6 = _DONE_GetPtr_DAT_08AC51F8();
+              uVar6 = DONE_GetPtr_DAT_08AC51F8();
               uVar2 = FUN_089fbcb8(iVar3);
               iVar3 = FUN_089bcd4c(uVar6,uVar7,uVar2,uVar8,*(undefined4 *)(param_1 + 4));
               if (iVar3 != 0) {

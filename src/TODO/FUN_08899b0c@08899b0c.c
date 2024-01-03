@@ -262,16 +262,16 @@ LAB_0889a044:
     if (iVar8 < 1) {
       iVar8 = FUN_089c9b48(5,DAT_08ac58c8);
       if ((iVar8 == 0) || (*(char *)(param_1 + 0x6b0) == '\0')) {
-        iVar8 = _DONE_NotZero_DAT_08AC5258();
+        iVar8 = DONE_NotZero_DAT_08AC5258();
         if (iVar8 != 0) {
-          uVar10 = _DONE_Get_DAT_08AC5258();
+          uVar10 = DONE_Get_DAT_08AC5258();
           FUN_089c00c4(uVar10,0xb,param_1 + 0x20,0,1);
         }
       }
       else {
-        iVar8 = _DONE_NotZero_DAT_08AC5874();
+        iVar8 = DONE_NotZero_DAT_08AC5874();
         if (iVar8 != 0) {
-          uVar10 = _DONE_Get_DAT_08AC5874();
+          uVar10 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar10,0xb,0,0);
         }
       }
@@ -342,16 +342,16 @@ LAB_0889a044:
     if (DAT_08aba784 != DAT_08abd110) {
       iVar8 = FUN_089c9b48(5,DAT_08ac58c8);
       if ((iVar8 == 0) || (*(char *)(param_1 + 0x6b0) == '\0')) {
-        iVar8 = _DONE_NotZero_DAT_08AC5258();
+        iVar8 = DONE_NotZero_DAT_08AC5258();
         if (iVar8 != 0) {
-          uVar10 = _DONE_Get_DAT_08AC5258();
+          uVar10 = DONE_Get_DAT_08AC5258();
           FUN_089c00c4(uVar10,0x200012,param_1 + 0x20,0,1);
         }
       }
       else {
-        iVar8 = _DONE_NotZero_DAT_08AC5874();
+        iVar8 = DONE_NotZero_DAT_08AC5874();
         if (iVar8 != 0) {
-          uVar10 = _DONE_Get_DAT_08AC5874();
+          uVar10 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar10,0x200012,0,0);
         }
       }
@@ -484,17 +484,17 @@ switchD_08899bdc_caseD_19:
         else {
           iVar8 = FUN_089c9b48(5,DAT_08ac58c8);
           if ((iVar8 == 0) || (*(char *)(param_1 + 0x6b0) == '\0')) {
-            iVar8 = _DONE_NotZero_DAT_08AC5258();
+            iVar8 = DONE_NotZero_DAT_08AC5258();
             if (iVar8 != 0) {
-              uVar10 = _DONE_Get_DAT_08AC5258();
+              uVar10 = DONE_Get_DAT_08AC5258();
               FUN_089c00c4(uVar10,*(undefined4 *)(&DAT_08a8136c + *(int *)(param_1 + 8) * 4),
                            param_1 + 0x20,0,1);
             }
           }
           else {
-            iVar8 = _DONE_NotZero_DAT_08AC5874();
+            iVar8 = DONE_NotZero_DAT_08AC5874();
             if (iVar8 != 0) {
-              uVar10 = _DONE_Get_DAT_08AC5874();
+              uVar10 = DONE_Get_DAT_08AC5874();
               FUN_089c6350(uVar10,*(undefined4 *)(&DAT_08a8136c + *(int *)(param_1 + 8) * 4),0,0);
             }
           }

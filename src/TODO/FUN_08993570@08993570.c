@@ -109,7 +109,7 @@ undefined4 FUN_08993570(int param_1)
       if (iVar6 != iVar1) {
         iVar1 = 0;
         do {
-          piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+          piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
           if (((uint)*(byte *)(*piVar3 + 0x604) & 1 << (uVar8 & 0x1f)) != 0) {
             iVar2 = *(int *)(param_1 + 0x104);
             iVar5 = 0;
@@ -118,7 +118,7 @@ undefined4 FUN_08993570(int param_1)
               iVar9 = 0;
               iVar10 = param_1;
               do {
-                piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+                piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
                 if (*(uint *)(iVar10 + 0xdc) == (uint)*(ushort *)(*piVar3 + iVar1 + iVar9 + 0x606))
                 {
                   iVar6 = iVar6 + 1;

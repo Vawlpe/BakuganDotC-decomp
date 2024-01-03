@@ -14,7 +14,7 @@ void FUN_088d4534(void)
   int iStack_38;
   int iStack_34;
   
-  uVar1 = _DONE_Get_DAT_08AAC9E0();
+  uVar1 = DONE_Get_DAT_08AAC9E0();
   iVar2 = FUN_0880d0ac(uVar1,8);
   iVar6 = *(int *)((&PTR_DAT_08abf0b0)[iVar2] + DAT_08abef9c * 8);
   piVar5 = *(int **)((int)((&PTR_DAT_08abf0b0)[iVar2] + DAT_08abef9c * 8) + 4);

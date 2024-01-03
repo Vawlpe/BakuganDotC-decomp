@@ -20,7 +20,7 @@ undefined4 FUN_0884e0f8(undefined4 param_1,int param_2)
     return 1;
   }
   iVar6 = *piVar3;
-  uVar4 = _DONE_Get_DAT_08AAC9E0();
+  uVar4 = DONE_Get_DAT_08AAC9E0();
   iVar5 = FUN_0880d0ac(uVar4,2);
   if (iVar5 == 0) {
     iVar5 = FUN_0884c63c(param_1);

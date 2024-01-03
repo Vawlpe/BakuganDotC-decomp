@@ -11,11 +11,11 @@ void FUN_08877060(int param_1,int param_2,undefined4 *param_3,byte param_4,byte 
       DAT_08aba978 = param_2;
       if ((param_4 | param_5) == 0) {
         if (param_3 == (undefined4 *)0x0) {
-          uVar1 = _DONE_Get_DAT_08AC5258();
+          uVar1 = DONE_Get_DAT_08AC5258();
           FUN_089c00c4(uVar1,param_2,param_1 + 0x60,0,1);
         }
         else {
-          uVar1 = _DONE_Get_DAT_08AC5258();
+          uVar1 = DONE_Get_DAT_08AC5258();
           FUN_089c00c4(uVar1,param_2,param_3,0,1);
         }
       }

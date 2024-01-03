@@ -21,7 +21,7 @@ void FUN_08982224(int param_1)
     iVar5 = 0;
     iVar8 = iVar7 + param_1;
     do {
-      piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
       uVar6 = (iVar1 - 1U & 0xffff) * 4 + iVar5;
       if ((int)uVar6 < 0) {
         uVar3 = -(-uVar6 & 7) & 0x1f;
@@ -32,7 +32,7 @@ void FUN_08982224(int param_1)
       if (((uint)*(byte *)(*piVar2 + ((int)(uVar6 + ((uint)((int)uVar6 >> 3) >> 0x1d)) >> 3) + 0x5d3
                           ) & 1 << uVar3) != 0) {
         *(char *)(iVar8 + 0xbd8) = (char)uVar6;
-        piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+        piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
         if ((int)uVar6 < 0) {
           uVar3 = -(-uVar6 & 7) & 0x1f;
         }

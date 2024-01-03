@@ -17,7 +17,7 @@ undefined4 FUN_0880eb70(undefined4 param_1)
     return 0;
   }
   puVar1 = (undefined4 *)FUN_089c9ed8(param_1,2);
-  piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
   iVar6 = 0;
   iVar4 = *piVar3 + *(int *)(DAT_08ac58c4 + 4) * 10;
   iVar7 = iVar4;

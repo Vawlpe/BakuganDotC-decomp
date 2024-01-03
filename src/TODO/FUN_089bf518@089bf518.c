@@ -14,7 +14,7 @@ void FUN_089bf518(void)
   bVar2 = false;
   iVar3 = FUN_089bc814();
   if (iVar3 != 0) {
-    uVar4 = _DONE_GetPtr_DAT_08AC51F8();
+    uVar4 = DONE_GetPtr_DAT_08AC51F8();
     iVar3 = FUN_089bc984(uVar4);
     if (iVar3 == 0) {
       bVar2 = true;

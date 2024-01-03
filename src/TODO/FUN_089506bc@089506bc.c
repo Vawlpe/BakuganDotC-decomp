@@ -84,12 +84,12 @@ LAB_089508ac:
   FUN_089f4954(uVar4,*(undefined4 *)(iVar3 + 0x94),*(undefined4 *)(iVar3 + 0x9c),iVar3,0);
   if (bVar1) {
     FUN_0890a598(param_1,0);
-    iVar2 = _DONE_NotZero_DAT_08AC5874();
+    iVar2 = DONE_NotZero_DAT_08AC5874();
     if (iVar2 == 0) {
       iVar2 = *(int *)(param_1 + 0x2c);
     }
     else {
-      uVar4 = _DONE_Get_DAT_08AC5874();
+      uVar4 = DONE_Get_DAT_08AC5874();
       FUN_089c6350(uVar4,0,0,0);
       iVar2 = *(int *)(param_1 + 0x2c);
     }

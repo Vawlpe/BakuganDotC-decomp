@@ -105,7 +105,7 @@ void FUN_088ce5fc(int param_1)
         *(int *)(param_1 + 0x1c) = (int)cVar1;
         uVar5 = FUN_08987f10(1,(int)cVar1 & 0xffff);
         if (uVar5 != 0xffffffff) {
-          piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+          piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
           iVar6 = *piVar3 + ((int)(uVar5 + ((uint)((int)uVar5 >> 3) >> 0x1d)) >> 3);
           if ((int)uVar5 < 0) {
             bVar2 = (byte)(1 << (-(-uVar5 & 7) & 0x1f));

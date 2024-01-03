@@ -47,7 +47,7 @@ undefined FUN_08941f80(int param_1,uint param_2,uint param_3,uint param_4,undefi
       local_44 = 0;
     }
     else {
-      uVar3 = _DONE_GetPtr_DAT_08AB0300();
+      uVar3 = DONE_GetPtr_DAT_08AB0300();
       local_44 = FUN_0881b278(uVar3);
     }
     iVar5 = **(int **)(param_1 + 0x90);
@@ -105,7 +105,7 @@ LAB_08942324:
             FUN_089eb14c(*(undefined4 *)(param_1 + 0x94),0x5e,iVar8,auStack_d0,0,0);
             uVar1 = local_54;
             if (iVar5 < local_44) {
-              uVar3 = _DONE_GetPtr_DAT_08AB0300();
+              uVar3 = DONE_GetPtr_DAT_08AB0300();
               iVar9 = FUN_0881b280(uVar3,iVar5);
               FUN_089eb14c(*(undefined4 *)(param_1 + 0x94),0x7e,iVar8,iVar9,0,0);
               uVar11 = 0xffffffff;

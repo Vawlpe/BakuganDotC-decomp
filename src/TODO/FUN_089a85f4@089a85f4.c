@@ -33,7 +33,7 @@ void FUN_089a85f4(int param_1)
         FUN_088c2858();
       }
     }
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar2,0x17,(int)*(char *)(param_1 + 0x74));
   }
   else {

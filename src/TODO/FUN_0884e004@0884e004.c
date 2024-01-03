@@ -15,9 +15,9 @@ void FUN_0884e004(undefined4 param_1,undefined4 param_2,undefined4 param_3)
     iVar3 = 2;
   }
   do {
-    iVar1 = _DONE_NotZero_DAT_08AC5874();
+    iVar1 = DONE_NotZero_DAT_08AC5874();
     if (iVar1 != 0) {
-      uVar2 = _DONE_Get_DAT_08AC5874();
+      uVar2 = DONE_Get_DAT_08AC5874();
       FUN_089c5c88(param_2,uVar2,iVar3);
     }
     iVar3 = iVar3 + 1;

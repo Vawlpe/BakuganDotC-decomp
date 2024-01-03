@@ -17,11 +17,11 @@ void FUN_0893160c(int param_1)
   memset_jak((undefined *)(param_1 + 0x19fc),0,4);
   memset_jak((undefined *)(param_1 + 0x1a00),0,4);
   memset_jak((undefined *)(param_1 + 0x1a04),0xff,2);
-  piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
   uVar7 = *(int *)(*piVar3 + 0x48c) - 1U & 0xff;
   iVar9 = 0;
   do {
-    piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar8 = uVar7 * 4 + iVar9;
     if ((int)uVar8 < 0) {
       uVar4 = -(-uVar8 & 7) & 0x1f;
@@ -32,7 +32,7 @@ void FUN_0893160c(int param_1)
     if (((uint)*(byte *)(*piVar3 + ((int)(uVar8 + ((uint)((int)uVar8 >> 3) >> 0x1d)) >> 3) + 0x51a)
         & 1 << uVar4) != 0) {
       *(char *)(param_1 + iVar9 + 0x19f8) = (char)uVar8;
-      piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
       if ((int)uVar8 < 0) {
         uVar4 = -(-uVar8 & 7) & 0x1f;
       }
@@ -49,7 +49,7 @@ void FUN_0893160c(int param_1)
   iVar9 = 0;
   bVar2 = false;
   do {
-    piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
     cVar1 = *(char *)(*piVar3 + (uVar7 + 1) * 2 + iVar9 + 0x4e4);
     if (cVar1 != -1) {
       *(char *)(param_1 + iVar9 + 0x1a04) = cVar1;

@@ -109,7 +109,7 @@ void FUN_08844768(int param_1)
     *(undefined4 *)(param_1 + 0xad0) = 0;
   }
   memcpy_jak(local_90,&DAT_08aba670,0x44);
-  uVar6 = _DONE_Get_DAT_08AAC9E0();
+  uVar6 = DONE_Get_DAT_08AAC9E0();
   iVar4 = FUN_0880d0ac(uVar6,0x1b);
   if (iVar4 < 1) {
     iVar4 = 1;

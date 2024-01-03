@@ -18,7 +18,7 @@ int FUN_0883f3c0(void)
   }
   iVar1 = 0;
   if (DAT_08aba778 == 1) {
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     iVar1 = local_b0[iVar3];
     if (*(char *)(*piVar2 + 0x462) == '\0') {
       if (iVar3 == 0x18) {

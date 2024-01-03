@@ -166,9 +166,9 @@ void FUN_088aec3c(int param_1)
     uStack_c4 = auVar9._60_4_;
     if ((*(char *)(param_1 + 0x314) == '\0') && (0.06283186 <= *(float *)(param_1 + 0x260))) {
       *(undefined *)(param_1 + 0x314) = 1;
-      iVar20 = _DONE_NotZero_DAT_08AC5258();
+      iVar20 = DONE_NotZero_DAT_08AC5258();
       if (iVar20 != 0) {
-        uVar26 = _DONE_Get_DAT_08AC5258();
+        uVar26 = DONE_Get_DAT_08AC5258();
         FUN_089c00c4(uVar26,0x2000e7,*(int *)(param_1 + 0x130) + 0xb0,0,1);
       }
     }
@@ -373,9 +373,9 @@ void FUN_088aec3c(int param_1)
     }
     break;
   case 2:
-    iVar20 = _DONE_NotZero_DAT_08AC5258();
+    iVar20 = DONE_NotZero_DAT_08AC5258();
     if (iVar20 != 0) {
-      uVar26 = _DONE_Get_DAT_08AC5258();
+      uVar26 = DONE_Get_DAT_08AC5258();
       FUN_089c00c4(uVar26,0x2000e6,*(int *)(param_1 + 0x130) + 0xb0,0,1);
     }
     iVar24 = 0;

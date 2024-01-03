@@ -34,12 +34,12 @@ void FUN_088a21d8(int param_1)
       FUN_088b534c(iVar4,"f6_landmark01_break.gmo");
       iVar2 = iVar4;
     }
-    iVar4 = _DONE_NotZero_DAT_08AC5258();
+    iVar4 = DONE_NotZero_DAT_08AC5258();
     if (iVar4 == 0) {
       iVar4 = *(int *)(param_1 + 0x130);
     }
     else {
-      uVar3 = _DONE_Get_DAT_08AC5258();
+      uVar3 = DONE_Get_DAT_08AC5258();
       FUN_089c00c4(uVar3,0x20025c,*(int *)(param_1 + 0x130) + 0xb0,0,1);
       iVar4 = *(int *)(param_1 + 0x130);
     }

@@ -16,7 +16,7 @@ undefined4 FUN_089221fc(int param_1,uint param_2)
   iVar1 = FUN_08922184();
   uVar5 = (undefined)param_2;
   if ((iVar1 == 1) &&
-     (piVar2 = (int *)_DONE_Get_DAT_08AAC9E0(),
+     (piVar2 = (int *)DONE_Get_DAT_08AAC9E0(),
      ((uint)*(ushort *)(*piVar2 + 0x82) & 1 << (param_2 & 0x1f)) == 0)) {
     switch(uVar6) {
     case 1:
@@ -31,12 +31,12 @@ undefined4 FUN_089221fc(int param_1,uint param_2)
     }
   }
   if ((uVar6 == 9) &&
-     (piVar2 = (int *)_DONE_Get_DAT_08AAC9E0(),
+     (piVar2 = (int *)DONE_Get_DAT_08AAC9E0(),
      ((uint)*(ushort *)(*piVar2 + 0x82) & 1 << (param_2 & 0x1f)) == 0)) {
     bVar8 = 0;
     uVar7 = 0;
     do {
-      piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
       if ((int)uVar7 < 0) {
         uVar4 = -(-uVar7 & 7) & 0x1f;
       }
@@ -55,11 +55,11 @@ undefined4 FUN_089221fc(int param_1,uint param_2)
     }
   }
   if (((uVar6 == 6) &&
-      (piVar2 = (int *)_DONE_Get_DAT_08AAC9E0(),
+      (piVar2 = (int *)DONE_Get_DAT_08AAC9E0(),
       ((uint)*(ushort *)(*piVar2 + 0x82) & 1 << (param_2 & 0x1f)) == 0)) &&
      (iVar1 = FUN_089b1d7c(8), iVar1 == 1)) {
     FUN_089b1cac(0,8);
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     iVar1 = FUN_0880d0ac(uVar3,0x32);
     if (iVar1 == 1) {
       *(undefined *)(param_1 + 0x2100) = uVar5;

@@ -32,11 +32,11 @@ void FUN_089c151c(undefined4 *param_1,int param_2,int param_3)
       }
 LAB_089c15c4:
       FUN_089bb790(param_1[3]);
-      if ((!bVar1) && (iVar3 = _DONE_NotZero_DAT_08AC5874(), iVar3 != 0)) {
-        uVar4 = _DONE_Get_DAT_08AC5874();
+      if ((!bVar1) && (iVar3 = DONE_NotZero_DAT_08AC5874(), iVar3 != 0)) {
+        uVar4 = DONE_Get_DAT_08AC5874();
         iVar3 = FUN_089c61b8(uVar4,uVar8,1);
         if (iVar3 == -1) {
-          uVar4 = _DONE_Get_DAT_08AC5874();
+          uVar4 = DONE_Get_DAT_08AC5874();
           iVar3 = FUN_089c5e0c(uVar4,uVar8);
           if (iVar3 != 0) {
             FUN_089bb728(param_1[3]);

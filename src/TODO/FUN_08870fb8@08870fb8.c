@@ -10,7 +10,7 @@ void FUN_08870fb8(int param_1)
   
   bVar1 = false;
   if (*(int *)(DAT_08ac58c4 + 0x20) == 2) {
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     cVar2 = FUN_0880d0ac(uVar3,7);
     if (cVar2 == '\x01' || cVar2 == '\x02') {
       bVar1 = true;

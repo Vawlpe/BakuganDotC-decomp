@@ -15,19 +15,19 @@ void FUN_089569d4(int param_1)
   
   DAT_08ac3410 = 0;
   if (DAT_08ac0e78 == 0x19a) {
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar3,3,0xffffffff);
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar3,4,0xffffffff);
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar3,5,0xffffffff);
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar3,6,0xffffffff);
     iVar4 = FUN_0880d354();
     if (iVar4 != 0) {
-      uVar3 = _DONE_Get_DAT_08AAC9E0();
+      uVar3 = DONE_Get_DAT_08AAC9E0();
       FUN_0880cd9c(uVar3,3,0);
-      uVar3 = _DONE_Get_DAT_08AAC9E0();
+      uVar3 = DONE_Get_DAT_08AAC9E0();
       FUN_0880cd9c(uVar3,4,0);
     }
     uVar9 = 0;
@@ -37,7 +37,7 @@ void FUN_089569d4(int param_1)
       uVar7 = 0;
       iVar6 = 0;
       do {
-        iVar5 = _DONE_Get_DAT_08AAC9E0();
+        iVar5 = DONE_Get_DAT_08AAC9E0();
         if (*(int *)(iVar5 + 4) != 0) {
           *(undefined4 *)(*(int *)(iVar5 + 4) + iVar4 + iVar6 + 0xf8) = 0xff;
         }
@@ -47,14 +47,14 @@ void FUN_089569d4(int param_1)
       uVar7 = 0;
       iVar6 = 0;
       do {
-        iVar5 = _DONE_Get_DAT_08AAC9E0();
+        iVar5 = DONE_Get_DAT_08AAC9E0();
         if (*(int *)(iVar5 + 4) != 0) {
           *(undefined4 *)(*(int *)(iVar5 + 4) + iVar4 + iVar6 + 0xd8) = 0xff;
         }
         uVar7 = uVar7 + 1;
         iVar6 = iVar6 + 4;
       } while (uVar7 < 2);
-      iVar6 = _DONE_Get_DAT_08AAC9E0();
+      iVar6 = DONE_Get_DAT_08AAC9E0();
       if (*(int *)(iVar6 + 4) != 0) {
         *(undefined4 *)(*(int *)(iVar6 + 4) + iVar8 + 0x118) = 100;
       }
@@ -63,12 +63,12 @@ void FUN_089569d4(int param_1)
       iVar8 = iVar8 + 4;
     } while (uVar9 < 4);
   }
-  uVar3 = _DONE_Get_DAT_08AAC9E0();
+  uVar3 = DONE_Get_DAT_08AAC9E0();
   uVar2 = FUN_0880d0ac(uVar3,0x16);
   *(undefined *)(param_1 + 0x4cda) = uVar2;
   uVar9 = 0;
   do {
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     uVar2 = FUN_0880d0ac(uVar3,uVar9 + 3);
     iVar4 = param_1 + uVar9;
     uVar9 = uVar9 + 1;

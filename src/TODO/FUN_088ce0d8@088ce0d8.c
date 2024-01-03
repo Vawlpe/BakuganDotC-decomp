@@ -58,7 +58,7 @@ void FUN_088ce0d8(int param_1)
     *(undefined4 *)(DAT_08ac58c4 + 4) = 0x20;
   }
   else if (bVar6 < 2) {
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     if (*(char *)(*piVar2 + 0x462) == '\0') {
       DAT_08b00dd7 = 1;
       uVar8 = 10;
@@ -94,11 +94,11 @@ void FUN_088ce0d8(int param_1)
     }
     FUN_089b1bd8();
     FUN_089b1c54(2,*(uint *)(DAT_08ac58c4 + 4) & 0xff);
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar3,0x33,*(undefined4 *)(DAT_08ac58c4 + 4));
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar3,0x2e,0);
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar3,0x31,uVar7);
     if (*(int *)(DAT_08ac58c4 + 4) != 0x25) {
       *(undefined4 *)(DAT_08ac58c4 + 0xc) = uVar8;

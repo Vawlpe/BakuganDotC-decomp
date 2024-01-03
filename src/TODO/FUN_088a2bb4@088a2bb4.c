@@ -52,9 +52,9 @@ void FUN_088a2bb4(int param_1)
       uStack_bc = *(undefined4 *)(iVar8 + 0x154);
       fStack_b8 = *(float *)(iVar8 + 0x158);
     }
-    iVar8 = _DONE_NotZero_DAT_08AC5258();
+    iVar8 = DONE_NotZero_DAT_08AC5258();
     if (iVar8 != 0) {
-      uVar7 = _DONE_Get_DAT_08AC5258();
+      uVar7 = DONE_Get_DAT_08AC5258();
       FUN_089c00c4(uVar7,0x20001f,*(int *)(param_1 + 0x130) + 0xb0,0,1);
     }
     auVar2 = vscl_t(*(undefined (*) [12])(DAT_08ac5c90 + 0x70),0x40800000);

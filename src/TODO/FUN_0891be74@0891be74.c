@@ -12,7 +12,7 @@ void FUN_0891be74(int param_1)
   cVar5 = '\0';
   uVar4 = 0;
   do {
-    piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar2 = uVar4 & 0xff;
     if ((int)uVar2 < 0) {
       uVar3 = -(-uVar2 & 7) & 0x1f;

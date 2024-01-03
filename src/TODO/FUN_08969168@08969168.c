@@ -8,12 +8,12 @@ void FUN_08969168(int param_1)
   int iVar3;
   uint uVar4;
   
-  uVar2 = _DONE_Get_DAT_08AAC9E0();
+  uVar2 = DONE_Get_DAT_08AAC9E0();
   uVar1 = FUN_0880d0ac(uVar2,0x16);
   *(undefined *)(param_1 + 0x29bd) = uVar1;
   uVar4 = 0;
   do {
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     uVar1 = FUN_0880d0ac(uVar2,uVar4 + 3);
     iVar3 = param_1 + uVar4;
     uVar4 = uVar4 + 1;

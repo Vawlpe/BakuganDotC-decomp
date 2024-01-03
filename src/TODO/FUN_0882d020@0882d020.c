@@ -12,7 +12,7 @@ undefined4 FUN_0882d020(int param_1)
   if (piVar1 != (int *)0x0) {
     iVar4 = *piVar1;
     if (param_1 == -1) {
-      uVar2 = _DONE_Get_DAT_08AAC9E0();
+      uVar2 = DONE_Get_DAT_08AAC9E0();
       param_1 = FUN_0880d0ac(uVar2,0x13);
     }
     if (iVar4 != 0) {

@@ -56,7 +56,7 @@ void FUN_089734c8(int param_1)
     pcVar5 = pcVar5 + 4;
   } while (iVar3 < 5);
   *(undefined *)(param_1 + 0x760) = 0;
-  uVar1 = _DONE_Get_DAT_08AAC9E0();
+  uVar1 = DONE_Get_DAT_08AAC9E0();
   iVar3 = FUN_0880d0ac(uVar1,0x1d);
   if (iVar3 == 500) {
     *(undefined *)(param_1 + 0x760) = 1;

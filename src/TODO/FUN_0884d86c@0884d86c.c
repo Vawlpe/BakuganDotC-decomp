@@ -10,7 +10,7 @@ void FUN_0884d86c(undefined4 param_1)
     FUN_0884d6bc(param_1);
   }
   else {
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     iVar2 = FUN_0880d0ac(uVar1,7);
     if (iVar2 < 2) {
       if (0 < iVar2) {

@@ -174,9 +174,9 @@ int FUN_088c3600(int param_1)
   puVar4[2] = uVar1;
   puVar4[3] = uVar2;
   FUN_089e10cc(0x3f800000);
-  piVar6 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar6 = (int *)DONE_Get_DAT_08AAC9E0();
   if (*(int *)(*piVar6 + 0x48c) == 0) {
-    piVar6 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar6 = (int *)DONE_Get_DAT_08AAC9E0();
     *(undefined4 *)(*piVar6 + 0x48c) = 1;
   }
   DAT_08b00bd4 = (undefined)
@@ -210,7 +210,7 @@ int FUN_088c3600(int param_1)
   *(undefined *)(param_1 + 0x6e0) = 0;
   *(undefined4 *)(param_1 + 0x6e4) = 0;
   *(undefined *)(param_1 + 0x6e8) = 0;
-  uVar5 = _DONE_Get_DAT_08AAC9E0();
+  uVar5 = DONE_Get_DAT_08AAC9E0();
   FUN_0880cd9c(uVar5,0x2f,0);
   *(undefined4 *)(param_1 + 0x6ec) = 0;
   *(undefined *)(param_1 + 0x6f8) = 0;

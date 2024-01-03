@@ -3,7 +3,7 @@
 // WARNING: Removing unreachable block (ram,0x089b4428)
 // WARNING: Removing unreachable block (ram,0x089b449c)
 
-uint _DONE_EntryPoint(uint arglen,void *argp)
+uint DONE_EntryPoint(uint arglen,void *argp)
 
 {
   undefined4 user_main_thread;

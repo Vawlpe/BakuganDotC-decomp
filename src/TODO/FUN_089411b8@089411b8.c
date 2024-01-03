@@ -136,11 +136,11 @@ int FUN_089411b8(int param_1)
       }
     }
   }
-  iVar7 = _DONE_NotZero_DAT_08AAC9E0();
+  iVar7 = DONE_NotZero_DAT_08AAC9E0();
   if (iVar7 != 0) {
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     FUN_0880d808(uVar3,0x7eff);
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     FUN_0880d0e8(uVar3,1);
   }
   *(undefined4 *)(param_1 + 0xa0) = 0;

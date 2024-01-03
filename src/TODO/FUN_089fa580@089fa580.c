@@ -76,7 +76,7 @@ switchD_089fa694_caseD_2:
   }
   bVar1 = true;
   if ((iVar5 == 2) && (iVar5 = FUN_089fb03c(), iVar5 != 0)) {
-    uVar3 = _DONE_GetPtr_DAT_08AC61A8();
+    uVar3 = DONE_GetPtr_DAT_08AC61A8();
     iVar5 = FUN_089fb238(uVar3);
     if (iVar5 == 0) {
       bVar1 = false;

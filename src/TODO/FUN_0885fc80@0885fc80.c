@@ -18,7 +18,7 @@ undefined4 FUN_0885fc80(int param_1)
       iVar1 = FUN_0881b22c();
       if (iVar1 != 0) {
         iVar3 = *(int *)(param_1 + 0x150);
-        uVar2 = _DONE_GetPtr_DAT_08AB0300();
+        uVar2 = DONE_GetPtr_DAT_08AB0300();
         iVar1 = FUN_0881b66c(uVar2);
         if (iVar3 == iVar1) {
           uVar4 = 1;

@@ -95,9 +95,9 @@ void FUN_0892aa1c(int param_1)
     break;
   case 9:
     if ((*(byte *)(*(int *)(param_1 + 0x20) + 5) & 0x40) != 0) {
-      iVar5 = _DONE_NotZero_DAT_08AC5874();
+      iVar5 = DONE_NotZero_DAT_08AC5874();
       if (iVar5 != 0) {
-        uVar4 = _DONE_Get_DAT_08AC5874();
+        uVar4 = DONE_Get_DAT_08AC5874();
         FUN_089c6350(uVar4,0,0,0);
       }
       FUN_08929fc4(param_1);

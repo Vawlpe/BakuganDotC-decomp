@@ -12,7 +12,7 @@ void FUN_089cc5a8(undefined4 param_1,int param_2)
       (**(code **)(*(int *)(iVar2 + 0x10) + 0xc))(iVar2 + *(short *)(*(int *)(iVar2 + 0x10) + 8),3);
       *(undefined4 *)(DAT_08ac58e0 + param_2 * 4 + 8) = 0;
     }
-    uVar1 = _DONE_GetPtr_DAT_08AC51F8();
+    uVar1 = DONE_GetPtr_DAT_08AC51F8();
     FUN_089bcad4(uVar1);
   }
   return;

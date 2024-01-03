@@ -16,7 +16,7 @@ void FUN_089adbc4(int param_1,char param_2)
     iVar3 = param_1 + 0xa00;
     do {
       uVar6 = *(undefined4 *)(*(int *)(param_1 + 0x1c) + iVar4);
-      piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
       FUN_089adb98(param_1,uVar6,*(undefined *)(*piVar1 + 0x6ab));
       iVar2 = *(int *)(*(int *)(param_1 + 0x1c) + iVar4);
       *(uint *)(iVar2 + 0xd0) = *(uint *)(iVar2 + 0xd0) | 1;

@@ -8,9 +8,9 @@ void FUN_088e1004(int param_1,char param_2)
   
   if ((*(char *)(param_1 + 0x3a0) != '\0') &&
      ((param_2 != '\0' || (*(char *)(param_1 + 0x3b8) != '\0')))) {
-    iVar1 = _DONE_NotZero_DAT_08AC5874();
+    iVar1 = DONE_NotZero_DAT_08AC5874();
     if (iVar1 != 0) {
-      uVar2 = _DONE_Get_DAT_08AC5874();
+      uVar2 = DONE_Get_DAT_08AC5874();
       FUN_089c6350(uVar2,0x2c00028,0,0);
     }
     FUN_088243d8(DAT_08ac5c70,0x44,param_1 + 0x1b0);

@@ -19,7 +19,7 @@ void FUN_08933000(int param_1)
   memset_jak((undefined *)(param_1 + 0x1a88),0,0x28);
   ptr = (undefined *)(param_1 + 0x1ab0);
   memset_jak(ptr,0,0x40);
-  piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
   uVar7 = *(uint *)(*piVar2 + 0x48c) & 0xff;
   FUN_0892bd00(uVar7,ptr);
   local_28 = 0;

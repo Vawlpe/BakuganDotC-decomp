@@ -25,7 +25,7 @@ undefined4 FUN_089cae34(int param_1)
       uVar3 = FUN_089c9da8(param_1);
       FUN_089b4c84(auStack_110,uVar2,uVar3);
     }
-    _DONE_Get_DAT_08AC58D0();
+    DONE_Get_DAT_08AC58D0();
     iVar5 = FUN_089cb9cc(auStack_110);
     *(uint *)(iVar5 + 0x48) =
          *(int *)(param_1 + 0x3c) + (uint)*(byte *)(param_1 + 0x45) * 0x28 + 0x24;

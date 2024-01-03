@@ -89,9 +89,9 @@ void FUN_088d57dc(int param_1)
             local_3f = 10;
           }
         }
-        iVar6 = _DONE_NotZero_DAT_08AC5874();
+        iVar6 = DONE_NotZero_DAT_08AC5874();
         if (iVar6 != 0) {
-          uVar3 = _DONE_Get_DAT_08AC5874();
+          uVar3 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar3,0x2c00031,0,0);
         }
         iVar6 = 0;

@@ -38,7 +38,7 @@ undefined4 FUN_08926530(int param_1)
     *(char *)(param_1 + 0x2294) = *(char *)(param_1 + 0x2294) + '\x01';
   }
   else if (bVar1 < 2) {
-    piVar6 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar6 = (int *)DONE_Get_DAT_08AAC9E0();
     *(undefined *)(*piVar6 + (uint)*(byte *)(param_1 + 0x78) + 0x84) = 0;
     iVar7 = *(char *)(param_1 + 0x78) + 0xa6;
     FUN_089a5408(0x3f800000,1,*(undefined4 *)(*(int *)(param_1 + 0x1c) + iVar7 * 4),

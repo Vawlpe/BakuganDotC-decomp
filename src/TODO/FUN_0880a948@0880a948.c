@@ -17,9 +17,9 @@ int FUN_0880a948(int param_1)
   FUN_089d866c();
   DAT_08aac9d0 = ptr;
   memset_jak(ptr,0,4);
-  iVar2 = _DONE_NotZero_DAT_08AAC9E0();
+  iVar2 = DONE_NotZero_DAT_08AAC9E0();
   if (iVar2 != 0) {
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar1,1,0);
   }
   FUN_08816868();

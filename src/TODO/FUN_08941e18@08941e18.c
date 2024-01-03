@@ -8,12 +8,12 @@ void FUN_08941e18(int param_1)
   undefined4 uVar3;
   
   bVar1 = true;
-  iVar2 = _DONE_NotZero_DAT_08AAC9E0();
+  iVar2 = DONE_NotZero_DAT_08AAC9E0();
   if (iVar2 != 0) {
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     iVar2 = FUN_0880d7e0(uVar3,0x80);
     if (iVar2 != 0) {
-      uVar3 = _DONE_Get_DAT_08AAC9E0();
+      uVar3 = DONE_Get_DAT_08AAC9E0();
       FUN_0880d808(uVar3,0x80);
       iVar2 = FUN_08816a90();
       if (iVar2 == 0) {

@@ -10,7 +10,7 @@ undefined4 FUN_089c2c54(int param_1)
   undefined4 uVar5;
   
   uVar5 = 0;
-  iVar1 = _DONE_NotZero_DAT_08AC61E8();
+  iVar1 = DONE_NotZero_DAT_08AC61E8();
   if (iVar1 != 0) {
     if (param_1 == -1) {
       uVar2 = FUN_089fce94();

@@ -68,7 +68,7 @@ int FUN_089c22b4(int param_1)
         else if (*(int *)(iVar3 + 4) < 0) {
           if (*(int *)(iVar3 + 0x34) == 0) {
             if (*(char *)(iVar3 + 0x32) == '\0') {
-              uVar2 = _DONE_Get_DAT_08AC5258();
+              uVar2 = DONE_Get_DAT_08AC5258();
               iVar3 = FUN_089c0444(uVar2,*(undefined4 *)(*(int *)(param_1 + 0x28) + iVar1));
               if (iVar3 == 0) {
                 iVar3 = *(int *)(param_1 + 0x2c);

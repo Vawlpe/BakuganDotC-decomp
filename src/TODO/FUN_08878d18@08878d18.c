@@ -9,7 +9,7 @@ void FUN_08878d18(undefined4 param_1)
   DAT_08b00870 = 0;
   DAT_08b00878 = 0;
   DAT_08b00920 = param_1;
-  uVar1 = _DONE_GetPtr_DAT_08AC5278();
+  uVar1 = DONE_GetPtr_DAT_08AC5278();
   DAT_08b00924 = FUN_089c2730(uVar1,8);
   FUN_089c1f1c(0,0,0,DAT_08b00924);
   return;

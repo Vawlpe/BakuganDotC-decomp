@@ -43,7 +43,7 @@ int FUN_088998f0(int param_1,undefined4 param_2,undefined4 param_3)
     }
   }
   else {
-    uVar1 = _DONE_Get_DAT_08AAC9E0(param_1);
+    uVar1 = DONE_Get_DAT_08AAC9E0(param_1);
     iVar2 = FUN_0880d0ac(uVar1,0x18);
     if (iVar2 < 1) {
       if (-1 < iVar2) {

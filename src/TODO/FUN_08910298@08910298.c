@@ -25,7 +25,7 @@ void FUN_08910298(undefined4 *param_1,uint param_2)
         (**(code **)(*(int *)(iVar1 + 0x4c) + 0xc))
                   (iVar1 + *(short *)(*(int *)(iVar1 + 0x4c) + 8),3);
         param_1[9] = 0;
-        iVar1 = _DONE_GetPtr_DAT_08AB0300();
+        iVar1 = DONE_GetPtr_DAT_08AB0300();
         *(undefined *)(*(int *)(iVar1 + 0xe4) + 0x3c) = 0;
         param_1[8] = WeirdBuff;
         uVar3 = *(undefined *)(param_1 + 0x57);
@@ -46,7 +46,7 @@ void FUN_08910298(undefined4 *param_1,uint param_2)
       iVar1 = iVar1 + 1;
       puVar5 = puVar5 + 1;
     } while (iVar1 < 2);
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar2,0x1d,*param_1);
     FUN_089a3d30();
     FUN_08909ac0(param_1,0);

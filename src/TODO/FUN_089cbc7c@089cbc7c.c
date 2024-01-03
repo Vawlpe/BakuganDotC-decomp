@@ -13,7 +13,7 @@ undefined4 * FUN_089cbc7c(undefined4 *param_1)
   FUN_089cbe08(param_1,0);
   iVar1 = FUN_089cc058();
   if (iVar1 != 0) {
-    uVar2 = _DONE_GetPtr_DAT_08AC58E0();
+    uVar2 = DONE_GetPtr_DAT_08AC58E0();
     FUN_089cc3ec(uVar2,param_1);
   }
   return param_1;

@@ -134,7 +134,7 @@ int FUN_089ccb1c(int param_1,uint param_2)
       break;
     case 10:
       *(undefined4 *)(DAT_08ac5908 + 0x30) = 3;
-      iVar4 = _DONE_Get_DAT_08AAC9E0();
+      iVar4 = DONE_Get_DAT_08AAC9E0();
       *(undefined4 *)(DAT_08ac5908 + 0x74) = *(undefined4 *)(iVar4 + 8);
       *(undefined4 *)(DAT_08ac5908 + 0x78) = 4;
       *(undefined4 *)(DAT_08ac5908 + 0x7c) = 4;
@@ -144,7 +144,7 @@ int FUN_089ccb1c(int param_1,uint param_2)
       break;
     case 0xb:
       *(undefined4 *)(DAT_08ac5908 + 0x30) = 0;
-      iVar4 = _DONE_Get_DAT_08AAC9E0();
+      iVar4 = DONE_Get_DAT_08AAC9E0();
       *(undefined4 *)(DAT_08ac5908 + 0x74) = *(undefined4 *)(iVar4 + 8);
       *(undefined4 *)(DAT_08ac5908 + 0x78) = 4;
       *(undefined4 *)(DAT_08ac5908 + 0x7c) = 4;
@@ -153,7 +153,7 @@ int FUN_089ccb1c(int param_1,uint param_2)
       break;
     case 0xc:
       *(undefined4 *)(DAT_08ac5908 + 0x30) = 8;
-      uVar2 = _DONE_Get_DAT_08AAC9E0();
+      uVar2 = DONE_Get_DAT_08AAC9E0();
       uVar2 = FUN_0880cdd8(uVar2);
       *(undefined4 *)(DAT_08ac5908 + 0x74) = uVar2;
       *(undefined4 *)(DAT_08ac5908 + 0x78) = 0x1e4;
@@ -195,7 +195,7 @@ int FUN_089ccb1c(int param_1,uint param_2)
       break;
     case 0xe:
       *(undefined4 *)(DAT_08ac5908 + 0x30) = 0;
-      uVar2 = _DONE_Get_DAT_08AAC9E0();
+      uVar2 = DONE_Get_DAT_08AAC9E0();
       uVar2 = FUN_0880cdd8(uVar2);
       *(undefined4 *)(DAT_08ac5908 + 0x74) = uVar2;
       *(undefined4 *)(DAT_08ac5908 + 0x78) = 0x1e4;

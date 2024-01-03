@@ -110,7 +110,7 @@ void FUN_08866554(int param_1)
         iVar9 = FUN_0885dd98(param_1);
         if (iVar9 != 0) {
           if (*(int *)(DAT_08ac58c4 + 0x20) == 2) {
-            uVar8 = _DONE_Get_DAT_08AAC9E0();
+            uVar8 = DONE_Get_DAT_08AAC9E0();
             FUN_0880d0ac(uVar8,7);
             *(undefined4 *)(param_1 + 0x15c) = 0;
             *(undefined4 *)(param_1 + 0x160) = 0;

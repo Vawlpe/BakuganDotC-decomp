@@ -74,7 +74,7 @@ LAB_08836f48:
     fVar11 = *(float *)(param_1 + 0xa20);
   }
   else {
-    uVar10 = _DONE_Get_DAT_08AAC9E0();
+    uVar10 = DONE_Get_DAT_08AAC9E0();
     iVar7 = FUN_0880dba8(uVar10);
     if ((iVar7 == 0xc) || (iVar7 == 3)) {
       iVar7 = *(int *)(*(int *)(param_1 + 0x14) + 0x238);

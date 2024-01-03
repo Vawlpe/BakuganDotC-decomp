@@ -52,7 +52,7 @@ void FUN_08965e60(int param_1)
   local_40 = 0xfffffff6;
   if (*(char *)(param_1 + 0x4fb1) == '\0') {
     if (*(byte *)(param_1 + 0x4fb0) == 0) {
-      piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
       uVar4 = FUN_0895647c(param_1,0,*(undefined *)(param_1 + 0x74));
       if ((int)uVar4 < 0) {
         uVar7 = -(-uVar4 & 7) & 0x1f;
@@ -115,7 +115,7 @@ void FUN_08965e60(int param_1)
       }
     }
     else if (*(byte *)(param_1 + 0x4fb0) < 2) {
-      piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
       uVar4 = FUN_0895647c(param_1,0,*(undefined *)(param_1 + 0x74));
       if ((int)uVar4 < 0) {
         uVar7 = -(-uVar4 & 7) & 0x1f;

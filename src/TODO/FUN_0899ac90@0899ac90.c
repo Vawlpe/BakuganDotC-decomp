@@ -10,7 +10,7 @@ void FUN_0899ac90(int param_1)
   
   iVar2 = FUN_08996448();
   if (iVar2 == 0) {
-    piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar4 = (uint)*(byte *)(param_1 + *(char *)(param_1 + 0x109c) + 0x10a0);
     iVar2 = *piVar3 + ((int)uVar4 >> 3);
     if ((int)uVar4 < 0) {

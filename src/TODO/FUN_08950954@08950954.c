@@ -62,16 +62,16 @@ int FUN_08950954(int param_1)
     iVar6 = iVar6 + 1;
     iVar3 = iVar3 + 4;
   } while (iVar6 < 3);
-  iVar3 = _DONE_NotZero_DAT_08AAC9E0();
+  iVar3 = DONE_NotZero_DAT_08AAC9E0();
   if (iVar3 == 0) {
     *(undefined4 *)(param_1 + 0x98) = 0;
   }
   else {
-    piVar5 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar5 = (int *)DONE_Get_DAT_08AAC9E0();
     memset_jak((undefined *)(*piVar5 + 0x80),0,0xb6);
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     FUN_0880ceb8(uVar1);
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     FUN_0880d11c(uVar1,1);
     *(undefined4 *)(param_1 + 0x98) = 0;
   }

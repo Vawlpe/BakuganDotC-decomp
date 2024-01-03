@@ -70,7 +70,7 @@ bool FUN_08924124(int param_1,undefined param_2)
   do {
     uVar5 = iVar7 - 0x62U & 0xff;
     if ((uVar5 < *(byte *)(param_1 + 0x2137)) &&
-       (piVar2 = (int *)_DONE_Get_DAT_08AAC9E0(), *(char *)(*piVar2 + uVar5 + 0x84) == '\0')) {
+       (piVar2 = (int *)DONE_Get_DAT_08AAC9E0(), *(char *)(*piVar2 + uVar5 + 0x84) == '\0')) {
       cVar1 = FUN_089a91a0(0x3f800000,0x3f800000,0x41800000,param_2,
                            *(undefined4 *)(*(int *)(param_1 + 0x1c) + iVar6),iVar4,9);
       cVar3 = cVar3 + cVar1;
@@ -85,7 +85,7 @@ bool FUN_08924124(int param_1,undefined param_2)
   do {
     uVar5 = iVar7 - 0xa6U & 0xff;
     if ((uVar5 < *(byte *)(param_1 + 0x2137)) &&
-       (piVar2 = (int *)_DONE_Get_DAT_08AAC9E0(), *(char *)(*piVar2 + uVar5 + 0x84) != '\0')) {
+       (piVar2 = (int *)DONE_Get_DAT_08AAC9E0(), *(char *)(*piVar2 + uVar5 + 0x84) != '\0')) {
       cVar1 = FUN_089a91a0(0x3f800000,0x3f800000,0x41800000,param_2,
                            *(undefined4 *)(*(int *)(param_1 + 0x1c) + iVar6),iVar4,9);
       cVar3 = cVar3 + cVar1;
@@ -100,7 +100,7 @@ bool FUN_08924124(int param_1,undefined param_2)
   do {
     uVar5 = iVar7 - 0x41U & 0xff;
     if ((uVar5 < *(byte *)(param_1 + 0x2137)) &&
-       (piVar2 = (int *)_DONE_Get_DAT_08AAC9E0(), *(char *)(*piVar2 + uVar5 + 0x84) != '\0')) {
+       (piVar2 = (int *)DONE_Get_DAT_08AAC9E0(), *(char *)(*piVar2 + uVar5 + 0x84) != '\0')) {
       cVar1 = FUN_089a91a0(0x3f800000,0x3f800000,0x41800000,param_2,
                            *(undefined4 *)(*(int *)(param_1 + 0x1c) + iVar6),iVar4,9);
       cVar3 = cVar3 + cVar1;

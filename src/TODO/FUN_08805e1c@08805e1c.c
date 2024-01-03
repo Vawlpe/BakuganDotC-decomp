@@ -27,9 +27,9 @@ void FUN_08805e1c(int param_1)
     }
   }
   FUN_08805ab4();
-  iVar2 = _DONE_NotZero_DAT_08AC5874();
+  iVar2 = DONE_NotZero_DAT_08AC5874();
   if (iVar2 != 0) {
-    uVar1 = _DONE_Get_DAT_08AC5874();
+    uVar1 = DONE_Get_DAT_08AC5874();
     FUN_089c6350(uVar1,6,0,0);
   }
   return;

@@ -8,8 +8,8 @@ int FUN_089c0444(undefined4 param_1,int param_2)
   int iVar3;
   
   iVar3 = 1;
-  if ((-1 < *(int *)(param_2 + 4)) && (iVar1 = _DONE_NotZero_DAT_08AC5874(), iVar1 != 0)) {
-    uVar2 = _DONE_Get_DAT_08AC5874();
+  if ((-1 < *(int *)(param_2 + 4)) && (iVar1 = DONE_NotZero_DAT_08AC5874(), iVar1 != 0)) {
+    uVar2 = DONE_Get_DAT_08AC5874();
     iVar3 = FUN_089c6588(uVar2,*(undefined4 *)(param_2 + 4));
   }
   if (iVar3 != 0) {

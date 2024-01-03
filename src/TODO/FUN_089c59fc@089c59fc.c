@@ -12,9 +12,9 @@ void FUN_089c59fc(undefined4 param_1,int param_2)
   strcpy(param_1,"sound/");
   if (param_2 - 0x43U < 0x10) {
     iVar3 = 1;
-    iVar1 = _DONE_NotZero_DAT_08AAC9E0();
+    iVar1 = DONE_NotZero_DAT_08AAC9E0();
     if (iVar1 != 0) {
-      uVar2 = _DONE_Get_DAT_08AAC9E0();
+      uVar2 = DONE_Get_DAT_08AAC9E0();
       iVar3 = FUN_0880dba8(uVar2);
     }
     strcat(param_1,(&PTR_DAT_08ac5838)[iVar3]);

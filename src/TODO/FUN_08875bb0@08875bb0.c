@@ -73,9 +73,9 @@ LAB_08875d34:
 LAB_08875d94:
     *(undefined4 *)(param_1 + 0x3cc) = 100;
 LAB_08875d98:
-    iVar2 = _DONE_NotZero_DAT_08AC5258();
+    iVar2 = DONE_NotZero_DAT_08AC5258();
     if (iVar2 != 0) {
-      uVar1 = _DONE_Get_DAT_08AC5258();
+      uVar1 = DONE_Get_DAT_08AC5258();
       FUN_089c00c4(uVar1,0x200012,param_1 + 0x20,0,1);
     }
     uVar1 = DAT_08abd5b0;

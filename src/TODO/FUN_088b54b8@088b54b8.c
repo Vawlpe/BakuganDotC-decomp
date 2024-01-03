@@ -57,12 +57,12 @@ void FUN_088b54b8(int param_1)
                       cVar6 = *(char *)(iVar4 + 0x16c);
                     }
                     else {
-                      iVar2 = _DONE_NotZero_DAT_08AC5258();
+                      iVar2 = DONE_NotZero_DAT_08AC5258();
                       if (iVar2 == 0) {
                         cVar6 = *(char *)(iVar4 + 0x16c);
                       }
                       else {
-                        uVar3 = _DONE_Get_DAT_08AC5258();
+                        uVar3 = DONE_Get_DAT_08AC5258();
                         FUN_089c00c4(uVar3,*(undefined4 *)(param_1 + 0x1cc),
                                      *(int *)(param_1 + 0x19c) + iVar9 + 0xa0,0,1);
                         cVar6 = *(char *)(iVar4 + 0x16c);

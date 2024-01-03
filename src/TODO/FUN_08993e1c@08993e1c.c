@@ -28,7 +28,7 @@ void FUN_08993e1c(int param_1)
         *(undefined4 *)(param_1 + 0x2c) = 7;
         return;
       }
-      piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
       *(ushort *)(*piVar2 + 0x6a6) = *(ushort *)(*piVar2 + 0x6a6) | 4;
       iVar4 = *(int *)(param_1 + 0x2c);
     }
@@ -93,7 +93,7 @@ void FUN_08993e1c(int param_1)
     break;
   case 8:
     DAT_08ac0e70 = 1;
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar3,0x14,*(ushort *)(param_1 + 0x11e) + 1);
     FUN_089bf754(0x177,*(undefined *)(param_1 + 0x120));
     *(int *)(param_1 + 0x2c) = *(int *)(param_1 + 0x2c) + 1;

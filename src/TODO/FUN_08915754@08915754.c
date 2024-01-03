@@ -44,7 +44,7 @@ void FUN_08915754(int param_1,char param_2)
       iVar5 = iVar5 + 4;
       iVar6 = iVar6 + 0x28;
     } while (iVar4 < 0x28);
-    piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
     iVar4 = *(int *)(*(int *)(param_1 + 0x1c) + 0x5c);
     FUN_08914254(*(undefined4 *)(iVar4 + 0x60),*(undefined4 *)(iVar4 + 100),param_1,
                  *(undefined4 *)(*piVar1 + 0x464),0x17,0);
@@ -58,7 +58,7 @@ void FUN_08915754(int param_1,char param_2)
       iVar5 = iVar5 + 4;
       iVar6 = iVar6 + 0x28;
     } while (iVar4 < 0x18);
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     uVar2 = FUN_0880d0ac(uVar2,0x2d);
     iVar4 = *(int *)(*(int *)(param_1 + 0x1c) + 0x78);
     FUN_08914254(*(undefined4 *)(iVar4 + 0x60),*(undefined4 *)(iVar4 + 100),param_1,uVar2,0x1e,1);
@@ -72,9 +72,9 @@ void FUN_08915754(int param_1,char param_2)
       iVar5 = iVar5 + 4;
       iVar6 = iVar6 + 0x28;
     } while (iVar4 < 0x1f);
-    piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
     iVar6 = *(int *)(*piVar1 + 0x464);
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     iVar4 = FUN_0880d0ac(uVar2,0x2d);
     iVar5 = *(int *)(*(int *)(param_1 + 0x1c) + 0x94);
     FUN_08914254(*(undefined4 *)(iVar5 + 0x60),*(undefined4 *)(iVar5 + 100),param_1,iVar6 - iVar4,

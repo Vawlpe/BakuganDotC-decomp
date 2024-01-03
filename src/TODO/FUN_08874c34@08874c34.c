@@ -73,9 +73,9 @@ LAB_088750e8:
          *(uint *)(*(int *)(param_1 + 0x208) + 0x130) | 0x40;
     *(uint *)(*(int *)(param_1 + 0x208) + 0x130) = *(uint *)(*(int *)(param_1 + 0x208) + 0x130) | 4;
     FUN_088854b0(*(undefined4 *)(param_1 + 0x200));
-    iVar6 = _DONE_NotZero_DAT_08AC5874();
+    iVar6 = DONE_NotZero_DAT_08AC5874();
     if (iVar6 != 0) {
-      uVar3 = _DONE_Get_DAT_08AC5874();
+      uVar3 = DONE_Get_DAT_08AC5874();
       FUN_089c6350(uVar3,0x200011,0,0);
     }
     FUN_08824658(DAT_08ac5c70,0xffffffff,param_1 + 0x250);
@@ -159,7 +159,7 @@ LAB_0887501c:
     *(int *)(param_1 + 0x3cc) = iVar6;
   }
   else {
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     iVar6 = FUN_0880d0ac(uVar3,7);
     if (iVar6 < 1) {
       if (-1 < iVar6) {

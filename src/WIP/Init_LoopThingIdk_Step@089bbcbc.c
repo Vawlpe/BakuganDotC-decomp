@@ -1,6 +1,6 @@
 #include "ULUS10536_MYTHREAD-MAIN.BIN.h"
 
-undefined4 _WIP_Init__LoopThingIdk_Step(int param_1,undefined4 param_2,undefined4 param_3)
+undefined4 WIP_Init_LoopThingIdk_Step(int param_1,undefined4 param_2,undefined4 param_3)
 
 {
   int iVar1;
@@ -13,7 +13,7 @@ undefined4 _WIP_Init__LoopThingIdk_Step(int param_1,undefined4 param_2,undefined
     if (((&DAT_08ac4f78)[param_1 * 8] == -1) &&
        (iVar2 = zz_sceKernelCreateThread
                           ((&PTR_s_MyThread_Main_08ac4f7c)[param_1 * 8],
-                           (&PTR__WIP_Main_08ac4f80)[param_1 * 8],
+                           (&PTR_WIP_Main_08ac4f80)[param_1 * 8],
                            *(undefined4 *)(&DAT_08ac4f84 + iVar2),
                            *(undefined4 *)(&DAT_08ac4f88 + iVar2),
                            *(undefined4 *)(&DAT_08ac4f8c + iVar2),*(undefined4 *)(iVar2 + 0x8ac4f90)

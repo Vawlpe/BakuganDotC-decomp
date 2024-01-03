@@ -78,12 +78,12 @@ LAB_089515c0:
       }
       if (bVar1) {
         FUN_089f4b64(0x3f800000,*(undefined4 *)(*(int *)(param_1 + 0x1c) + 4));
-        iVar2 = _DONE_NotZero_DAT_08AC5874();
+        iVar2 = DONE_NotZero_DAT_08AC5874();
         if (iVar2 == 0) {
           piVar3 = *(int **)(param_1 + 0x1c);
         }
         else {
-          uVar6 = _DONE_Get_DAT_08AC5874();
+          uVar6 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar6,0,0,0);
           piVar3 = *(int **)(param_1 + 0x1c);
         }

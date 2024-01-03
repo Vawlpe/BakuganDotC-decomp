@@ -14,7 +14,7 @@ void FUN_0880b1b4(int param_1,uint param_2)
       FUN_089d866c();
       DAT_08aac9d8 = 0;
     }
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     iVar2 = FUN_0880d0ac(uVar1,1);
     if (iVar2 == 1) {
       FUN_088c2a5c(param_1);

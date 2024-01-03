@@ -49,7 +49,7 @@ void FUN_088372a8(int param_1)
   iVar2 = *(int *)(param_1 + 0xa68) * 4 >> 2;
   switch(*(int *)(param_1 + 0xa68)) {
   case 0:
-    uVar13 = _DONE_Get_DAT_08AAC9E0();
+    uVar13 = DONE_Get_DAT_08AAC9E0();
     iVar2 = FUN_0880d0ac(uVar13,0x1b);
     if (iVar2 < 1) {
       iVar2 = 1;
@@ -105,7 +105,7 @@ LAB_088374cc:
       iVar3 = FUN_0881b22c();
       bVar1 = (int)uVar9 < 2;
       if (iVar3 != 0) {
-        uVar13 = _DONE_GetPtr_DAT_08AB0300();
+        uVar13 = DONE_GetPtr_DAT_08AB0300();
         iVar3 = FUN_0881b66c(uVar13);
         bVar1 = (int)uVar9 < 2;
         if (iVar3 != 0) {
@@ -139,7 +139,7 @@ LAB_088375a0:
       }
       iVar2 = iVar2 + 1;
     } while (iVar2 < 5);
-    uVar13 = _DONE_Get_DAT_08AAC9E0();
+    uVar13 = DONE_Get_DAT_08AAC9E0();
     iVar2 = FUN_0880d0ac(uVar13,0x1e);
     iVar2 = iVar2 + -1;
     uVar9 = 0;
@@ -160,7 +160,7 @@ LAB_088375a0:
     iVar2 = FUN_0881b22c();
     bVar1 = (int)uVar10 < 2;
     if (iVar2 != 0) {
-      uVar13 = _DONE_GetPtr_DAT_08AB0300();
+      uVar13 = DONE_GetPtr_DAT_08AB0300();
       iVar2 = FUN_0881b66c(uVar13);
       bVar1 = (int)uVar10 < 2;
       if (iVar2 != 0) {
@@ -288,7 +288,7 @@ LAB_08837928:
       iVar3 = FUN_0881b22c();
       bVar1 = (int)uVar12 < 2;
       if (iVar3 != 0) {
-        uVar13 = _DONE_GetPtr_DAT_08AB0300();
+        uVar13 = DONE_GetPtr_DAT_08AB0300();
         iVar3 = FUN_0881b66c(uVar13);
         bVar1 = (int)uVar12 < 2;
         if (iVar3 != 0) {

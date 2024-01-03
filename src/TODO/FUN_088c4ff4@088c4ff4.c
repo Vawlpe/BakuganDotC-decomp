@@ -351,12 +351,12 @@ void FUN_088c4ff4(int param_1)
     }
     break;
   case 9:
-    iVar8 = _DONE_NotZero_DAT_08AC5874();
+    iVar8 = DONE_NotZero_DAT_08AC5874();
     if (iVar8 == 0) {
       *(int *)(param_1 + 0x61c) = *(int *)(param_1 + 0x61c) + 1;
     }
     else {
-      uVar10 = _DONE_Get_DAT_08AC5874();
+      uVar10 = DONE_Get_DAT_08AC5874();
       iVar8 = FUN_089c5f18(uVar10,0xffffffff);
       if (iVar8 != 0) {
         *(int *)(param_1 + 0x61c) = *(int *)(param_1 + 0x61c) + 1;

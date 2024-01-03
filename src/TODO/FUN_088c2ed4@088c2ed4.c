@@ -14,7 +14,7 @@ void FUN_088c2ed4(int param_1)
     if (*(int *)(param_1 + 0x6c8) != 0) {
       FUN_089bf300(*(undefined4 *)(param_1 + 0x6c8),1);
     }
-    uVar4 = _DONE_Get_DAT_08AAC9E0();
+    uVar4 = DONE_Get_DAT_08AAC9E0();
     FUN_0880d808(uVar4,0x40000000);
     if (DAT_08b00bd4 == '\b') {
       FUN_088bede4(param_1,5);

@@ -11,7 +11,7 @@ FUN_089bda88(int param_1,undefined4 param_2,undefined4 param_3,undefined param_4
   if (*(int *)(param_1 + 0x2c) != 0) {
     return 1;
   }
-  iVar1 = _DONE_NotZero_DAT_08AC61E8();
+  iVar1 = DONE_NotZero_DAT_08AC61E8();
   if (iVar1 == 0) {
     *(undefined4 *)(param_1 + 0x2c) = 0;
     iVar1 = 0;

@@ -59,7 +59,7 @@ void FUN_089d37d0(void)
   FUN_089d1f98();
   FUN_089cf334();
   FUN_089d013c();
-  _WIP_Init__LoopThingIdk_Step(0x12,0,0);
+  WIP_Init_LoopThingIdk_Step(0x12,0,0);
   return;
 }
 

@@ -17,19 +17,19 @@ void FUN_089b2b28(uint param_1,undefined param_2,byte param_3,ushort param_4)
   else {
     param_1 = param_1 & 3;
   }
-  piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
   if ((*(byte *)(*piVar2 + (iVar3 * 4 + param_1) * 4 + 0x97) & 0x80) == 0) {
     bVar1 = true;
   }
   else {
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     if (param_3 < (*(byte *)(*piVar2 + (iVar3 * 4 + param_1) * 4 + 0x97) & 0x7f)) {
       bVar1 = true;
     }
     else {
-      piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
       if (param_3 == (*(byte *)(*piVar2 + (iVar3 * 4 + param_1) * 4 + 0x97) & 0x7f)) {
-        piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+        piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
         if (*(ushort *)(*piVar2 + (iVar3 * 4 + param_1) * 4 + 0x98) < param_4) {
           bVar1 = true;
         }
@@ -37,18 +37,18 @@ void FUN_089b2b28(uint param_1,undefined param_2,byte param_3,ushort param_4)
     }
   }
   if (bVar1) {
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     *(undefined *)(*piVar2 + (iVar3 * 4 + param_1) * 4 + 0x96) = param_2;
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     *(byte *)(*piVar2 + (iVar3 * 4 + param_1) * 4 + 0x97) = param_3 | 0x80;
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     *(ushort *)(*piVar2 + (iVar3 * 4 + param_1) * 4 + 0x98) = param_4;
     if (uVar4 == 0x25) {
-      piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
       *(undefined *)(*piVar2 + 0xe6) = param_2;
-      piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
       *(byte *)(*piVar2 + 0xe7) = param_3 | 0x80;
-      piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
       *(ushort *)(*piVar2 + 0xe8) = param_4;
     }
   }

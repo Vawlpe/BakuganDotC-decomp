@@ -78,7 +78,7 @@ void FUN_08944a30(int param_1)
       }
       local_60 = 0;
       memset_jak(auStack_5f,0,0x3f);
-      _DONE_Get_DAT_08AAC9E0();
+      DONE_Get_DAT_08AAC9E0();
       uVar1 = FUN_0880dc94();
       FUN_089b4c84(&local_60,"data/2d/%s/credit.lzs",uVar1);
       iVar3 = FUN_089bda88(*(undefined4 *)(param_1 + 0x6c),&local_60,10,1,1);

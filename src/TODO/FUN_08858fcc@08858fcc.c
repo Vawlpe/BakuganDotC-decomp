@@ -15,7 +15,7 @@ int FUN_08858fcc(int param_1)
   
   iVar7 = 0;
   if (*(int *)(DAT_08ac58c4 + 0x20) == 2) {
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     iVar4 = FUN_0880d0ac(uVar3,7);
     if (iVar4 == 1) {
       piVar5 = (int *)FUN_088660c8();

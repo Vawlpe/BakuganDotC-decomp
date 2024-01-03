@@ -12,22 +12,22 @@ void FUN_088ce3c0(int param_1,uint param_2)
       iVar2 = *(int *)(param_1 + 0x20);
       if (iVar2 == 0x70) {
         *(undefined4 *)(DAT_08ac58c4 + 4) = 0x25;
-        uVar1 = _DONE_Get_DAT_08AAC9E0();
+        uVar1 = DONE_Get_DAT_08AAC9E0();
         FUN_0880cd9c(uVar1,0x33,0x25);
       }
       else if (iVar2 == 0x71) {
         *(undefined4 *)(DAT_08ac58c4 + 4) = 0x25;
-        uVar1 = _DONE_Get_DAT_08AAC9E0();
+        uVar1 = DONE_Get_DAT_08AAC9E0();
         FUN_0880cd9c(uVar1,0x33,0x25);
       }
       else if (iVar2 == 0x72) {
         *(undefined4 *)(DAT_08ac58c4 + 4) = 0x18;
-        uVar1 = _DONE_Get_DAT_08AAC9E0();
+        uVar1 = DONE_Get_DAT_08AAC9E0();
         FUN_0880cd9c(uVar1,0x33,0x18);
       }
       else if (iVar2 == 0x3b) {
         *(undefined4 *)(DAT_08ac58c4 + 4) = 0x24;
-        uVar1 = _DONE_Get_DAT_08AAC9E0();
+        uVar1 = DONE_Get_DAT_08AAC9E0();
         FUN_0880cd9c(uVar1,0x33,0x24);
       }
       FUN_088ce0d8(param_1);

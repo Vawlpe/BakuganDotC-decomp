@@ -113,9 +113,9 @@ void FUN_088b8cf4(int param_1)
           *(undefined4 *)(param_1 + 0x184) = uVar8;
           *(undefined4 *)(param_1 + 0x188) = uVar17;
           *(undefined4 *)(param_1 + 0x18c) = uVar3;
-          iVar7 = _DONE_NotZero_DAT_08AC5258();
+          iVar7 = DONE_NotZero_DAT_08AC5258();
           if (iVar7 != 0) {
-            uVar8 = _DONE_Get_DAT_08AC5258();
+            uVar8 = DONE_Get_DAT_08AC5258();
             FUN_089c00c4(uVar8,0x2c00022,puVar11,0,1);
           }
           FUN_08824024(DAT_08ac5c70,7,puVar11,&local_a0);

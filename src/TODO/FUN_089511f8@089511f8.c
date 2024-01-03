@@ -19,9 +19,9 @@ void FUN_089511f8(int param_1)
     uVar1 = FUN_089edb80();
     iVar2 = FUN_089edf70(uVar1);
     if (iVar2 != 0) {
-      uVar1 = _DONE_Get_DAT_08AAC9E0();
+      uVar1 = DONE_Get_DAT_08AAC9E0();
       uVar3 = FUN_0880d0ac(uVar1,0);
-      uVar1 = _DONE_Get_DAT_08AAC9E0();
+      uVar1 = DONE_Get_DAT_08AAC9E0();
       FUN_0880cd9c(uVar1,0,uVar3 | 0x80000000);
       FUN_089c879c(0x3f000000,0);
       FUN_0890a598(param_1,2);

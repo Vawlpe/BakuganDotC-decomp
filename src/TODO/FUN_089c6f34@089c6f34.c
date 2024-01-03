@@ -16,9 +16,9 @@ void FUN_089c6f34(int param_1)
   FUN_08a23d10(1,0x100);
   FUN_08a23d10(2,0x100);
   *(undefined4 *)(param_1 + 8) = 4;
-  uVar1 = _DONE_GetPtr_DAT_08AC51F8();
+  uVar1 = DONE_GetPtr_DAT_08AC51F8();
   FUN_089bced0(uVar1,FUN_089c6b6c);
-  uVar1 = _DONE_GetPtr_DAT_08AC51F8();
+  uVar1 = DONE_GetPtr_DAT_08AC51F8();
   FUN_089bcfa4(uVar1,FUN_089c6bfc);
   return;
 }

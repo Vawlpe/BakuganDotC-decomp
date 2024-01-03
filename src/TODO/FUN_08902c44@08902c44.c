@@ -425,7 +425,7 @@ LAB_08903408:
     FUN_089c879c(0x3f000000,0);
     FUN_089c87e4(1);
     FUN_089c879c(0x3f000000,1);
-    uVar7 = _DONE_Get_DAT_08AC5874();
+    uVar7 = DONE_Get_DAT_08AC5874();
     FUN_089c69a4(uVar7);
     *(undefined4 *)(param_1 + 0x670) = 0;
     *(int *)(param_1 + 0x660) = *(int *)(param_1 + 0x660) + 1;

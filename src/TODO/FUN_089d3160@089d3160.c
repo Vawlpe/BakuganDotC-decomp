@@ -44,9 +44,9 @@ int FUN_089d3160(int param_1)
     }
     FUN_089bb728(*(undefined4 *)(puVar2 + 8));
     *puVar2 = 1;
-    iVar1 = _DONE_NotZero_DAT_08AAC9E0();
+    iVar1 = DONE_NotZero_DAT_08AAC9E0();
     if (iVar1 != 0) {
-      uVar3 = _DONE_Get_DAT_08AAC9E0();
+      uVar3 = DONE_Get_DAT_08AAC9E0();
       FUN_0880d840(uVar3,puVar2 + 0x14);
     }
     iVar1 = FUN_089d3ab4();

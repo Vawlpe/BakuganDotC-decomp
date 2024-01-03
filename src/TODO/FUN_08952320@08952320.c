@@ -41,13 +41,13 @@ int FUN_08952320(int param_1)
   if (iVar3 != 0) {
     iVar3 = FUN_0881b22c();
     if (iVar3 != 0) {
-      iVar3 = _DONE_GetPtr_DAT_08AB0300();
+      iVar3 = DONE_GetPtr_DAT_08AB0300();
       *(undefined *)(*(int *)(iVar3 + 0xe4) + 0x3c) = 1;
-      uVar1 = _DONE_GetPtr_DAT_08AB0300();
+      uVar1 = DONE_GetPtr_DAT_08AB0300();
       FUN_0881b634(uVar1,0x1000000);
-      uVar1 = _DONE_GetPtr_DAT_08AB0300();
+      uVar1 = DONE_GetPtr_DAT_08AB0300();
       FUN_0881b620(uVar1,0x2000000);
-      uVar1 = _DONE_GetPtr_DAT_08AB0300();
+      uVar1 = DONE_GetPtr_DAT_08AB0300();
       uVar1 = FUN_0881b66c(uVar1);
       *(undefined4 *)(param_1 + 0xa50) = uVar1;
     }

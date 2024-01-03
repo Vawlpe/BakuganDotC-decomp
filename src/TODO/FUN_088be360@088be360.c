@@ -6,7 +6,7 @@ void FUN_088be360(void)
   undefined4 uVar1;
   
   FUN_089c879c(0x3ecccccd,0);
-  uVar1 = _DONE_Get_DAT_08AC5874();
+  uVar1 = DONE_Get_DAT_08AC5874();
   FUN_089c69a4(uVar1);
   FUN_089c87e4(1);
   FUN_089c879c(0x3f000000,1);

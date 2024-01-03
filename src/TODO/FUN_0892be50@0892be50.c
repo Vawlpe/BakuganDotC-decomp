@@ -13,22 +13,22 @@ void FUN_0892be50(void)
   int iVar8;
   int iVar9;
   
-  piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
   uVar6 = *(uint *)(*piVar2 + 0x48c) & 0xff;
-  uVar3 = _DONE_Get_DAT_08AAC9E0();
+  uVar3 = DONE_Get_DAT_08AAC9E0();
   FUN_0880cd9c(uVar3,3,uVar6);
-  uVar3 = _DONE_Get_DAT_08AAC9E0();
+  uVar3 = DONE_Get_DAT_08AAC9E0();
   FUN_0880cd9c(uVar3,4,0xffffffff);
-  uVar3 = _DONE_Get_DAT_08AAC9E0();
+  uVar3 = DONE_Get_DAT_08AAC9E0();
   FUN_0880cd9c(uVar3,5,0xffffffff);
-  uVar3 = _DONE_Get_DAT_08AAC9E0();
+  uVar3 = DONE_Get_DAT_08AAC9E0();
   FUN_0880cd9c(uVar3,6,0xffffffff);
   iVar8 = 0;
   iVar7 = 0;
   do {
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     bVar1 = *(byte *)(*piVar2 + uVar6 * 2 + iVar8 + 0x4e4);
-    iVar4 = _DONE_Get_DAT_08AAC9E0();
+    iVar4 = DONE_Get_DAT_08AAC9E0();
     if (*(int *)(iVar4 + 4) != 0) {
       *(uint *)(*(int *)(iVar4 + 4) + iVar7 + 0xd8) = (uint)bVar1;
     }
@@ -41,7 +41,7 @@ void FUN_0892be50(void)
     iVar9 = 0;
     iVar4 = 0;
     do {
-      iVar5 = _DONE_Get_DAT_08AAC9E0();
+      iVar5 = DONE_Get_DAT_08AAC9E0();
       if (*(int *)(iVar5 + 4) != 0) {
         *(undefined4 *)(*(int *)(iVar5 + 4) + iVar7 + iVar4 + 0xd8) = 0xff;
       }
@@ -57,7 +57,7 @@ void FUN_0892be50(void)
     iVar4 = 0;
     iVar9 = 0;
     do {
-      iVar5 = _DONE_Get_DAT_08AAC9E0();
+      iVar5 = DONE_Get_DAT_08AAC9E0();
       if (*(int *)(iVar5 + 4) != 0) {
         *(undefined4 *)(*(int *)(iVar5 + 4) + iVar7 + iVar9 + 0xf8) = 0xff;
       }
@@ -67,14 +67,14 @@ void FUN_0892be50(void)
     iVar8 = iVar8 + 1;
     iVar7 = iVar7 + 8;
   } while (iVar8 < 4);
-  iVar7 = _DONE_Get_DAT_08AAC9E0();
+  iVar7 = DONE_Get_DAT_08AAC9E0();
   if (*(int *)(iVar7 + 4) != 0) {
     *(undefined4 *)(*(int *)(iVar7 + 4) + 0x118) = 100;
   }
   iVar7 = 1;
   iVar8 = 4;
   do {
-    iVar4 = _DONE_Get_DAT_08AAC9E0();
+    iVar4 = DONE_Get_DAT_08AAC9E0();
     if (*(int *)(iVar4 + 4) != 0) {
       *(undefined4 *)(*(int *)(iVar4 + 4) + iVar8 + 0x118) = 100;
     }

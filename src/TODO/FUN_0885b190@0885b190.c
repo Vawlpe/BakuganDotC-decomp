@@ -35,7 +35,7 @@ LAB_0885b2c4:
         iVar1 = *(int *)(DAT_08ac58c4 + 0x20);
       }
       else if (*(int *)(DAT_08ac58c4 + 4) == 0x18) {
-        uVar2 = _DONE_Get_DAT_08AAC9E0(0x18,iVar1 + 0x57);
+        uVar2 = DONE_Get_DAT_08AAC9E0(0x18,iVar1 + 0x57);
         iVar3 = FUN_0880d0ac(uVar2,3);
         if (iVar1 == iVar3) {
           iVar1 = FUN_088b95ec(param_1 + 0x20,*(int *)(param_1 + 0x2c) + 0x57);
@@ -88,7 +88,7 @@ LAB_0885b2c4:
   if (iVar1 == 1) {
     iVar1 = *(int *)(param_1 + 0x2c);
     if (*(int *)(DAT_08ac58c4 + 4) == 0x18) {
-      uVar2 = _DONE_Get_DAT_08AAC9E0();
+      uVar2 = DONE_Get_DAT_08AAC9E0();
       iVar3 = FUN_0880d0ac(uVar2,3);
       if (iVar1 == iVar3) {
         if (*(int *)(param_1 + 0x2c) == 2) {

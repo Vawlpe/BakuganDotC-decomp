@@ -11,7 +11,7 @@ void FUN_0894e150(int param_1)
     if (cVar1 < '\x01') {
       if (-1 < cVar1) {
         FUN_0890a598(param_1,1);
-        uVar2 = _DONE_Get_DAT_08AAC9E0();
+        uVar2 = DONE_Get_DAT_08AAC9E0();
         FUN_0880cd9c(uVar2,7,0);
         return;
       }

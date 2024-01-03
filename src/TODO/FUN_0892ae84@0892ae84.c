@@ -14,12 +14,12 @@ void FUN_0892ae84(uint *param_1)
   uint local_1c;
   
   memset_jak((undefined *)&local_20,0,8);
-  piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
   if (*(char *)(*piVar1 + 0x462) == '\0') {
     uVar7 = 1;
     do {
       uVar5 = uVar7 & 0xff;
-      piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
       if ((int)uVar5 < 0) {
         uVar6 = -(-uVar5 & 7) & 0x1f;
       }
@@ -30,7 +30,7 @@ void FUN_0892ae84(uint *param_1)
         uVar5 = FUN_0892ae34(0,uVar5);
         uVar6 = uVar5 & 0xff;
         if (uVar6 != 0) {
-          piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+          piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
           if ((int)uVar6 < 0) {
             uVar5 = -(-uVar6 & 7) & 0x1f;
           }
@@ -47,7 +47,7 @@ void FUN_0892ae84(uint *param_1)
       bVar4 = (int)uVar7 < 0x14;
       uVar7 = uVar7 + 1;
     } while (bVar4);
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     iVar3 = FUN_0880d0ac(uVar2,0x2e);
     if (iVar3 == 0) {
       iVar3 = *(int *)(DAT_08ac58c4 + 4);

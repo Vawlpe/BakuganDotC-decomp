@@ -12,7 +12,7 @@ undefined4 FUN_089c2114(int param_1,int param_2,uint param_3,undefined param_4)
   undefined4 uVar7;
   
   uVar7 = 0;
-  uVar1 = _DONE_Get_DAT_08AC5874();
+  uVar1 = DONE_Get_DAT_08AC5874();
   uVar2 = FUN_089c61b8(uVar1,param_2,1);
   if (-1 < (int)uVar2) {
     iVar3 = 0;

@@ -10,7 +10,7 @@ int FUN_089c2fbc(undefined4 param_1)
   
   iVar4 = 0;
   iVar1 = FUN_089c2848();
-  if ((iVar1 != 0) && (iVar2 = _DONE_NotZero_DAT_08AC61E8(), iVar2 != 0)) {
+  if ((iVar1 != 0) && (iVar2 = DONE_NotZero_DAT_08AC61E8(), iVar2 != 0)) {
     uVar3 = FUN_089fce94();
     iVar1 = FUN_089fd350(uVar3,iVar1);
     if ((iVar1 != 0) && (iVar1 = FUN_089c2b10(1), iVar1 != 0)) {

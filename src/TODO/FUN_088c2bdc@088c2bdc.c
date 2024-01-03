@@ -32,7 +32,7 @@ void FUN_088c2bdc(int param_1)
         FUN_089bf2f0(*(int *)(param_1 + 0x6c8),1);
       }
       FUN_088c29b8();
-      uVar2 = _DONE_Get_DAT_08AAC9E0();
+      uVar2 = DONE_Get_DAT_08AAC9E0();
       FUN_0880d0e8(uVar2,0x40000000);
       FUN_089bf6e8(0x2724,100);
       *(undefined4 *)(param_1 + 0x618) = 7;

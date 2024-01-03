@@ -20,9 +20,9 @@ void FUN_0894c214(int param_1)
         iVar2 = FUN_089495f4(param_1);
         if (iVar2 == 0) {
           if ((*(byte *)(*(int *)(param_1 + 0x20) + 5) & 0x20) != 0) {
-            iVar2 = _DONE_NotZero_DAT_08AC5874();
+            iVar2 = DONE_NotZero_DAT_08AC5874();
             if (iVar2 != 0) {
-              uVar1 = _DONE_Get_DAT_08AC5874();
+              uVar1 = DONE_Get_DAT_08AC5874();
               FUN_089c6350(uVar1,2,0,0);
             }
             *(undefined4 *)(param_1 + 0x2c) = 3;

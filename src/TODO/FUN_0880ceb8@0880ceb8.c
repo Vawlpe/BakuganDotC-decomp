@@ -33,11 +33,11 @@ void FUN_0880ceb8(int *param_1)
     *(undefined4 *)(DAT_08ac58c4 + 0x14) = 0xffffffff;
     *(undefined4 *)(DAT_08ac58c4 + 0x18) = 0xffffffff;
     *(undefined4 *)(DAT_08ac58c4 + 0x1c) = 0xffffffff;
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar2,4,0xffffffff);
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar2,5,0xffffffff);
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar2,6,0xffffffff);
     FUN_0880ce1c(param_1,0);
     FUN_089cc664();

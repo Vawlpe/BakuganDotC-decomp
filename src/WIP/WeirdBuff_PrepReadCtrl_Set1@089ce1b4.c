@@ -1,6 +1,6 @@
 #include "ULUS10536_MYTHREAD-MAIN.BIN.h"
 
-undefined2 _WIP_WeirdBuff_PrepReadCtrl_Set1(unknown_buffer *weird_buff,undefined2 val)
+undefined2 WIP_WeirdBuff_PrepReadCtrl_Set1(config_buffer *weird_buff,undefined2 val)
 
 {
   undefined2 old;

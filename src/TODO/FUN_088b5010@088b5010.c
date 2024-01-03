@@ -62,10 +62,10 @@ void FUN_088b5010(int param_1)
       *(int *)(param_1 + 0x358) = auVar1._8_4_;
       *(undefined4 *)(param_1 + 0x35c) = uStack_64;
       *(float *)(param_1 + 0x354) = *(float *)(param_1 + 0x354) + 80.0;
-      iVar4 = _DONE_NotZero_DAT_08AC5258();
+      iVar4 = DONE_NotZero_DAT_08AC5258();
       pauVar6 = (undefined (*) [12])(param_1 + 0x360);
       if (iVar4 != 0) {
-        uVar8 = _DONE_Get_DAT_08AC5258();
+        uVar8 = DONE_Get_DAT_08AC5258();
         FUN_089c00c4(uVar8,0x200033,*(int *)(param_1 + 0x130) + 0xb0,0,1);
       }
       iVar4 = FUN_08824024(DAT_08abd5b0,0x39,pauVar7,&local_70);
@@ -122,9 +122,9 @@ LAB_088b5320:
       FUN_08876d00(iVar4,*(undefined4 *)(param_1 + 800),0x83);
       iVar3 = iVar4;
     }
-    iVar4 = _DONE_NotZero_DAT_08AC5258();
+    iVar4 = DONE_NotZero_DAT_08AC5258();
     if (iVar4 != 0) {
-      uVar8 = _DONE_Get_DAT_08AC5258(iVar3);
+      uVar8 = DONE_Get_DAT_08AC5258(iVar3);
       FUN_089c00c4(uVar8,0x200033,param_1 + 0x350,0,1);
     }
     FUN_0887799c(iVar3,param_1 + 0x350,param_1 + 0x360,0);

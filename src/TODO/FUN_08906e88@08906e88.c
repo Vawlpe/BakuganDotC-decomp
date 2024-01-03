@@ -125,12 +125,12 @@ LAB_0890709c:
     }
     else if (*(char *)(param_1 + 0x6d) == '\0') {
       *(undefined *)(param_1 + 0x6d) = 1;
-      iVar2 = _DONE_NotZero_DAT_08AC5874();
+      iVar2 = DONE_NotZero_DAT_08AC5874();
       if (iVar2 == 0) {
         iVar2 = *(int *)(param_1 + 0x30);
       }
       else {
-        uVar4 = _DONE_Get_DAT_08AC5874();
+        uVar4 = DONE_Get_DAT_08AC5874();
         FUN_089c6350(uVar4,0x4300012,0,0);
         iVar2 = *(int *)(param_1 + 0x30);
       }

@@ -1,13 +1,13 @@
 #include "ULUS10536_MYTHREAD-MAIN.BIN.h"
 
-int _WIP_KernCBReg_ExitGameAndPower(void)
+int WIP_KernCBReg_ExitGameAndPower(void)
 
 {
   int iVar1;
   int iVar2;
   
   iVar2 = 1;
-  iVar1 = zz_sceKernelCreateCallback("MyCB-ExitGame",_DONE_KernCB_ExitGame,0);
+  iVar1 = zz_sceKernelCreateCallback("MyCB-ExitGame",DONE_KernCB_ExitGame,0);
   if (iVar1 < 0) {
     iVar2 = 0;
   }
@@ -18,7 +18,7 @@ int _WIP_KernCBReg_ExitGameAndPower(void)
     }
   }
   if (iVar2 != 0) {
-    iVar1 = zz_sceKernelCreateCallback("MyCB-Power",_WIP_KernCB_Power,0);
+    iVar1 = zz_sceKernelCreateCallback("MyCB-Power",WIP_KernCB_Power,0);
     if (iVar1 < 0) {
       iVar2 = 0;
     }

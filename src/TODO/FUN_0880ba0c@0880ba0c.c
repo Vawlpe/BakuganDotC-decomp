@@ -17,7 +17,7 @@ void FUN_0880ba0c(int param_1,uint param_2)
       (**(code **)(*(int *)(iVar2 + 0x50) + 0xc))(iVar2 + *(short *)(*(int *)(iVar2 + 0x50) + 8),3);
       *(undefined4 *)(param_1 + 0x28) = 0;
     }
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     iVar2 = FUN_0880d0ac(uVar1,1);
     if (iVar2 == 1) {
       FUN_088c2a5c(param_1);

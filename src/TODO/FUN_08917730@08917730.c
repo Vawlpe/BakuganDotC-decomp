@@ -15,7 +15,7 @@ int FUN_08917730(int param_1)
   *(undefined **)(param_1 + 0xc) = &DAT_08af49d4;
   uVar6 = 0;
   do {
-    piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar2 = FUN_089174a8(param_1,1,uVar6 & 0xff);
     iVar5 = *piVar1 + ((int)(uVar2 + ((uint)((int)uVar2 >> 3) >> 0x1d)) >> 3);
     if ((int)uVar2 < 0) {

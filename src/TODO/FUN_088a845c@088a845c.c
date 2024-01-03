@@ -19,7 +19,7 @@ int FUN_088a845c(int param_1,char param_2)
   int local_18;
   int local_14;
   
-  uVar1 = _DONE_Get_DAT_08AAC9E0();
+  uVar1 = DONE_Get_DAT_08AAC9E0();
   iVar2 = FUN_0880d0ac(uVar1,2);
   memcpy_jak(&local_40,&DAT_08a84068,0x30);
   iVar3 = 900;

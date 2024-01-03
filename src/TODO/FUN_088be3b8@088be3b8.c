@@ -112,7 +112,7 @@ LAB_088be4b0:
         fVar10 = 0.0;
       }
       if (0.0 < (300.0 - fVar10) * 0.003333333) {
-        uVar9 = _DONE_Get_DAT_08AC5258();
+        uVar9 = DONE_Get_DAT_08AC5258();
         FUN_089c00c4(uVar9,0x2c000ca,pauVar8,0,1);
       }
     }
@@ -160,7 +160,7 @@ LAB_088be4b0:
       if (0.0 < fVar10) {
         *(short *)(param_1 + 0x4d0) = (short)(DAT_08abe9f0 >> 1);
         *(float *)(param_1 + 0x4cc) = fVar10;
-        uVar9 = _DONE_Get_DAT_08AC5258();
+        uVar9 = DONE_Get_DAT_08AC5258();
         FUN_089c00c4(uVar9,0x2c000c9,pauVar8,0,1);
       }
     }

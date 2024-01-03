@@ -16,7 +16,7 @@ uint FUN_0884d940(undefined4 param_1,char param_2)
     uVar2 = 0;
   }
   else {
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     iVar4 = FUN_0880d0ac(uVar3,7);
     if ((iVar4 < 1) || (2 < iVar4)) {
       iVar4 = FUN_088660e0();

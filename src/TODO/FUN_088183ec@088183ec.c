@@ -13,7 +13,7 @@ undefined4 FUN_088183ec(int param_1,int param_2)
        ((((param_2 != 0x207 && (param_2 != 0x208)) && (param_2 != 0x209)) && (param_2 != 0x20a)))) {
       uVar3 = 1;
     }
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     iVar2 = FUN_0880dba8(uVar1);
     if ((iVar2 == 2) &&
        ((((param_2 == 1 || (param_2 == 0x1f)) ||

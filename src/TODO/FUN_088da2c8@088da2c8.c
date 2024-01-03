@@ -38,8 +38,8 @@ void FUN_088da2c8(int param_1)
         *(undefined4 *)(param_1 + 0x240) = uVar2;
       }
       if (((*(short *)(param_1 + 0x142) == 0x324) && (*(char *)(param_1 + 0x260) == '\0')) &&
-         (iVar3 = _DONE_NotZero_DAT_08AC5874(), iVar3 != 0)) {
-        uVar2 = _DONE_Get_DAT_08AC5874();
+         (iVar3 = DONE_NotZero_DAT_08AC5874(), iVar3 != 0)) {
+        uVar2 = DONE_Get_DAT_08AC5874();
         FUN_089c6350(uVar2,0x2c00043,0,0);
       }
       *(undefined *)(param_1 + 0x260) = 1;

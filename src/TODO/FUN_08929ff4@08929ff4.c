@@ -32,9 +32,9 @@ undefined4 FUN_08929ff4(int param_1)
     break;
   case 4:
     if ((*(byte *)(*(int *)(param_1 + 0x20) + 5) & 0x40) != 0) {
-      iVar2 = _DONE_NotZero_DAT_08AC5874();
+      iVar2 = DONE_NotZero_DAT_08AC5874();
       if (iVar2 != 0) {
-        uVar1 = _DONE_Get_DAT_08AC5874();
+        uVar1 = DONE_Get_DAT_08AC5874();
         FUN_089c6350(uVar1,0,0,0);
       }
       FUN_08929fc4(param_1);

@@ -74,7 +74,7 @@ void FUN_08916780(int param_1)
         iVar3 = *(int *)(param_1 + 0x1c);
       }
       else {
-        piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+        piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
         if (*(char *)(*piVar1 + *(int *)(param_1 + 0x16a8) * 6 + *(int *)(param_1 + 0x1698) + 0x53f)
             == '\0') goto LAB_08916af4;
         iVar3 = *(int *)(param_1 + 0x1c);

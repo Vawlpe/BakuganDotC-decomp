@@ -10,7 +10,7 @@ void FUN_089c323c(int param_1,int param_2)
   uVar3 = 0;
   iVar1 = FUN_089bc814();
   if (iVar1 != 0) {
-    uVar2 = _DONE_GetPtr_DAT_08AC51F8();
+    uVar2 = DONE_GetPtr_DAT_08AC51F8();
     iVar1 = FUN_089bccc4(uVar2,param_2);
     if (iVar1 != 0) {
       uVar3 = 1;

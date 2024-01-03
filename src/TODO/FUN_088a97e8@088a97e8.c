@@ -20,7 +20,7 @@ int FUN_088a97e8(int param_1,int param_2,int param_3,int param_4)
     }
   }
   if (*(int *)(DAT_08ac58c4 + 0x20) == 2) {
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     iVar1 = FUN_0880d0ac(uVar2,0x1a);
     if (iVar1 == 1) {
       return 6;

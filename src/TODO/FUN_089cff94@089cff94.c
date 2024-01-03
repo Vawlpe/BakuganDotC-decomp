@@ -22,7 +22,7 @@ void FUN_089cff94(void)
     }
     memset_jak(DAT_08ac5940,0,0x3c0);
     FUN_089bb790(DAT_08ac5938[1]);
-    iVar2 = _DONE_GetPtr_DAT_08AB0300();
+    iVar2 = DONE_GetPtr_DAT_08AB0300();
     *(undefined4 *)(iVar2 + 0xe8) = 0xffffffff;
   }
   return;

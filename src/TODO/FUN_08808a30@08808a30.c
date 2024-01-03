@@ -46,7 +46,7 @@ LAB_08808ae4:
     if ((0 < *(int *)(DAT_08ac5934 + 0x1c)) && (*(int *)(DAT_08ac5934 + 0x1c) < 2)) {
       *(int *)(param_1 + 0x10) = *(int *)(param_1 + 0x10) + 1;
     }
-    iVar2 = _DONE_GetPtr_DAT_08AC51F8();
+    iVar2 = DONE_GetPtr_DAT_08AC51F8();
     if (*(int *)(iVar2 + 0x24) < *(int *)(param_1 + 0x10)) {
       *(undefined *)(param_1 + 0x14) = 1;
     }
@@ -74,7 +74,7 @@ LAB_08808ae4:
 LAB_08808b94:
   if (cVar4 == '\0') {
     FUN_08809148();
-    iVar2 = _DONE_GetPtr_DAT_08AC51F8();
+    iVar2 = DONE_GetPtr_DAT_08AC51F8();
     *(undefined4 *)(iVar2 + 0x24) = 0x3c;
   }
   else {

@@ -19,7 +19,7 @@ void FUN_0893b0a8(int param_1)
   case 0:
     break;
   case 1:
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar4 = *(uint *)(param_1 + 0x7ec);
     iVar6 = (int)(uVar4 + ((uint)((int)uVar4 >> 3) >> 0x1d)) >> 3;
     iVar5 = *piVar2 + iVar6;
@@ -69,7 +69,7 @@ LAB_0893b1e4:
     *(byte *)(*piVar2 + iVar6 + 0x5d3) = *(byte *)(*piVar2 + iVar6 + 0x5d3) | bVar1;
     break;
   case 2:
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar4 = *(uint *)(param_1 + 0x7ec) & 0xff;
     iVar6 = *piVar2 + ((int)uVar4 >> 3);
     if ((int)uVar4 < 0) {
@@ -81,7 +81,7 @@ LAB_0893b1e4:
     *(byte *)(iVar6 + 0x88) = *(byte *)(iVar6 + 0x88) | bVar1;
     break;
   case 3:
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     iVar5 = *(int *)(param_1 + 0x7ec);
     iVar6 = *piVar2 + iVar5;
     *(char *)(iVar6 + 0x410) = *(char *)(iVar6 + 0x410) + '\x01';
@@ -91,7 +91,7 @@ LAB_0893b1e4:
     }
     break;
   case 4:
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     iVar5 = *(int *)(*piVar2 + 0x464) + *(int *)(param_1 + 0x7ec);
     iVar6 = 9999999;
     if ((iVar5 < 10000000) && (iVar6 = iVar5, iVar5 < 0)) {
@@ -100,7 +100,7 @@ LAB_0893b1e4:
     *(int *)(*piVar2 + 0x464) = iVar6;
     break;
   case 5:
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar4 = *(int *)(param_1 + 0x7ec) + 1;
     if ((int)uVar4 < 0) {
       uVar3 = -(-uVar4 & 7) & 0x1f;
@@ -111,7 +111,7 @@ LAB_0893b1e4:
     if (((uint)*(byte *)(*piVar2 + DAT_08ac19f0 +
                          ((int)(uVar4 + ((uint)((int)uVar4 >> 3) >> 0x1d)) >> 3) + 0x53c) &
         1 << uVar3) == 0) {
-      piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
       uVar4 = *(int *)(param_1 + 0x7ec) + 1;
       iVar6 = *piVar2 + DAT_08ac19f0 + ((int)(uVar4 + ((uint)((int)uVar4 >> 3) >> 0x1d)) >> 3);
       if ((int)uVar4 < 0) {
@@ -124,7 +124,7 @@ LAB_0893b1e4:
     }
     break;
   case 6:
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar4 = FUN_0893aa80(param_1,1,*(uint *)(param_1 + 0x7ec) & 0xff);
     if ((int)uVar4 < 0) {
       uVar3 = -(-uVar4 & 7) & 0x1f;
@@ -134,7 +134,7 @@ LAB_0893b1e4:
     }
     if (((uint)*(byte *)(*piVar2 + ((int)(uVar4 + ((uint)((int)uVar4 >> 3) >> 0x1d)) >> 3) + 0x540)
         & 1 << uVar3) == 0) {
-      piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
       uVar4 = FUN_0893aa80(param_1,1,*(uint *)(param_1 + 0x7ec) & 0xff);
       iVar6 = *piVar2 + ((int)(uVar4 + ((uint)((int)uVar4 >> 3) >> 0x1d)) >> 3);
       if ((int)uVar4 < 0) {
@@ -147,17 +147,17 @@ LAB_0893b1e4:
     }
     break;
   case 7:
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     *(char *)(*piVar2 + 0x410) = *(char *)(*piVar2 + 0x410) + '\n';
     if ('c' < *(char *)(*piVar2 + 0x410)) {
       *(undefined *)(*piVar2 + 0x410) = 99;
     }
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     DAT_08b00bd8._1_1_ = 'c';
     if (*(char *)(*piVar2 + 0x410) < 'd') {
       DAT_08b00bd8._1_1_ = *(char *)(*piVar2 + 0x410);
     }
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     iVar6 = *piVar2;
     iVar5 = 0;
     iVar7 = 0x21;
@@ -170,7 +170,7 @@ LAB_0893b1e4:
       iVar5 = iVar5 + 8;
     } while (iVar7 != 0);
     cStack_11b = DAT_08b00bd8._1_1_;
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     iVar6 = *piVar2;
     iVar5 = 0;
     iVar7 = 0x21;
@@ -184,7 +184,7 @@ LAB_0893b1e4:
     } while (iVar7 != 0);
     break;
   case 8:
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     iVar5 = *(int *)(*piVar2 + 0x464) + 10000;
     iVar6 = 9999999;
     if ((iVar5 < 10000000) && (iVar6 = iVar5, iVar5 < 0)) {
@@ -193,7 +193,7 @@ LAB_0893b1e4:
     *(int *)(*piVar2 + 0x464) = iVar6;
     break;
   case 9:
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar4 = *(int *)(param_1 + 0x7ec) + 1;
     iVar6 = (int)(uVar4 + ((uint)((int)uVar4 >> 3) >> 0x1d)) >> 3;
     if ((int)uVar4 < 0) {

@@ -13,9 +13,9 @@ undefined * FUN_089c2848(int param_1)
   }
   else {
     iVar3 = 1;
-    iVar1 = _DONE_NotZero_DAT_08AAC9E0();
+    iVar1 = DONE_NotZero_DAT_08AAC9E0();
     if (iVar1 != 0) {
-      uVar2 = _DONE_Get_DAT_08AAC9E0();
+      uVar2 = DONE_Get_DAT_08AAC9E0();
       iVar3 = FUN_0880dba8(uVar2);
     }
     FUN_089b4c84(auStack_50,"voice/%s/VO_%d.at3",(&PTR_DAT_08ac5838)[iVar3],param_1);

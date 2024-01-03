@@ -38,7 +38,7 @@ int FUN_088e0d94(int param_1)
   *(undefined4 *)(param_1 + 0x4f8) = 0;
   *(undefined *)(param_1 + 0x3c4) = 0;
   *(undefined4 *)(param_1 + 0x414) = 0;
-  piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
   *(undefined4 *)(param_1 + 0x3c8) = *(undefined4 *)(*piVar2 + 0x464);
   *(undefined4 *)(param_1 + 0x3cc) = 0xffffffff;
   *(undefined *)(param_1 + 0x3d0) = 0;

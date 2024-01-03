@@ -8,7 +8,7 @@ undefined4 FUN_089d61bc(int param_1)
   
   uVar2 = 0;
   if ((*(char *)(param_1 + 0x40) != '\0') &&
-     (iVar1 = _WIP_Init__LoopThingIdk_Step(0xe,0,0), iVar1 != 0)) {
+     (iVar1 = WIP_Init_LoopThingIdk_Step(0xe,0,0), iVar1 != 0)) {
     uVar2 = 1;
     FUN_08a0fadc(0,0,0);
   }

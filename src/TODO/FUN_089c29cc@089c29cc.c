@@ -26,7 +26,7 @@ void FUN_089c29cc(int param_1)
     *piVar3 = param_1;
     memset_jak((undefined *)&local_20,0,4);
     local_20 = param_1;
-    _WIP_Init__LoopThingIdk_Step(param_1 + 9,&local_20,4);
+    WIP_Init_LoopThingIdk_Step(param_1 + 9,&local_20,4);
   }
   return;
 }

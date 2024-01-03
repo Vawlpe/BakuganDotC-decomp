@@ -9,7 +9,7 @@ int FUN_08809174(int param_1)
   *(undefined **)(param_1 + 0xc) = &DAT_08af1494;
   *(undefined4 *)(param_1 + 0x10) = 0;
   *(undefined4 *)(param_1 + 0x14) = 0;
-  uVar1 = _DONE_Get_DAT_08AAC9E0();
+  uVar1 = DONE_Get_DAT_08AAC9E0();
   FUN_0880d808(uVar1,0x40000000);
   return param_1;
 }

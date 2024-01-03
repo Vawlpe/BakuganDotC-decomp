@@ -35,7 +35,7 @@ void FUN_08839f74(int param_1)
         }
         FUN_08838368(param_1,iVar1);
         if ((iVar5 != 0x24) &&
-           (piVar4 = (int *)_DONE_Get_DAT_08AAC9E0(), *(char *)(*piVar4 + 0x6ab) != '\x01')) {
+           (piVar4 = (int *)DONE_Get_DAT_08AAC9E0(), *(char *)(*piVar4 + 0x6ab) != '\x01')) {
           FUN_08838780(param_1,iVar1,0);
           FUN_088388d4(param_1,iVar1,1);
           FUN_08838a38(param_1,iVar1,2);

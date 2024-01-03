@@ -29,9 +29,9 @@ void FUN_0895266c(int param_1)
   else {
     iVar6 = FUN_0881b22c();
     if (iVar6 != 0) {
-      uVar2 = _DONE_GetPtr_DAT_08AB0300();
+      uVar2 = DONE_GetPtr_DAT_08AB0300();
       FUN_0881b634(uVar2,0x8000000);
-      uVar2 = _DONE_GetPtr_DAT_08AB0300();
+      uVar2 = DONE_GetPtr_DAT_08AB0300();
       FUN_0881b620(uVar2,0x1000000);
     }
   }

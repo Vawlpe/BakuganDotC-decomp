@@ -39,9 +39,9 @@ int FUN_088e628c(int param_1)
     bVar6 = true;
   }
   iVar8 = FUN_088e1948();
-  iVar9 = _DONE_NotZero_DAT_08AAC9E0();
+  iVar9 = DONE_NotZero_DAT_08AAC9E0();
   if (iVar9 != 0) {
-    uVar10 = _DONE_Get_DAT_08AAC9E0();
+    uVar10 = DONE_Get_DAT_08AAC9E0();
     iVar9 = FUN_0880d0ac(uVar10,0x2f);
     if (0 < iVar9) {
       iVar8 = 0;

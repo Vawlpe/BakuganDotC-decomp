@@ -24,7 +24,7 @@ void FUN_089524b8(undefined4 *param_1,uint param_2)
                     (iVar1 + *(short *)(*(int *)(iVar1 + 0x4c) + 8),3);
           param_1[9] = 0;
         }
-        iVar1 = _DONE_GetPtr_DAT_08AB0300();
+        iVar1 = DONE_GetPtr_DAT_08AB0300();
         *(undefined *)(*(int *)(iVar1 + 0xe4) + 0x3c) = 0;
         param_1[8] = WeirdBuff;
         DAT_08ac0e78 = *param_1;

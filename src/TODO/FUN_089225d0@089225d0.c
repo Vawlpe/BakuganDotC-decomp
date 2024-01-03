@@ -31,7 +31,7 @@ undefined4 FUN_089225d0(int param_1)
     }
     else if (uVar3 == 7) {
       uVar5 = *(undefined4 *)(PTR_PTR_DAT_08aae714 + 0x60);
-      uVar4 = _DONE_Get_DAT_08AAC9E0();
+      uVar4 = DONE_Get_DAT_08AAC9E0();
       uVar4 = FUN_0880d0ac(uVar4,0x2d);
       FUN_089b4c84(auStack_120,uVar5,uVar4);
       uVar4 = FUN_08816aac();

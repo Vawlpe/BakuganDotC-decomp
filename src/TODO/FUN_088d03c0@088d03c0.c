@@ -30,7 +30,7 @@ void FUN_088d03c0(int param_1)
   *(undefined4 *)(*(int *)(param_1 + 0xd8) + 100) = *(undefined4 *)(param_1 + 0xe0);
   local_60 = 0;
   memset_jak(auStack_5f,0,0x3f);
-  _DONE_Get_DAT_08AAC9E0();
+  DONE_Get_DAT_08AAC9E0();
   uVar1 = FUN_0880dd54();
   FUN_089b4c84(&local_60,"mes_Adventure_hint_%s.bin",uVar1);
   uVar1 = FUN_089be054(DAT_08ac520c,&local_60);

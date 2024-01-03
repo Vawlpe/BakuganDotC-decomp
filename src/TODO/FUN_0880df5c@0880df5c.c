@@ -7,7 +7,7 @@ int FUN_0880df5c(int param_1)
   int iVar2;
   
   if (param_1 == -1) {
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     param_1 = FUN_0880d0ac(uVar1,0x13);
   }
   iVar2 = FUN_0880ddb4(param_1);

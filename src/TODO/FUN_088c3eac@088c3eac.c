@@ -85,7 +85,7 @@ undefined4 FUN_088c3eac(int param_1)
     return 0x17;
   }
   if (*(int *)(iVar7 + 0x168) == 9) {
-    uVar14 = _DONE_Get_DAT_08AAC9E0();
+    uVar14 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar14,0x34,1);
     FUN_088f491c(*(undefined4 *)(param_1 + 0x78c));
     FUN_088e1d44(*DAT_08abf710);
@@ -110,9 +110,9 @@ undefined4 FUN_088c3eac(int param_1)
     return 0x12;
   }
   if (*(int *)(iVar7 + 0x168) == 0x10) {
-    iVar8 = _DONE_NotZero_DAT_08AC5874();
+    iVar8 = DONE_NotZero_DAT_08AC5874();
     if (iVar8 != 0) {
-      uVar14 = _DONE_Get_DAT_08AC5874();
+      uVar14 = DONE_Get_DAT_08AC5874();
       FUN_089c6350(uVar14,0,0,0);
     }
     FUN_088f491c(*(undefined4 *)(param_1 + 0x78c));
@@ -124,9 +124,9 @@ undefined4 FUN_088c3eac(int param_1)
     return 0x18;
   }
   if (*(int *)(iVar7 + 0x168) == 0x11) {
-    iVar8 = _DONE_NotZero_DAT_08AC5874();
+    iVar8 = DONE_NotZero_DAT_08AC5874();
     if (iVar8 != 0) {
-      uVar14 = _DONE_Get_DAT_08AC5874();
+      uVar14 = DONE_Get_DAT_08AC5874();
       FUN_089c6350(uVar14,0,0,0);
     }
     FUN_088f491c(*(undefined4 *)(param_1 + 0x78c));
@@ -162,9 +162,9 @@ undefined4 FUN_088c3eac(int param_1)
       FUN_088bad9c(param_1 + 0x20);
       return 0x1c;
     }
-    iVar8 = _DONE_NotZero_DAT_08AC5874();
+    iVar8 = DONE_NotZero_DAT_08AC5874();
     if (iVar8 != 0) {
-      uVar14 = _DONE_Get_DAT_08AC5874();
+      uVar14 = DONE_Get_DAT_08AC5874();
       FUN_089c6350(uVar14,0,0,0);
     }
     FUN_088f491c(*(undefined4 *)(param_1 + 0x78c));
@@ -175,11 +175,11 @@ undefined4 FUN_088c3eac(int param_1)
     uVar13 = *(undefined4 *)(DAT_08ac58c4 + 4);
     FUN_089b1bd8();
     FUN_089b1c54(1,*(uint *)(DAT_08ac58c4 + 4) & 0xff);
-    uVar14 = _DONE_Get_DAT_08AAC9E0();
+    uVar14 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar14,0x33,*(undefined4 *)(DAT_08ac58c4 + 4));
-    uVar14 = _DONE_Get_DAT_08AAC9E0();
+    uVar14 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar14,0x2e,0);
-    uVar14 = _DONE_Get_DAT_08AAC9E0();
+    uVar14 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar14,0x31,uVar13);
     return 0x18;
   }

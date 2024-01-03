@@ -10,7 +10,7 @@ bool FUN_089d6790(undefined4 param_1)
     DAT_08ac5b9c = 1;
     DAT_08ac5b98 = 1;
     DAT_08ac5b94 = param_1;
-    _WIP_Init__LoopThingIdk_Step(0xd,0,0);
+    WIP_Init_LoopThingIdk_Step(0xd,0,0);
   }
   return iVar1 != 0;
 }

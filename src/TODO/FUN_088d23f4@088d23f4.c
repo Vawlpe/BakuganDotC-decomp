@@ -101,7 +101,7 @@ LAB_088d24a4:
     FUN_088d0a0c(param_1);
     FUN_088d0b94(param_1);
     FUN_088d0e54(param_1);
-    piVar6 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar6 = (int *)DONE_Get_DAT_08AAC9E0();
     iVar5 = (int)*(char *)(*piVar6 + 0x410);
     if (iVar5 < 10) {
       FUN_089f4a90((float)(iVar5 / 5),(float)(iVar5 % 5),

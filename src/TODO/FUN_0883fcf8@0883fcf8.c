@@ -20,7 +20,7 @@ void FUN_0883fcf8(int param_1)
     }
     *(undefined *)(param_1 + 0x680) = 1;
   }
-  uVar2 = _DONE_Get_DAT_08AAC9E0();
+  uVar2 = DONE_Get_DAT_08AAC9E0();
   iVar1 = FUN_0880d0ac(uVar2,0x1b);
   if (iVar1 < 1) {
     iVar1 = 1;

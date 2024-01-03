@@ -42,11 +42,11 @@ undefined4 * FUN_08848f94(int param_1,undefined4 param_2,int param_3)
   if (param_3 == 0) {
     DAT_08aba77f = 0;
   }
-  uVar1 = _DONE_Get_DAT_08AC5258();
+  uVar1 = DONE_Get_DAT_08AC5258();
   FUN_089c00ac(uVar1,param_1 + 0x20,param_1 + 0x20);
-  iVar2 = _DONE_NotZero_DAT_08AC5874();
+  iVar2 = DONE_NotZero_DAT_08AC5874();
   if (iVar2 != 0) {
-    uVar1 = _DONE_Get_DAT_08AC5874();
+    uVar1 = DONE_Get_DAT_08AC5874();
     FUN_089c6350(uVar1,0x200133,0,0);
   }
   return puVar5;

@@ -35,12 +35,12 @@ int FUN_089afc18(int param_1)
   *(undefined *)(*(int *)(param_1 + 0x20) + 0x3c) = 1;
   iVar3 = FUN_0881b22c();
   if (iVar3 != 0) {
-    uVar1 = _DONE_GetPtr_DAT_08AB0300();
+    uVar1 = DONE_GetPtr_DAT_08AB0300();
     FUN_0881bbd8(uVar1);
   }
-  iVar3 = _DONE_NotZero_DAT_08AAC9E0();
+  iVar3 = DONE_NotZero_DAT_08AAC9E0();
   if (iVar3 != 0) {
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     FUN_0880d808(uVar1,0x7eff);
   }
   FUN_0880d308();

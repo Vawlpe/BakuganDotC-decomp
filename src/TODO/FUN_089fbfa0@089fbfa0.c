@@ -339,7 +339,7 @@ LAB_089fc8a0:
         iVar7 = *(int *)(param_1 + 0x44);
       }
       else {
-        uVar10 = _DONE_GetPtr_DAT_08AC51F8();
+        uVar10 = DONE_GetPtr_DAT_08AC51F8();
         iVar7 = FUN_089bcd4c(uVar10,iVar7 + iVar8,uVar3,iVar5,*(undefined4 *)(param_1 + 0x4c));
         if (iVar7 == 0) {
           bVar2 = false;

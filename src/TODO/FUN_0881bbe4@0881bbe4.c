@@ -17,7 +17,7 @@ void FUN_0881bbe4(int param_1)
     iVar1 = *(int *)(param_1 + 4);
   }
   else {
-    uVar2 = _DONE_GetPtr_DAT_08AC58E0();
+    uVar2 = DONE_GetPtr_DAT_08AC58E0();
     iVar1 = FUN_089cc300(uVar2);
     if (iVar1 != 0) {
       return;

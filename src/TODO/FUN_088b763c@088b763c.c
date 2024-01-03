@@ -8,7 +8,7 @@ bool FUN_088b763c(int param_1)
   bool bVar3;
   
   bVar3 = false;
-  if ((param_1 != 0) && (iVar2 = _DONE_NotZero_DAT_08AAC9E0(), iVar2 != 0)) {
+  if ((param_1 != 0) && (iVar2 = DONE_NotZero_DAT_08AAC9E0(), iVar2 != 0)) {
     switch(((int)*(char *)(param_1 + 0xb) & 0xfcU) >> 2) {
     case 1:
     case 6:

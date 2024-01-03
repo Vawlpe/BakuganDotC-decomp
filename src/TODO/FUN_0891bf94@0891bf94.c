@@ -72,7 +72,7 @@ void FUN_0891bf94(int param_1)
   FUN_0891be74(param_1);
   FUN_0891bf38(param_1);
   memset_jak((undefined *)(param_1 + 0x227c),0,8);
-  uVar3 = _DONE_Get_DAT_08AAC9E0();
+  uVar3 = DONE_Get_DAT_08AAC9E0();
   iVar5 = FUN_0880d0ac(uVar3,0x2e);
   if (iVar5 == 1) {
     FUN_089c9b74(0x20,DAT_08ac58c8);

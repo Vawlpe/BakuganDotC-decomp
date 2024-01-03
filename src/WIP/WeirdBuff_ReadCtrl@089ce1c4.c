@@ -1,6 +1,6 @@
 #include "ULUS10536_MYTHREAD-MAIN.BIN.h"
 
-void _WIP_WeirdBuff_ReadCtrl(unknown_buffer *unknown_buffer,bool blockWhenReading)
+void WIP_WeirdBuff_ReadCtrl(config_buffer *unknown_buffer,bool blockWhenReading)
 
 {
   int buffersRead;
@@ -9,7 +9,7 @@ void _WIP_WeirdBuff_ReadCtrl(unknown_buffer *unknown_buffer,bool blockWhenReadin
   uint uVar4;
   int i;
   byte sVar5;
-  unknown_buffer *loop_buff_copy;
+  config_buffer *loop_buff_copy;
   uint uVar7;
   uint uVar8;
   byte *puVar9;
@@ -20,13 +20,13 @@ void _WIP_WeirdBuff_ReadCtrl(unknown_buffer *unknown_buffer,bool blockWhenReadin
   uint local_9c;
   byte local_98;
   byte local_97;
-  short sVar2;
+  ushort sVar2;
   byte bVar1;
   char cVar1;
   
                     // Some kind of guard clause
-  if (unknown_buffer->field_0x3a == uVar5) {
-    _WIP_WeirdBuff_PrepReadCtrl(unknown_buffer,0);
+  if (unknown_buffer->ctrlIsSet == false) {
+    WIP_WeirdBuff_PrepReadCtrl(unknown_buffer,0);
     return;
   }
   puVar9 = unknown_buffer->field0_0x0 + 2;
@@ -45,11 +45,11 @@ void _WIP_WeirdBuff_ReadCtrl(unknown_buffer *unknown_buffer,bool blockWhenReadin
   if (buffersRead == 0) {
     unknown_buffer->field44_0x3b = '\0';
     uVar2 = *(ushort *)puVar9;
-    cVar1 = unknown_buffer->field_0x3c;
+    cVar1 = unknown_buffer->field45_0x3c;
   }
   else {
     *(ushort *)puVar9 = (ushort)local_9c;
-    cVar1 = unknown_buffer->field_0x3c;
+    cVar1 = unknown_buffer->field45_0x3c;
     if ((local_9c & 0x20000) == 0) {
       uVar3 = 0;
       if (unknown_buffer->field42_0x39 != uVar12) {
@@ -78,14 +78,14 @@ void _WIP_WeirdBuff_ReadCtrl(unknown_buffer *unknown_buffer,bool blockWhenReadin
         uVar8 = (int)(uVar8 * 0x59 + ((uint)((int)(uVar8 * 0x59) >> 7) >> 0x19)) >> 7;
       }
       *(float *)((int)&unknown_buffer->field38_0x2f + 1) = (float)uVar7 * -0.0078125;
-      *(float *)((int)&unknown_buffer->field39_0x33 + 1) = (float)uVar8 * 0.0078125;
+      unknown_buffer->field40_0x34 = (float)uVar8 * 0.0078125;
     }
     unknown_buffer->field44_0x3b = '\x01';
     uVar2 = *(ushort *)puVar9;
   }
   if ((cVar1 != uVar9) && ((uVar2 & 0xf0) == 0)) {
     fVar4 = *(float *)((int)&unknown_buffer->field38_0x2f + 1);
-    fVar3 = *(float *)((int)&unknown_buffer->field39_0x33 + 1);
+    fVar3 = unknown_buffer->field40_0x34;
     unknown_buffer->field0_0x0[2] = unknown_buffer->field0_0x0[2] & 0x7f | (0.8 < fVar4) << 7;
     unknown_buffer->field0_0x0[2] = unknown_buffer->field0_0x0[2] & 0xdf | (fVar4 < -0.8) << 5;
     unknown_buffer->field0_0x0[2] = unknown_buffer->field0_0x0[2] & 0xef | (fVar3 < -0.8) << 4;
@@ -104,16 +104,15 @@ void _WIP_WeirdBuff_ReadCtrl(unknown_buffer *unknown_buffer,bool blockWhenReadin
     sVar2 = 0;
     uVar2 = *(ushort *)((int)&unknown_buffer->field36_0x2b + 1);
     if ((*(ushort *)puVar9 & uVar7) != 0) {
-      sVar2 = *(short *)((int)&loop_buff_copy->field3_0x9 + 1) + 1;
+      sVar2 = loop_buff_copy->field4_0xa + 1;
     }
-    *(short *)((int)&loop_buff_copy->field3_0x9 + 1) = sVar2;
-    if (uVar2 < *(ushort *)((int)&loop_buff_copy->field3_0x9 + 1)) {
-      *(ushort *)((int)&loop_buff_copy->field3_0x9 + 1) =
-           uVar2 - *(short *)((int)&unknown_buffer->field37_0x2d + 1);
+    loop_buff_copy->field4_0xa = sVar2;
+    if (uVar2 < loop_buff_copy->field4_0xa) {
+      loop_buff_copy->field4_0xa = uVar2 - *(short *)((int)&unknown_buffer->field37_0x2d + 1);
       *puVar10 = *puVar10 | (ushort)uVar7;
     }
     i = i + 1;
-    loop_buff_copy = (unknown_buffer *)(loop_buff_copy->field0_0x0 + 2);
+    loop_buff_copy = (config_buffer *)(loop_buff_copy->field0_0x0 + 2);
   } while (i < 0x11);
   *puVar10 = *puVar10 | *(ushort *)(unknown_buffer->field0_0x0 + 4);
   return;

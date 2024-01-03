@@ -29,7 +29,7 @@ void FUN_0892a1f8(int param_1)
   }
   if (uVar6 == 1) {
     uVar9 = 0x12;
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     iVar2 = FUN_0880d0ac(uVar1,0x1c);
     if (iVar2 == 1) {
       uVar9 = 0xe;
@@ -57,9 +57,9 @@ void FUN_0892a1f8(int param_1)
   local_24 = uVar6;
   FUN_089b1ec0(local_3a,(int)(uVar7 + ((uint)((int)uVar7 >> 2) >> 0x1e)) >> 2 & 0xff,uVar8);
   uVar7 = FUN_0892ae34(0,uVar10);
-  piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
   if ((uVar10 != *(uint *)(*piVar3 + 0x48c)) &&
-     (piVar3 = (int *)_DONE_Get_DAT_08AAC9E0(0), (uVar7 & 0xff) != *(uint *)(*piVar3 + 0x48c))) {
+     (piVar3 = (int *)DONE_Get_DAT_08AAC9E0(0), (uVar7 & 0xff) != *(uint *)(*piVar3 + 0x48c))) {
     *(undefined2 *)(param_1 + 0x704) = 0x21;
     iVar2 = FUN_089b1d7c(2);
     if (iVar2 == 1) {
@@ -95,7 +95,7 @@ void FUN_0892a1f8(int param_1)
     iVar2 = 0;
     uVar7 = 0;
     do {
-      piVar3 = (int *)_DONE_Get_DAT_08AAC9E0(bVar5);
+      piVar3 = (int *)DONE_Get_DAT_08AAC9E0(bVar5);
       if (*(char *)(*piVar3 + (uVar7 & 0xff) + 0x84) != '\0') {
         iVar2 = iVar2 + 1;
       }
@@ -113,9 +113,9 @@ void FUN_0892a1f8(int param_1)
       uVar7 = 0;
       uVar6 = uVar6 >> 8 & 0xff;
       do {
-        piVar3 = (int *)_DONE_Get_DAT_08AAC9E0(bVar5);
+        piVar3 = (int *)DONE_Get_DAT_08AAC9E0(bVar5);
         if (*(char *)(*piVar3 + (uVar7 & 0xff) + 0x84) != '\0') {
-          piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+          piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
           uVar10 = FUN_0891c54c(1,(int)(*(byte *)(*piVar3 + (uVar7 & 0xff) + 0x84) - 0xe) / 3 & 0xff
                                );
           if (uVar6 == (uVar10 & 0xff)) {
@@ -164,15 +164,15 @@ void FUN_0892a1f8(int param_1)
   iVar2 = 0;
   iVar11 = 0;
   do {
-    piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
-    piVar4 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
+    piVar4 = (int *)DONE_Get_DAT_08AAC9E0();
     if (*(char *)(*piVar3 + *(int *)(*piVar4 + 0x48c) * 6 + iVar11 + 0x540) == '\x01') {
       iVar2 = iVar2 + 1;
     }
     iVar11 = iVar11 + 1;
   } while (iVar11 < 6);
   if (5 < iVar2) {
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     iVar2 = FUN_0880d0ac(uVar1,0x1c);
     if (iVar2 == 1) {
       *(undefined2 *)(param_1 + 0x704) = 0xe;

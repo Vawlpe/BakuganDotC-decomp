@@ -76,7 +76,7 @@ int FUN_089573b4(int param_1)
       iVar4 = *(int *)(param_1 + 0x52a0);
     }
     else {
-      uVar2 = _DONE_GetPtr_DAT_08AB0300();
+      uVar2 = DONE_GetPtr_DAT_08AB0300();
       uVar2 = FUN_0881b66c(uVar2);
       *(undefined4 *)(param_1 + 0x52a0) = uVar2;
       iVar4 = *(int *)(param_1 + 0x52a0);

@@ -22,7 +22,7 @@ void FUN_0896026c(int param_1,uint param_2)
   bVar2 = false;
   iVar8 = 0;
   do {
-    piVar4 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar4 = (int *)DONE_Get_DAT_08AAC9E0();
     iVar5 = FUN_0895647c(param_1,0,*(undefined *)(param_1 + 0x74));
     uVar6 = (iVar5 * 4 + iVar8) - 4;
     if ((int)uVar6 < 0) {

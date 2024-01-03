@@ -196,8 +196,8 @@ LAB_089d178c:
         iVar9 = *(int *)(param_1 + 0x11c);
       }
       else {
-        uVar4 = _DONE_GetPtr_DAT_08AB0300();
-        uVar5 = _DONE_GetPtr_DAT_08AB0300();
+        uVar4 = DONE_GetPtr_DAT_08AB0300();
+        uVar5 = DONE_GetPtr_DAT_08AB0300();
         uVar13 = FUN_0881b64c(uVar5);
         FUN_0881b620(uVar4,uVar13 | 0x800000);
         iVar9 = *(int *)(param_1 + 0x11c);

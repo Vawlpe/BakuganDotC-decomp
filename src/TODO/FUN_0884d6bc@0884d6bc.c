@@ -20,7 +20,7 @@ int FUN_0884d6bc(int param_1)
   if (((iVar4 == 0) && (*(int *)(DAT_08ac58c4 + 0x20) == 1)) && (*(int *)(param_1 + 0x590) != 0)) {
     iVar1 = FUN_088b2cb4();
     if (iVar1 < *(int *)(param_1 + 0x590)) {
-      uVar3 = _DONE_Get_DAT_08AAC9E0();
+      uVar3 = DONE_Get_DAT_08AAC9E0();
       FUN_0880cd9c(uVar3,0x1c,1);
       iVar4 = 1;
       FUN_0884b588(param_1,DAT_08abd5a0,1,1);

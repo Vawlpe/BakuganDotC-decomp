@@ -36,9 +36,9 @@ undefined4 FUN_08859164(int param_1)
           }
           *(int *)(param_1 + 0x8c0) = *(int *)(param_1 + 0x8c0) + 1;
         }
-        iVar8 = _DONE_NotZero_DAT_08AC5258();
+        iVar8 = DONE_NotZero_DAT_08AC5258();
         if (iVar8 != 0) {
-          uVar6 = _DONE_Get_DAT_08AC5258(param_1);
+          uVar6 = DONE_Get_DAT_08AC5258(param_1);
           FUN_089c00c4(uVar6,0x20001e,*(int *)(param_1 + 0x130) + 0xb0,0,1);
         }
         FUN_0886271c(param_1,iVar5);

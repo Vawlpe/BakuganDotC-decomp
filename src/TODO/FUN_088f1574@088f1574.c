@@ -24,7 +24,7 @@ void FUN_088f1574(int param_1)
   local_1c = 0x14;
   iVar4 = 0;
   do {
-    piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar2 = *puVar5;
     if ((int)uVar2 < 0) {
       uVar3 = -(-uVar2 & 7) & 0x1f;

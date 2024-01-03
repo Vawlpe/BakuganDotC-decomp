@@ -24,7 +24,7 @@ void FUN_0896b5bc(uint param_1)
         iVar6 = 0;
         iVar4 = 0;
         do {
-          iVar1 = _DONE_Get_DAT_08AAC9E0(uVar2);
+          iVar1 = DONE_Get_DAT_08AAC9E0(uVar2);
           if (*(int *)(iVar1 + 4) != 0) {
             *(undefined4 *)(*(int *)(iVar1 + 4) + iVar5 + iVar4 + 0xd8) = 0xff;
           }
@@ -37,7 +37,7 @@ void FUN_0896b5bc(uint param_1)
         uVar2 = uVar9;
         do {
           if (((*(byte *)(uVar2 + 0x29fc) & 1) != 0) && (uVar7 < 2)) {
-            iVar6 = _DONE_Get_DAT_08AAC9E0();
+            iVar6 = DONE_Get_DAT_08AAC9E0();
             if (*(int *)(iVar6 + 4) != 0) {
               *(uint *)(*(int *)(iVar6 + 4) + iVar5 + uVar7 * 4 + 0xd8) =
                    (uint)*(byte *)(uVar2 + 0x29ec);
@@ -47,7 +47,7 @@ void FUN_0896b5bc(uint param_1)
           iVar4 = iVar4 + 1;
           uVar2 = uVar9 + iVar4;
         } while (iVar4 < 4);
-        iVar4 = _DONE_Get_DAT_08AAC9E0();
+        iVar4 = DONE_Get_DAT_08AAC9E0();
         if (*(int *)(iVar4 + 4) != 0) {
           *(uint *)(*(int *)(iVar4 + 4) + iVar8 + 0x118) = (uint)*(byte *)(param_1 + iVar3 + 0x2a4c)
           ;

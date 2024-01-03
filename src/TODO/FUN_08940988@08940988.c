@@ -38,12 +38,12 @@ LAB_08940c68:
     }
     break;
   case 2:
-    iVar2 = _DONE_NotZero_DAT_08AC5874();
+    iVar2 = DONE_NotZero_DAT_08AC5874();
     if (iVar2 == 0) {
       iVar2 = *(int *)(param_1 + 0x80);
     }
     else {
-      uVar1 = _DONE_Get_DAT_08AC5874();
+      uVar1 = DONE_Get_DAT_08AC5874();
       FUN_089c6350(uVar1,0x2c0000b,0,0);
       iVar2 = *(int *)(param_1 + 0x80);
     }

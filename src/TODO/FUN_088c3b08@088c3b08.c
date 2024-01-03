@@ -109,7 +109,7 @@ void FUN_088c3b08(undefined4 *param_1,uint param_2)
         param_1[0x1e3] = 0;
       }
     }
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar2,0x1d,*param_1);
     DAT_08ac601e = 0;
     FUN_088c17f8();

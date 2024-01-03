@@ -218,7 +218,7 @@ void FUN_088d2850(int param_1)
   *pfVar6 = *pfVar6 - fVar9;
   iVar5 = *(int *)(*(int *)(param_1 + 0x1c) + 0x28);
   *(uint *)(iVar5 + 0xd0) = *(uint *)(iVar5 + 0xd0) | 1;
-  piVar4 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar4 = (int *)DONE_Get_DAT_08AAC9E0();
   iVar5 = (int)*(char *)(*piVar4 + 0x410);
   if (iVar5 < 10) {
     FUN_089f4a90((float)(iVar5 / 5),(float)(iVar5 % 5),

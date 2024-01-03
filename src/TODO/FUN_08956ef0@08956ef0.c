@@ -18,7 +18,7 @@ void FUN_08956ef0(undefined4 param_1)
     iVar2 = FUN_0880d354();
     uVar6 = uVar6 + 1;
     if (iVar2 == 0) {
-      piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
       if ((int)uVar6 < 0) {
         uVar5 = -(-uVar6 & 7) & 0x1f;
       }

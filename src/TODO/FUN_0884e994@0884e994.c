@@ -18,16 +18,16 @@ void FUN_0884e994(void)
       if (iVar2 == 1) {
         uVar4 = 2;
       }
-      uVar3 = _DONE_Get_DAT_08AAC9E0();
+      uVar3 = DONE_Get_DAT_08AAC9E0();
       iVar2 = FUN_0880d0ac(uVar3,0x2e);
       if (iVar2 != 0) {
-        uVar3 = _DONE_Get_DAT_08AAC9E0();
+        uVar3 = DONE_Get_DAT_08AAC9E0();
         iVar2 = FUN_0880d0ac(uVar3,0x2b);
         if (iVar2 == 1) {
           uVar4 = 3;
         }
         else {
-          uVar3 = _DONE_Get_DAT_08AAC9E0();
+          uVar3 = DONE_Get_DAT_08AAC9E0();
           iVar2 = FUN_0880d0ac(uVar3,0x2b);
           if (iVar2 == 2) {
             uVar4 = 10;

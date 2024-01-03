@@ -17,12 +17,12 @@ int FUN_0880b0f4(int param_1)
   FUN_089d866c();
   DAT_08aac9d8 = ptr;
   memset_jak(ptr,0,4);
-  iVar2 = _DONE_NotZero_DAT_08AAC9E0();
+  iVar2 = DONE_NotZero_DAT_08AAC9E0();
   if (iVar2 == 0) {
     *(undefined4 *)(param_1 + 0x10) = 0;
   }
   else {
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar1,1,0);
     *(undefined4 *)(param_1 + 0x10) = 0;
   }

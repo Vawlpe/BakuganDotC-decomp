@@ -61,10 +61,10 @@ void FUN_08830a78(int param_1,int param_2)
     *(undefined4 *)(iVar8 + 0x2e4) = 0x3fc90fdb;
     *(int *)(iVar5 + 0x318) = iVar7 + -1;
     if (iVar7 < 1) {
-      uVar4 = _DONE_Get_DAT_08AC5874();
+      uVar4 = DONE_Get_DAT_08AC5874();
       iVar5 = FUN_089c6914(uVar4,0x20012d);
-      if ((iVar5 == 0) && (iVar5 = _DONE_NotZero_DAT_08AC5874(), iVar5 != 0)) {
-        uVar4 = _DONE_Get_DAT_08AC5874();
+      if ((iVar5 == 0) && (iVar5 = DONE_NotZero_DAT_08AC5874(), iVar5 != 0)) {
+        uVar4 = DONE_Get_DAT_08AC5874();
         FUN_089c6350(uVar4,0x20012d,0,0);
       }
       *(undefined4 *)(iVar8 + 0x318) = 0x1c;

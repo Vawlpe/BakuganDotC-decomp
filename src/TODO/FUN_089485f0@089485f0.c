@@ -36,7 +36,7 @@ int FUN_089485f0(int param_1)
   uVar5 = 0;
   iVar4 = param_1;
   do {
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar5 = uVar5 + 1;
     if ((int)uVar5 < 0) {
       uVar3 = -(-uVar5 & 7) & 0x1f;

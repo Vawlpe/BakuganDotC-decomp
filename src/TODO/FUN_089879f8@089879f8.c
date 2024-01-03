@@ -12,7 +12,7 @@ void FUN_089879f8(int param_1)
   memset_jak((undefined *)(param_1 + 0x901),0,0x15);
   uVar3 = 0;
   do {
-    piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
     iVar4 = (int)(uVar3 + ((uint)((int)uVar3 >> 3) >> 0x1d)) >> 3;
     if ((int)uVar3 < 0) {
       uVar2 = -(-uVar3 & 7) & 0x1f;
@@ -22,7 +22,7 @@ void FUN_089879f8(int param_1)
     }
     if (((uint)*(byte *)(*piVar1 + iVar4 + 0x5fe) & 1 << uVar2) != 0) {
       *(char *)(param_1 + uVar3 + 0x8ec) = (char)uVar3;
-      piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
       if ((int)uVar3 < 0) {
         uVar2 = -(-uVar3 & 7) & 0x1f;
       }

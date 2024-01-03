@@ -251,9 +251,9 @@ LAB_08875d34:
         *(int *)(param_1 + 0x3cc) = *(int *)(param_1 + 0x3cc) + 1;
 LAB_08875d94:
         *(undefined4 *)(param_1 + 0x3cc) = 100;
-        iVar9 = _DONE_NotZero_DAT_08AC5258();
+        iVar9 = DONE_NotZero_DAT_08AC5258();
         if (iVar9 != 0) {
-          uVar13 = _DONE_Get_DAT_08AC5258();
+          uVar13 = DONE_Get_DAT_08AC5258();
           FUN_089c00c4(uVar13,0x200012,param_1 + 0x20,0,1);
         }
         uVar13 = DAT_08abd5b0;
@@ -529,7 +529,7 @@ LAB_0887698c:
     local_7c = *(float *)(param_1 + 0x24) + 3000.0;
     FUN_0889d57c(&local_80,&local_80);
     if (*(int *)(DAT_08ac58c4 + 0x20) == 2) {
-      uVar13 = _DONE_Get_DAT_08AAC9E0();
+      uVar13 = DONE_Get_DAT_08AAC9E0();
       iVar9 = FUN_0880d0ac(uVar13,0x1a);
       if (iVar9 == 1) {
         bVar2 = false;

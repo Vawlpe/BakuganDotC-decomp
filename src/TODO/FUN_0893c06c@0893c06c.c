@@ -20,7 +20,7 @@ void FUN_0893c06c(int param_1,char param_2)
   case 9:
     break;
   default:
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     uVar3 = FUN_0880d0ac(uVar2,0x34);
     if ((uVar3 & 1) != 0) {
       iVar4 = 0x17;

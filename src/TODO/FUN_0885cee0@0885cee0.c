@@ -27,19 +27,19 @@ int FUN_0885cee0(int param_1,int param_2)
   *(undefined4 *)(param_1 + 0x6ec) = in_V7E;
   if ((0 < param_2) && (param_2 < 0x15)) {
     iVar2 = *(int *)(param_1 + 8);
-    iVar1 = _DONE_Get_DAT_08AAC9E0();
+    iVar1 = DONE_Get_DAT_08AAC9E0();
     if (*(int *)(iVar1 + 4) != 0) {
       *(int *)(*(int *)(iVar1 + 4) + 0xd8) = iVar2 * 4 + -4;
     }
-    iVar1 = _DONE_Get_DAT_08AAC9E0();
+    iVar1 = DONE_Get_DAT_08AAC9E0();
     if (*(int *)(iVar1 + 4) != 0) {
       *(undefined4 *)(*(int *)(iVar1 + 4) + 0xdc) = 0xff;
     }
-    iVar1 = _DONE_Get_DAT_08AAC9E0();
+    iVar1 = DONE_Get_DAT_08AAC9E0();
     if (*(int *)(iVar1 + 4) != 0) {
       *(undefined4 *)(*(int *)(iVar1 + 4) + 0xf8) = 0xff;
     }
-    iVar1 = _DONE_Get_DAT_08AAC9E0();
+    iVar1 = DONE_Get_DAT_08AAC9E0();
     if (*(int *)(iVar1 + 4) != 0) {
       *(undefined4 *)(*(int *)(iVar1 + 4) + 0xfc) = 0xff;
     }

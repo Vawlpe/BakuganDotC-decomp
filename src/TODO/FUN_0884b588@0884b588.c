@@ -8,8 +8,8 @@ void FUN_0884b588(undefined4 param_1,int param_2,undefined4 param_3,int param_4)
   
   if (DAT_08aba778 == 0) {
     iVar1 = FUN_0880d354();
-    if ((iVar1 != 0) && (iVar1 = _DONE_NotZero_DAT_08AAC9E0(), iVar1 != 0)) {
-      uVar2 = _DONE_Get_DAT_08AAC9E0();
+    if ((iVar1 != 0) && (iVar1 = DONE_NotZero_DAT_08AAC9E0(), iVar1 != 0)) {
+      uVar2 = DONE_Get_DAT_08AAC9E0();
       iVar1 = FUN_0880d7e0(uVar2,0x4880);
       if (iVar1 != 0) {
         return;

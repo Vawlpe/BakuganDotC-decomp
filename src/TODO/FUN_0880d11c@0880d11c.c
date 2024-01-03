@@ -24,7 +24,7 @@ void FUN_0880d11c(int param_1,char param_2)
       iVar5 = 0;
       iVar3 = 0;
       do {
-        iVar2 = _DONE_Get_DAT_08AAC9E0();
+        iVar2 = DONE_Get_DAT_08AAC9E0();
         if (*(int *)(iVar2 + 4) != 0) {
           *(undefined4 *)(*(int *)(iVar2 + 4) + iVar4 + iVar3 + 0xd8) = uVar7;
         }
@@ -40,7 +40,7 @@ void FUN_0880d11c(int param_1,char param_2)
       iVar5 = 0;
       iVar3 = 0;
       do {
-        iVar2 = _DONE_Get_DAT_08AAC9E0();
+        iVar2 = DONE_Get_DAT_08AAC9E0();
         if (*(int *)(iVar2 + 4) != 0) {
           *(undefined4 *)(*(int *)(iVar2 + 4) + iVar4 + iVar3 + 0xf8) = uVar7;
         }

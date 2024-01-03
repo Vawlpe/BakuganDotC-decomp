@@ -21,7 +21,7 @@ void FUN_089b2388(void)
   char local_40;
   char local_3f [23];
   
-  piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
   if (*(char *)(*piVar2 + 0x462) == '\x01') {
     memcpy_jak(&local_70,&DAT_08ac4358,0x16);
     memcpy_jak(&local_58,&DAT_08ac436e,0x16);
@@ -30,7 +30,7 @@ void FUN_089b2388(void)
       uVar8 = 0;
       do {
         if (local_70 != '\0') {
-          piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+          piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
           iVar10 = (int)(uVar8 + ((uint)((int)uVar8 >> 3) >> 0x1d)) >> 3;
           if ((int)uVar8 < 0) {
             bVar1 = (byte)(1 << (-(-uVar8 & 7) & 0x1f));
@@ -58,7 +58,7 @@ void FUN_089b2388(void)
           iVar10 = 0;
           uVar5 = iVar9 - 4;
           do {
-            piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+            piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
             iVar11 = (int)(uVar5 + ((uint)((int)uVar5 >> 3) >> 0x1d)) >> 3;
             iVar6 = *piVar2 + iVar11;
             bVar1 = *(byte *)(iVar6 + 0x51a);
@@ -121,7 +121,7 @@ LAB_089b25b8:
         if (local_58 != '\0') {
           uVar8 = iVar10 - 4;
           do {
-            piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+            piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
             iVar6 = (int)(uVar8 + ((uint)((int)uVar8 >> 3) >> 0x1d)) >> 3;
             iVar7 = *piVar2 + iVar6;
             bVar1 = *(byte *)(iVar7 + 0x51a);
@@ -178,7 +178,7 @@ LAB_089b2748:
     }
   }
   else {
-    piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
     if (*(char *)(*piVar2 + 0x462) == '\x02') {
       memcpy_jak(&local_40,&DAT_08ac4384,0x16);
       if (local_40 != -1) {
@@ -189,7 +189,7 @@ LAB_089b2748:
           if (local_40 != '\0') {
             uVar8 = iVar10 - 4;
             do {
-              piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+              piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
               iVar6 = (int)(uVar8 + ((uint)((int)uVar8 >> 3) >> 0x1d)) >> 3;
               iVar7 = *piVar2 + iVar6;
               bVar1 = *(byte *)(iVar7 + 0x51a);

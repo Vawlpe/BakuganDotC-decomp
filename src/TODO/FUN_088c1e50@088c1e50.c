@@ -7,7 +7,7 @@ undefined4 FUN_088c1e50(void)
   uint uVar2;
   
   uVar2 = *(uint *)(DAT_08ac58c4 + 0x3c);
-  piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
   if (*(char *)(*piVar1 + (uVar2 & 0xff) * 4 + 0x412) != '\0') {
     return 1;
   }

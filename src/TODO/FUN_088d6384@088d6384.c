@@ -51,12 +51,12 @@ void FUN_088d6384(int param_1)
           FUN_089df3b0(0x3e4ccccd,param_1,param_1 + 0x194,0);
           (**(code **)(*(int *)(param_1 + 0x14) + 0x34))
                     (0x3f800000,param_1 + *(short *)(*(int *)(param_1 + 0x14) + 0x30));
-          iVar1 = _DONE_NotZero_DAT_08AC5874();
+          iVar1 = DONE_NotZero_DAT_08AC5874();
           if (iVar1 == 0) {
             *(undefined4 *)(param_1 + 400) = 0;
           }
           else {
-            uVar2 = _DONE_Get_DAT_08AC5874();
+            uVar2 = DONE_Get_DAT_08AC5874();
             FUN_089c6350(uVar2,0x2c00042,0,0);
             *(undefined4 *)(param_1 + 400) = 0;
           }

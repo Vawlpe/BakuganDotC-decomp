@@ -33,7 +33,7 @@ undefined4 FUN_089c546c(undefined4 *param_1)
       if ((iVar3 == 2) || (iVar3 == 6)) {
         bVar1 = false;
         iVar6 = param_1[7];
-        iVar3 = _DONE_Get_DAT_08AC5874();
+        iVar3 = DONE_Get_DAT_08AC5874();
         puVar9 = (undefined *)(iVar6 + *(int *)(iVar3 + 4) * param_1[8]);
         iVar3 = FUN_089d5814();
         if (iVar3 != 0) {
@@ -45,12 +45,12 @@ undefined4 FUN_089c546c(undefined4 *param_1)
         }
         if (bVar1) {
           uVar8 = FUN_089d5830();
-          puVar5 = (undefined4 *)_DONE_Get_DAT_08AC5874();
+          puVar5 = (undefined4 *)DONE_Get_DAT_08AC5874();
           FUN_089d5e7c(uVar8,puVar9,*puVar5);
           iVar3 = param_1[9];
         }
         else {
-          iVar3 = _DONE_Get_DAT_08AC5874();
+          iVar3 = DONE_Get_DAT_08AC5874();
           memset_jak(puVar9,0,*(int *)(iVar3 + 4));
           iVar3 = param_1[9];
         }
@@ -58,10 +58,10 @@ undefined4 FUN_089c546c(undefined4 *param_1)
       }
       else if (*(char *)(param_1 + 0x39) == '\0') {
         iVar10 = param_1[7];
-        iVar3 = _DONE_Get_DAT_08AC5874();
+        iVar3 = DONE_Get_DAT_08AC5874();
         iVar6 = *(int *)(iVar3 + 4);
         iVar7 = param_1[8];
-        iVar3 = _DONE_Get_DAT_08AC5874();
+        iVar3 = DONE_Get_DAT_08AC5874();
         memset_jak((undefined *)(iVar10 + iVar6 * iVar7),0,*(int *)(iVar3 + 4));
         param_1[9] = param_1[9] + 1;
       }
@@ -91,7 +91,7 @@ undefined4 FUN_089c546c(undefined4 *param_1)
         }
         FUN_089bb728(*param_1);
         puVar9 = (undefined *)param_1[7];
-        iVar3 = _DONE_Get_DAT_08AC5874();
+        iVar3 = DONE_Get_DAT_08AC5874();
         memset_jak(puVar9,0,*(int *)(iVar3 + 4) * 2);
         memset_jak((undefined *)param_1[10],0,0x2000);
         param_1[9] = 0;
@@ -115,7 +115,7 @@ undefined4 FUN_089c546c(undefined4 *param_1)
     uVar4 = FUN_089c2b48(param_1[4]);
     FUN_089c3958(uVar4);
   }
-  iVar3 = _DONE_Get_DAT_08AC5874();
+  iVar3 = DONE_Get_DAT_08AC5874();
   if (*(char *)(iVar3 + 0x8be4) != '\0') {
     FUN_089bbd80(param_1[4] + 6);
   }

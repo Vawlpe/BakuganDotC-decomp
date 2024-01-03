@@ -101,9 +101,9 @@ void FUN_089ec8a8(int *param_1)
             cVar3 = *(char *)((int)param_1 + 0x59);
           }
           else {
-            iVar4 = _DONE_NotZero_DAT_08AC5874();
+            iVar4 = DONE_NotZero_DAT_08AC5874();
             if (iVar4 != 0) {
-              uVar2 = _DONE_Get_DAT_08AC5874();
+              uVar2 = DONE_Get_DAT_08AC5874();
               FUN_089c6350(uVar2,0,0,0);
             }
             FUN_089ec3d0(param_1);
@@ -168,12 +168,12 @@ LAB_089eccd4:
               param_1[0x1a] = 0x3f800000;
               iVar4 = FUN_089ceba4(DAT_08ac5934);
               param_1[0x1b] = (int)-(1.8 / (float)iVar4);
-              iVar4 = _DONE_NotZero_DAT_08AC5874();
+              iVar4 = DONE_NotZero_DAT_08AC5874();
               if (iVar4 == 0) {
                 cVar3 = *(char *)((int)param_1 + 0x59);
               }
               else {
-                uVar2 = _DONE_Get_DAT_08AC5874();
+                uVar2 = DONE_Get_DAT_08AC5874();
                 FUN_089c6350(uVar2,1,0,0);
                 cVar3 = *(char *)((int)param_1 + 0x59);
               }
@@ -181,9 +181,9 @@ LAB_089eccd4:
             }
           }
           else {
-            iVar4 = _DONE_NotZero_DAT_08AC5874();
+            iVar4 = DONE_NotZero_DAT_08AC5874();
             if (iVar4 != 0) {
-              uVar2 = _DONE_Get_DAT_08AC5874();
+              uVar2 = DONE_Get_DAT_08AC5874();
               FUN_089c6350(uVar2,2,0,0);
             }
             iVar4 = FUN_089ceba4(DAT_08ac5934);
@@ -191,9 +191,9 @@ LAB_089eccd4:
           }
         }
         else {
-          iVar4 = _DONE_NotZero_DAT_08AC5874();
+          iVar4 = DONE_NotZero_DAT_08AC5874();
           if (iVar4 != 0) {
-            uVar2 = _DONE_Get_DAT_08AC5874();
+            uVar2 = DONE_Get_DAT_08AC5874();
             FUN_089c6350(uVar2,2,0,0);
           }
           param_1[0x18] = -1;
@@ -296,9 +296,9 @@ LAB_089eca58:
     sVar1 = *(short *)(iVar6 + 0x20);
     iVar4 = FUN_089ceba4(DAT_08ac5934);
     (**(code **)(iVar6 + 0x24))(iVar5 + sVar1,(iVar4 << 3) / 0x3c,*(undefined *)(param_1 + 0x1e));
-    iVar4 = _DONE_NotZero_DAT_08AC5874();
+    iVar4 = DONE_NotZero_DAT_08AC5874();
     if (iVar4 != 0) {
-      uVar2 = _DONE_Get_DAT_08AC5874();
+      uVar2 = DONE_Get_DAT_08AC5874();
       FUN_089c6350(uVar2,1,0,0);
     }
     iVar4 = FUN_089eb23c(param_1[0x1d]);

@@ -36,7 +36,7 @@ int FUN_088b2334(int param_1)
         }
         else {
           if (*(short *)(param_1 + 0x30) < 10) {
-            piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+            piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
             bVar4 = *(byte *)(*piVar2 + ((int)*(short *)(param_1 + 0x30) - 7U & 0xff) + 0x84);
             if ((bVar4 < 0xe) || (0x1f < bVar4)) {
               bVar4 = 0;

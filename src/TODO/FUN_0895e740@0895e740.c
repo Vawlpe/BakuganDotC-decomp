@@ -11,7 +11,7 @@ undefined4 FUN_0895e740(int param_1)
     return 0;
   }
   if (*(char *)(param_1 + 0x75) == '\0') {
-    piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar2 = FUN_0895647c(param_1,0,*(undefined *)(param_1 + 0x74));
     if ((int)uVar2 < 0) {
       uVar3 = -(-uVar2 & 7) & 0x1f;

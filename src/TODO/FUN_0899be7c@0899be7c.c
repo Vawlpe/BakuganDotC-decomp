@@ -35,8 +35,8 @@ undefined4 FUN_0899be7c(int param_1)
       }
       else {
         iVar4 = FUN_0880d354();
-        if ((iVar4 != 0) && (iVar4 = _DONE_NotZero_DAT_08AAC9E0(), iVar4 != 0)) {
-          uVar5 = _DONE_Get_DAT_08AAC9E0();
+        if ((iVar4 != 0) && (iVar4 = DONE_NotZero_DAT_08AAC9E0(), iVar4 != 0)) {
+          uVar5 = DONE_Get_DAT_08AAC9E0();
           iVar4 = FUN_0880d7e0(uVar5,0x80);
           if (iVar4 != 0) {
             FUN_089bf850(0x1fe);

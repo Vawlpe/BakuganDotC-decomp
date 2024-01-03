@@ -60,10 +60,10 @@ undefined4 FUN_088594c8(int param_1)
         *(int *)(param_1 + 0x918) = auVar1._8_4_;
         *(undefined4 *)(param_1 + 0x91c) = uStack_64;
         *(float *)(param_1 + 0x914) = *(float *)(param_1 + 0x914) + 250.0;
-        iVar4 = _DONE_NotZero_DAT_08AC5258();
+        iVar4 = DONE_NotZero_DAT_08AC5258();
         pauVar7 = (undefined (*) [12])(param_1 + 0x920);
         if (iVar4 != 0) {
-          uVar9 = _DONE_Get_DAT_08AC5258();
+          uVar9 = DONE_Get_DAT_08AC5258();
           FUN_089c00c4(uVar9,0x20025a,*(int *)(param_1 + 0x130) + 0xb0,0,1);
         }
         iVar4 = FUN_08824024(DAT_08abd5b0,0x30,pauVar8,&local_70);

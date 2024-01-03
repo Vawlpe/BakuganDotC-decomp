@@ -26,14 +26,14 @@ void FUN_088b292c(int param_1,undefined4 *param_2,undefined2 param_3,undefined2 
   case 1:
   case 2:
   case 3:
-    piVar4 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar4 = (int *)DONE_Get_DAT_08AAC9E0();
     *(undefined *)(*piVar4 + 0x80) = 0;
     return;
   case 8:
   case 9:
   case 10:
   case 0xb:
-    piVar4 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar4 = (int *)DONE_Get_DAT_08AAC9E0();
     *(undefined *)(*piVar4 + 0x80) = 1;
   }
   return;

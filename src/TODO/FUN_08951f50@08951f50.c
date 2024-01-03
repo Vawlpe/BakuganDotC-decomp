@@ -51,7 +51,7 @@ LAB_0895209c:
       uVar2 = FUN_089edb80();
       iVar1 = FUN_089edf70(uVar2);
       if (iVar1 != 0) {
-        uVar2 = _DONE_Get_DAT_08AC5874();
+        uVar2 = DONE_Get_DAT_08AC5874();
         FUN_089c69a4(uVar2);
         FUN_089bf6e8(0x271a,100);
         *(int *)(param_1 + 0x2c) = *(int *)(param_1 + 0x2c) + 1;
@@ -61,7 +61,7 @@ LAB_0895209c:
   case 2:
     iVar1 = FUN_089bf93c(0x271a,1);
     if (iVar1 == 0) {
-      uVar2 = _DONE_Get_DAT_08AAC9E0();
+      uVar2 = DONE_Get_DAT_08AAC9E0();
       iVar1 = FUN_0880d0ac(uVar2,1);
       if (iVar1 == 1) {
         *(undefined4 *)(param_1 + 0x2c) = 0x14;

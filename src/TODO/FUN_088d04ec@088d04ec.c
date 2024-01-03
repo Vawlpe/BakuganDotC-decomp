@@ -60,7 +60,7 @@ LAB_088d0580:
       FUN_088cf29c(param_1);
       local_20 = *(undefined4 *)(param_1 + 0x1c);
       FUN_088c8e98(param_1 + 0x6c,&local_20);
-      piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
       *(undefined4 *)(param_1 + 0xbc) = *(undefined4 *)(*piVar2 + 0x464);
       FUN_088d03c0(param_1);
       *(undefined4 *)(param_1 + 0x28) = 2;

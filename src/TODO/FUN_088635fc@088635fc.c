@@ -21,10 +21,10 @@ void FUN_088635fc(int param_1)
         iVar2 = FUN_0884b248();
         if (iVar2 != 0) {
           FUN_0884b268();
-          uVar1 = _DONE_Get_DAT_08AAC9E0();
+          uVar1 = DONE_Get_DAT_08AAC9E0();
           iVar2 = FUN_0880d0ac(uVar1,2);
           if (iVar2 != 0) {
-            uVar1 = _DONE_Get_DAT_08AAC9E0();
+            uVar1 = DONE_Get_DAT_08AAC9E0();
             FUN_0880d70c(uVar1,iVar3 + 0xe,*(int *)(param_1 + 0x1b0) + *(int *)(param_1 + 0x1b4));
           }
         }

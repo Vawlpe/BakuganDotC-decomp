@@ -34,12 +34,12 @@ void FUN_089c3a0c(int *param_1)
         bVar2 = true;
       }
       if (bVar2) {
-        uVar1 = _DONE_Get_DAT_08AC5874();
+        uVar1 = DONE_Get_DAT_08AC5874();
         fVar5 = (float)FUN_089c5dfc(uVar1);
         fVar5 = fVar5 * 0.8;
       }
       else {
-        uVar1 = _DONE_Get_DAT_08AC5874();
+        uVar1 = DONE_Get_DAT_08AC5874();
         fVar5 = (float)FUN_089c5d9c(uVar1);
       }
       uVar1 = FUN_089c487c(iVar4);

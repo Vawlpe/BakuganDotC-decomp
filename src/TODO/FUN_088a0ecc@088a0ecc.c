@@ -101,12 +101,12 @@ void FUN_088a0ecc(int param_1)
     iVar20 = 9999999;
     if (uVar24 == 1) {
 LAB_088a1190:
-      iVar21 = _DONE_NotZero_DAT_08AC5874();
+      iVar21 = DONE_NotZero_DAT_08AC5874();
       if (iVar21 != 0) {
-        uVar25 = _DONE_Get_DAT_08AC5874();
+        uVar25 = DONE_Get_DAT_08AC5874();
         FUN_089c6350(uVar25,0x2c00034,0,0);
       }
-      piVar22 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar22 = (int *)DONE_Get_DAT_08AAC9E0();
       iVar21 = *(int *)(*piVar22 + 0x464) + 300;
       if ((iVar21 < 10000000) && (iVar20 = iVar21, iVar21 < 0)) {
         iVar20 = 0;
@@ -123,12 +123,12 @@ LAB_088a1190:
       if (uVar24 != 2) {
         if (uVar24 == 4) goto LAB_088a1190;
         if (uVar24 != 5) {
-          iVar21 = _DONE_NotZero_DAT_08AC5874();
+          iVar21 = DONE_NotZero_DAT_08AC5874();
           if (iVar21 != 0) {
-            uVar25 = _DONE_Get_DAT_08AC5874();
+            uVar25 = DONE_Get_DAT_08AC5874();
             FUN_089c6350(uVar25,0x2c00033,0,0);
           }
-          piVar22 = (int *)_DONE_Get_DAT_08AAC9E0();
+          piVar22 = (int *)DONE_Get_DAT_08AAC9E0();
           iVar21 = *(int *)(*piVar22 + 0x464) + 100;
           if ((iVar21 < 10000000) && (iVar20 = iVar21, iVar21 < 0)) {
             iVar20 = 0;
@@ -143,12 +143,12 @@ LAB_088a1190:
           goto LAB_088a12b4;
         }
       }
-      iVar21 = _DONE_NotZero_DAT_08AC5874();
+      iVar21 = DONE_NotZero_DAT_08AC5874();
       if (iVar21 != 0) {
-        uVar25 = _DONE_Get_DAT_08AC5874();
+        uVar25 = DONE_Get_DAT_08AC5874();
         FUN_089c6350(uVar25,0x2c00035,0,0);
       }
-      piVar22 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar22 = (int *)DONE_Get_DAT_08AAC9E0();
       iVar21 = *(int *)(*piVar22 + 0x464) + 1000;
       if ((iVar21 < 10000000) && (iVar20 = iVar21, iVar21 < 0)) {
         iVar20 = 0;

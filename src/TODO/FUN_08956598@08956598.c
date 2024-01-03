@@ -32,7 +32,7 @@ void FUN_08956598(int param_1)
         bVar2 = false;
         iVar6 = 0;
         do {
-          piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+          piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
           uVar9 = (*(char *)(param_1 + local_3c + 0x4cdd) * 4 + iVar6) - 4;
           if ((int)uVar9 < 0) {
             uVar7 = -(-uVar9 & 7) & 0x1f;
@@ -47,7 +47,7 @@ void FUN_08956598(int param_1)
             *(char *)(iVar11 + 0x4fb8) = (char)uVar9;
             iVar13 = 0;
             do {
-              iVar4 = _DONE_Get_DAT_08AAC9E0();
+              iVar4 = DONE_Get_DAT_08AAC9E0();
               uVar9 = 0;
               if (*(int *)(iVar4 + 4) != 0) {
                 uVar9 = *(uint *)(*(int *)(iVar4 + 4) + iVar12 + iVar13 + 0xd8);
@@ -81,7 +81,7 @@ void FUN_08956598(int param_1)
         iVar10 = 0;
         iVar11 = 0;
         do {
-          iVar4 = _DONE_Get_DAT_08AAC9E0();
+          iVar4 = DONE_Get_DAT_08AAC9E0();
           uVar9 = 0;
           if (*(int *)(iVar4 + 4) != 0) {
             uVar9 = *(uint *)(*(int *)(iVar4 + 4) + iVar13 + iVar11 + 0xd8);
@@ -100,7 +100,7 @@ void FUN_08956598(int param_1)
     iVar12 = 0;
     iVar6 = 0;
     do {
-      iVar13 = _DONE_Get_DAT_08AAC9E0();
+      iVar13 = DONE_Get_DAT_08AAC9E0();
       uVar5 = 0;
       if (*(int *)(iVar13 + 4) != 0) {
         uVar5 = (undefined)*(undefined4 *)(*(int *)(iVar13 + 4) + iVar6 + 0x118);
@@ -121,7 +121,7 @@ void FUN_08956598(int param_1)
         iVar11 = 0;
         iVar10 = 0;
         do {
-          iVar4 = _DONE_Get_DAT_08AAC9E0();
+          iVar4 = DONE_Get_DAT_08AAC9E0();
           if (*(int *)(iVar4 + 4) != 0) {
             *(undefined4 *)(*(int *)(iVar4 + 4) + iVar13 + iVar10 + 0xd8) = 0xff;
           }
@@ -132,7 +132,7 @@ void FUN_08956598(int param_1)
         bVar2 = false;
         iVar10 = 0;
         do {
-          piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+          piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
           uVar7 = (*(char *)(param_1 + local_3c + 0x4cdd) * 4 + iVar10) - 4;
           if ((int)uVar7 < 0) {
             uVar8 = -(-uVar7 & 7) & 0x1f;

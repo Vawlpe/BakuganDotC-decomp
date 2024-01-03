@@ -12,9 +12,9 @@ undefined4 FUN_088d83b0(int param_1)
   
   uVar5 = 0;
   iVar2 = FUN_088e1948();
-  iVar3 = _DONE_NotZero_DAT_08AAC9E0();
+  iVar3 = DONE_NotZero_DAT_08AAC9E0();
   if (iVar3 != 0) {
-    uVar4 = _DONE_Get_DAT_08AAC9E0();
+    uVar4 = DONE_Get_DAT_08AAC9E0();
     iVar3 = FUN_0880d0ac(uVar4,0x2f);
     if (0 < iVar3) {
       iVar2 = 0;

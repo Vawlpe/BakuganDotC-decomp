@@ -1,6 +1,6 @@
 #include "ULUS10536_MYTHREAD-MAIN.BIN.h"
 
-undefined4 _WIP_Init__LoopThingIdk(void)
+undefined4 WIP_Init_LoopThingIdk(void)
 
 {
   int iVar1;
@@ -10,7 +10,7 @@ undefined4 _WIP_Init__LoopThingIdk(void)
   iVar3 = 0;
   puVar2 = &DAT_08ac51d8;
   do {
-    iVar1 = _WIP_Init__LoopThingIdk_Step(*puVar2,0,0);
+    iVar1 = WIP_Init_LoopThingIdk_Step(*puVar2,0,0);
     iVar3 = iVar3 + 1;
     if (iVar1 == 0) {
       return 0;

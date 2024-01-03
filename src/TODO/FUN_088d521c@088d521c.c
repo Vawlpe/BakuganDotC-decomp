@@ -7,9 +7,9 @@ void FUN_088d521c(int param_1)
   undefined4 uVar2;
   
   if (*(char *)(param_1 + 0x1e1) == '\0') {
-    iVar1 = _DONE_NotZero_DAT_08AC5874();
+    iVar1 = DONE_NotZero_DAT_08AC5874();
     if (iVar1 != 0) {
-      uVar2 = _DONE_Get_DAT_08AC5874();
+      uVar2 = DONE_Get_DAT_08AC5874();
       FUN_089c6350(uVar2,0x2c00037,0,0);
     }
     FUN_089df450(0,param_1);

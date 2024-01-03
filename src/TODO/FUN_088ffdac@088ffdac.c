@@ -20,8 +20,8 @@ undefined FUN_088ffdac(int param_1)
     }
   }
   iVar1 = FUN_0880d354();
-  if ((iVar1 != 0) && (iVar1 = _DONE_NotZero_DAT_08AAC9E0(), iVar1 != 0)) {
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+  if ((iVar1 != 0) && (iVar1 = DONE_NotZero_DAT_08AAC9E0(), iVar1 != 0)) {
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     iVar1 = FUN_0880d7e0(uVar2,0x80);
     if (iVar1 != 0) {
       uVar3 = 2;

@@ -9,10 +9,10 @@ undefined4 FUN_0880dc94(void)
   undefined4 auStack_40 [14];
   
   memcpy_jak(auStack_40,&PTR_DAT_08aac9f4,0x38);
-  iVar1 = _DONE_NotZero_DAT_08AAC9E0();
+  iVar1 = DONE_NotZero_DAT_08AAC9E0();
   iVar3 = 4;
   if (iVar1 != 0) {
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     iVar3 = FUN_0880dba8(uVar2);
     iVar3 = iVar3 << 2;
   }

@@ -39,13 +39,13 @@ void FUN_089a2dfc(int param_1)
         }
         if (!bVar2) {
           iVar5 = FUN_089cf8ec(0);
-          uVar6 = _DONE_GetPtr_DAT_08AB0300();
+          uVar6 = DONE_GetPtr_DAT_08AB0300();
           uVar7 = FUN_0881b64c(uVar6);
           if (((uVar7 & 0x2000000) != 0) && (iVar8 = FUN_089d003c(), iVar8 != 0)) {
             bVar2 = true;
           }
           if ((!bVar2) && (iVar5 != 0)) {
-            uVar6 = _DONE_GetPtr_DAT_08AB0300();
+            uVar6 = DONE_GetPtr_DAT_08AB0300();
             iVar8 = FUN_0881b654(uVar6);
             if (iVar8 != 0) {
               bVar3 = *(int *)(param_1 + 0x2370) == 0;
@@ -67,9 +67,9 @@ void FUN_089a2dfc(int param_1)
         }
       }
     }
-    iVar5 = _DONE_NotZero_DAT_08AAC9E0();
+    iVar5 = DONE_NotZero_DAT_08AAC9E0();
     if (iVar5 != 0) {
-      uVar6 = _DONE_Get_DAT_08AAC9E0();
+      uVar6 = DONE_Get_DAT_08AAC9E0();
       iVar5 = FUN_0880d7e0(uVar6,0x80);
       if (iVar5 != 0) {
         iVar5 = *(int *)(param_1 + 0x2c);
@@ -143,9 +143,9 @@ LAB_089a302c:
             if (cVar4 == '\0') {
               iVar8 = FUN_0899b9ec(param_1);
               if (iVar8 == iVar5) {
-                iVar5 = _DONE_NotZero_DAT_08AC5874();
+                iVar5 = DONE_NotZero_DAT_08AC5874();
                 if (iVar5 != 0) {
-                  uVar6 = _DONE_Get_DAT_08AC5874();
+                  uVar6 = DONE_Get_DAT_08AC5874();
                   FUN_089c6350(uVar6,1,0,0);
                 }
                 FUN_08998fdc(param_1);
@@ -159,17 +159,17 @@ LAB_089a302c:
               *(undefined4 *)(param_1 + 0x2c) = 0xc;
             }
             else {
-              iVar5 = _DONE_NotZero_DAT_08AC5874();
+              iVar5 = DONE_NotZero_DAT_08AC5874();
               if (iVar5 != 0) {
-                uVar6 = _DONE_Get_DAT_08AC5874();
+                uVar6 = DONE_Get_DAT_08AC5874();
                 FUN_089c6350(uVar6,3,0,0);
               }
             }
           }
           else {
-            iVar5 = _DONE_NotZero_DAT_08AC5874();
+            iVar5 = DONE_NotZero_DAT_08AC5874();
             if (iVar5 != 0) {
-              uVar6 = _DONE_Get_DAT_08AC5874();
+              uVar6 = DONE_Get_DAT_08AC5874();
               FUN_089c6350(uVar6,0,0,0);
             }
             FUN_08998fdc(param_1);
@@ -179,9 +179,9 @@ LAB_089a302c:
           }
         }
         else {
-          iVar5 = _DONE_NotZero_DAT_08AC5874();
+          iVar5 = DONE_NotZero_DAT_08AC5874();
           if (iVar5 != 0) {
-            uVar6 = _DONE_Get_DAT_08AC5874();
+            uVar6 = DONE_Get_DAT_08AC5874();
             FUN_089c6350(uVar6,2,0,0);
           }
           FUN_08998fdc(param_1);
@@ -190,9 +190,9 @@ LAB_089a302c:
         }
       }
       else if (cVar4 == '\x01') {
-        iVar5 = _DONE_NotZero_DAT_08AC5874();
+        iVar5 = DONE_NotZero_DAT_08AC5874();
         if (iVar5 != 0) {
-          uVar6 = _DONE_Get_DAT_08AC5874();
+          uVar6 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar6,0,0,0);
         }
         FUN_08998fdc(param_1);
@@ -201,9 +201,9 @@ LAB_089a302c:
         *(undefined4 *)(param_1 + 0x2c) = 10;
       }
       else {
-        iVar5 = _DONE_NotZero_DAT_08AC5874();
+        iVar5 = DONE_NotZero_DAT_08AC5874();
         if (iVar5 != 0) {
-          uVar6 = _DONE_Get_DAT_08AC5874();
+          uVar6 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar6,3,0,0);
         }
       }
@@ -211,9 +211,9 @@ LAB_089a302c:
     case 4:
       iVar5 = FUN_0881b22c();
       if ((iVar5 != 0) && (*(char *)(param_1 + 0x109f) == '\0')) {
-        uVar6 = _DONE_GetPtr_DAT_08AB0300(param_1);
+        uVar6 = DONE_GetPtr_DAT_08AB0300(param_1);
         uVar7 = FUN_0881b64c(uVar6);
-        uVar6 = _DONE_GetPtr_DAT_08AB0300();
+        uVar6 = DONE_GetPtr_DAT_08AB0300();
         FUN_0881b620(uVar6,uVar7 | 0x1000000);
       }
       FUN_08999400(param_1,0);
@@ -306,9 +306,9 @@ LAB_089a302c:
     case 0xd:
       iVar5 = FUN_089a0dc0(param_1);
       if (iVar5 == 1) {
-        iVar5 = _DONE_NotZero_DAT_08AC5874();
+        iVar5 = DONE_NotZero_DAT_08AC5874();
         if (iVar5 != 0) {
-          uVar6 = _DONE_Get_DAT_08AC5874();
+          uVar6 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar6,0,0,0);
         }
         FUN_08998fdc(param_1);

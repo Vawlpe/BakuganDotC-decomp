@@ -74,16 +74,16 @@ LAB_0881cbd8:
     if (iVar3 != 0) {
       *(undefined4 *)(param_1 + 4) = 8;
       *(undefined4 *)(param_1 + 8) = 0;
-      iVar3 = _DONE_NotZero_DAT_08AAC9E0();
+      iVar3 = DONE_NotZero_DAT_08AAC9E0();
       if (iVar3 != 0) {
-        uVar1 = _DONE_Get_DAT_08AAC9E0();
+        uVar1 = DONE_Get_DAT_08AAC9E0();
         FUN_0880d0e8(uVar1,0x80);
       }
     }
   }
-  iVar3 = _DONE_NotZero_DAT_08AAC9E0();
+  iVar3 = DONE_NotZero_DAT_08AAC9E0();
   if (iVar3 != 0) {
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     iVar3 = FUN_0880d7e0(uVar1,0x80);
     if (iVar3 != 0) {
       *(undefined4 *)(param_1 + 4) = 8;

@@ -12,7 +12,7 @@ int FUN_088466b4(int param_1)
   *(undefined4 *)(param_1 + 0x18) = 0;
   *(undefined4 *)(param_1 + 0x1c) = 0;
   FUN_08846590(param_1,0);
-  uVar1 = _DONE_Get_DAT_08AAC9E0();
+  uVar1 = DONE_Get_DAT_08AAC9E0();
   FUN_0880cd9c(uVar1,3,1);
   return param_1;
 }

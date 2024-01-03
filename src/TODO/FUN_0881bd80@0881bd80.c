@@ -37,17 +37,17 @@ void FUN_0881bd80(int param_1)
         }
         memset_jak(auStack_50,0,0x28);
         local_4c = uVar2;
-        uVar3 = _DONE_Get_DAT_08AAC9E0();
+        uVar3 = DONE_Get_DAT_08AAC9E0();
         iVar4 = FUN_0880d7e0(uVar3,0x2000);
         if (iVar4 != 0) {
           local_4c = local_4c | 0x400000;
         }
-        uVar3 = _DONE_Get_DAT_08AAC9E0();
+        uVar3 = DONE_Get_DAT_08AAC9E0();
         iVar4 = FUN_0880d7e0(uVar3,0x1000);
         if (iVar4 != 0) {
           local_4c = local_4c | 0x200000;
         }
-        uVar3 = _DONE_Get_DAT_08AAC9E0();
+        uVar3 = DONE_Get_DAT_08AAC9E0();
         iVar4 = FUN_0880d7e0(uVar3,0x3200);
         if (iVar4 == 0) {
           local_46 = *(undefined2 *)(iVar6 + 4);
@@ -71,7 +71,7 @@ void FUN_0881bd80(int param_1)
           cVar5 = *(char *)(param_1 + 0xb9);
         }
         else {
-          _WIP_WeirdBuff_ReadCtrl(*(unknown_buffer **)(param_1 + 0xe4),false);
+          WIP_WeirdBuff_ReadCtrl(*(config_buffer **)(param_1 + 0xe4),false);
           cVar5 = *(char *)(param_1 + 0xb9);
         }
       }
@@ -97,9 +97,9 @@ void FUN_0881bd80(int param_1)
           iVar1 = *(int *)(param_1 + 0xec) + 1;
           *(int *)(param_1 + 0xec) = iVar1;
           if (599 < iVar1) {
-            iVar1 = _DONE_NotZero_DAT_08AAC9E0();
+            iVar1 = DONE_NotZero_DAT_08AAC9E0();
             if (iVar1 != 0) {
-              uVar7 = _DONE_Get_DAT_08AAC9E0();
+              uVar7 = DONE_Get_DAT_08AAC9E0();
               FUN_0880d0e8(uVar7,0x80);
             }
             FUN_0881bbd8(param_1);

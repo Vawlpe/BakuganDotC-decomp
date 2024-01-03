@@ -76,12 +76,12 @@ void FUN_088b4b40(int param_1)
         FUN_088b534c(iVar17,"little_crystal_bk.gmo");
         iVar15 = iVar17;
       }
-      iVar17 = _DONE_NotZero_DAT_08AC5258();
+      iVar17 = DONE_NotZero_DAT_08AC5258();
       if (iVar17 == 0) {
         iVar17 = *(int *)(param_1 + 0x130);
       }
       else {
-        uVar16 = _DONE_Get_DAT_08AC5258();
+        uVar16 = DONE_Get_DAT_08AC5258();
         FUN_089c00c4(uVar16,0x200259,*(int *)(param_1 + 0x130) + 0xb0,0,1);
         iVar17 = *(int *)(param_1 + 0x130);
       }

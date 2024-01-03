@@ -49,7 +49,7 @@ int FUN_08937d78(int param_1,undefined param_2)
   *(undefined4 *)(param_1 + 0x7a4) = 0;
   memset_jak((undefined *)(param_1 + 0x7a8),0,0x40);
   *(undefined4 *)(param_1 + 0x7e8) = 0;
-  uVar1 = _DONE_Get_DAT_08AAC9E0();
+  uVar1 = DONE_Get_DAT_08AAC9E0();
   uVar1 = FUN_0880d0ac(uVar1,0x14);
   *(undefined4 *)(param_1 + 0x7ec) = uVar1;
   if (*(char *)(param_1 + 0x5ee) == '\x01') {

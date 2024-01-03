@@ -44,7 +44,7 @@ int FUN_08912844(int param_1)
   *(undefined4 *)(param_1 + 0x169c) = 0;
   *(undefined4 *)(param_1 + 0x16a0) = 0;
   *(undefined4 *)(param_1 + 0x16a4) = 0;
-  piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
   uVar1 = *(undefined4 *)(*piVar3 + 0x48c);
   *(undefined4 *)(param_1 + 0x16ac) = 0;
   *(undefined4 *)(param_1 + 0x16a8) = uVar1;

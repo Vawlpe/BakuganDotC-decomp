@@ -35,23 +35,23 @@ void FUN_088b6fc0(int param_1)
   switch(*(undefined4 *)(param_1 + 0x54)) {
   case 0:
     if (*(int *)(param_1 + 0x44) == 0) {
-      iVar10 = _DONE_NotZero_DAT_08AC5258();
+      iVar10 = DONE_NotZero_DAT_08AC5258();
       if (iVar10 == 0) {
         cVar9 = *(char *)(param_1 + 0x75);
       }
       else {
-        uVar17 = _DONE_Get_DAT_08AC5258();
+        uVar17 = DONE_Get_DAT_08AC5258();
         FUN_089c00c4(uVar17,0x200198,param_1 + 0x20,0,1);
         cVar9 = *(char *)(param_1 + 0x75);
       }
     }
     else {
-      iVar10 = _DONE_NotZero_DAT_08AC5258();
+      iVar10 = DONE_NotZero_DAT_08AC5258();
       if (iVar10 == 0) {
         cVar9 = *(char *)(param_1 + 0x75);
       }
       else {
-        uVar17 = _DONE_Get_DAT_08AC5258();
+        uVar17 = DONE_Get_DAT_08AC5258();
         FUN_089c00c4(uVar17,0x200197,param_1 + 0x20,0,1);
         cVar9 = *(char *)(param_1 + 0x75);
       }

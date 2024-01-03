@@ -13,7 +13,7 @@ void FUN_08833e1c(undefined4 param_1)
     iVar2 = iVar2 + 1;
   } while (iVar2 < 4);
   if (*(int *)(DAT_08ac58c4 + 0x20) == 2) {
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     iVar2 = FUN_0880d0ac(uVar1,7);
     if ((0 < iVar2) && (iVar3 = 0, iVar2 < 3)) {
       do {

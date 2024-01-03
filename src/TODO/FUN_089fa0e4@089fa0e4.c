@@ -10,7 +10,7 @@ undefined4 FUN_089fa0e4(int *param_1)
   uVar3 = 0;
   FUN_089bb728(param_1[0x11]);
   if ((*param_1 == 9) && (*(char *)((int)param_1 + 0xed) != '\0')) {
-    uVar1 = _DONE_GetPtr_DAT_08AC51F8();
+    uVar1 = DONE_GetPtr_DAT_08AC51F8();
     iVar2 = FUN_089bcb20(uVar1);
     if (iVar2 != 0) {
       *param_1 = 10;

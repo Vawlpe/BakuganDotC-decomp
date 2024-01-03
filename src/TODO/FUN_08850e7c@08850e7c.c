@@ -25,7 +25,7 @@ int FUN_08850e7c(int param_1)
   DAT_08abd598 = 0;
   iVar3 = FUN_0880d354();
   if (iVar3 == 0) {
-    uVar4 = _DONE_Get_DAT_08AAC9E0();
+    uVar4 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar4,0x13,0);
     FUN_089bb598(0x14d);
     DAT_08ab9f70 = 1;

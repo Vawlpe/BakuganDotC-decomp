@@ -15,8 +15,8 @@ void FUN_08909df4(undefined4 param_1,int param_2)
   *(int *)(DAT_08ac5934 + 0x1c) = param_2;
   local_20[2] = 1;
   local_20[3] = 1;
-  _WIP_WeirdBuff_PrepReadCtrl_Set0(WeirdBuff,(short)local_30[param_2]);
-  _WIP_WeirdBuff_PrepReadCtrl_Set1(WeirdBuff,(short)local_20[param_2]);
+  WIP_WeirdBuff_PrepReadCtrl_Set0(WeirdBuff,(short)local_30[param_2]);
+  WIP_WeirdBuff_PrepReadCtrl_Set1(WeirdBuff,(short)local_20[param_2]);
   return;
 }
 

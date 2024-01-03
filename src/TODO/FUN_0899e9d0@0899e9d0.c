@@ -78,9 +78,9 @@ undefined4 FUN_0899e9d0(int param_1)
                *(undefined *)(param_1 + (uint)*(byte *)(param_1 + 0x10fb) + 0x1104);
         }
 LAB_0899ebc0:
-        iVar6 = _DONE_NotZero_DAT_08AC5874();
+        iVar6 = DONE_NotZero_DAT_08AC5874();
         if (iVar6 != 0) {
-          uVar2 = _DONE_Get_DAT_08AC5874();
+          uVar2 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar2,1,0,0);
         }
         FUN_0899d894(param_1);

@@ -75,12 +75,12 @@ undefined4 FUN_0891ad7c(int param_1)
       *(uint *)(iVar6 + 0xd0) = *(uint *)(iVar6 + 0xd0) | 1;
       *(undefined4 *)(*(int *)(*(int *)(param_1 + 0x1c) + 0x10) + 0xbc) = 0;
       FUN_089a5408(0x40000000,0,*(undefined4 *)(*(int *)(param_1 + 0x1c) + 0x10),param_1 + 0x118,3);
-      iVar6 = _DONE_NotZero_DAT_08AC5874();
+      iVar6 = DONE_NotZero_DAT_08AC5874();
       if (iVar6 == 0) {
         cVar2 = *(char *)(param_1 + 0x90c);
       }
       else {
-        uVar5 = _DONE_Get_DAT_08AC5874();
+        uVar5 = DONE_Get_DAT_08AC5874();
         FUN_089c6350(uVar5,10,0,0);
         cVar2 = *(char *)(param_1 + 0x90c);
       }

@@ -13,11 +13,11 @@ void FUN_088ebd54(int param_1,uint param_2)
     do {
       iVar2 = iVar2 + -1;
       if (*puVar3 == (param_2 & 0xffff)) {
-        iVar2 = _DONE_NotZero_DAT_08AC5874();
+        iVar2 = DONE_NotZero_DAT_08AC5874();
         if (iVar2 == 0) {
           return;
         }
-        uVar1 = _DONE_Get_DAT_08AC5874();
+        uVar1 = DONE_Get_DAT_08AC5874();
         FUN_089c6350(uVar1,puVar3[1],0,0);
         return;
       }

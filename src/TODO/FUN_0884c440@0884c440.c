@@ -9,7 +9,7 @@ undefined4 FUN_0884c440(void)
   
   uVar3 = 0;
   if (*(int *)(DAT_08ac58c4 + 0x20) == 2) {
-    uVar1 = _DONE_Get_DAT_08AAC9E0();
+    uVar1 = DONE_Get_DAT_08AAC9E0();
     iVar2 = FUN_0880d0ac(uVar1,2);
     if ((-1 < iVar2) && (iVar2 < 0x709)) {
       uVar3 = 1;

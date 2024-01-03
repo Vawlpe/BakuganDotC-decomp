@@ -20,7 +20,7 @@ void FUN_0884eab0(int param_1)
             if (DAT_08abe8f5 != '\0') {
               FUN_088c29b8();
             }
-            uVar4 = _DONE_Get_DAT_08AAC9E0();
+            uVar4 = DONE_Get_DAT_08AAC9E0();
             FUN_0880d0e8(uVar4,0x40000000);
             FUN_089bf6e8(0x2724,100);
             *(undefined4 *)(param_1 + 0x448) = 10;
@@ -63,7 +63,7 @@ void FUN_0884eab0(int param_1)
             *(undefined4 *)(param_1 + 0x444) = 2;
             *(undefined4 *)(param_1 + 0x448) = 0x14;
             FUN_0884b3d0(param_1,0);
-            uVar4 = _DONE_Get_DAT_08AC5874();
+            uVar4 = DONE_Get_DAT_08AC5874();
             FUN_089c69a4(uVar4);
             break;
           case 3:
@@ -77,7 +77,7 @@ void FUN_0884eab0(int param_1)
             *(undefined4 *)(param_1 + 0x444) = 2;
             *(undefined4 *)(param_1 + 0x448) = 100;
             FUN_0884b3d0(param_1,0);
-            uVar4 = _DONE_Get_DAT_08AC5874();
+            uVar4 = DONE_Get_DAT_08AC5874();
             FUN_089c69a4(uVar4);
             break;
           default:
@@ -108,7 +108,7 @@ void FUN_0884eab0(int param_1)
     }
   }
   else if ((iVar6 == 10) && (iVar6 = FUN_089bf93c(0x2724,1), iVar6 == 0)) {
-    uVar4 = _DONE_Get_DAT_08AAC9E0();
+    uVar4 = DONE_Get_DAT_08AAC9E0();
     FUN_0880d808(uVar4,0x40000000);
     FUN_0884e994(param_1);
     iVar6 = FUN_089bfa40(0x19a);

@@ -41,9 +41,9 @@ void FUN_0897273c(int param_1)
     FUN_089a5868(*(undefined4 *)(*(int *)(param_1 + 0x1c) + 0xe8),param_1 + 0x988);
     iVar2 = FUN_08971c74(param_1);
     if (iVar2 == 1) {
-      iVar2 = _DONE_NotZero_DAT_08AC5874();
+      iVar2 = DONE_NotZero_DAT_08AC5874();
       if (iVar2 != 0) {
-        uVar3 = _DONE_Get_DAT_08AC5874();
+        uVar3 = DONE_Get_DAT_08AC5874();
         FUN_089c6350(uVar3,0,0,0);
       }
       FUN_089720e8(param_1);
@@ -53,9 +53,9 @@ void FUN_0897273c(int param_1)
     else if ((*(byte *)(*(int *)(param_1 + 0x20) + 5) & 0x20) == 0) {
       iVar2 = FUN_089717a0(param_1);
       if (iVar2 == 1) {
-        iVar2 = _DONE_NotZero_DAT_08AC5874();
+        iVar2 = DONE_NotZero_DAT_08AC5874();
         if (iVar2 != 0) {
-          uVar3 = _DONE_Get_DAT_08AC5874();
+          uVar3 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar3,1,0,0);
         }
         FUN_089720e8(param_1);
@@ -63,9 +63,9 @@ void FUN_0897273c(int param_1)
       else {
         iVar2 = FUN_0897196c(param_1);
         if (iVar2 == 1) {
-          iVar2 = _DONE_NotZero_DAT_08AC5874();
+          iVar2 = DONE_NotZero_DAT_08AC5874();
           if (iVar2 != 0) {
-            uVar3 = _DONE_Get_DAT_08AC5874();
+            uVar3 = DONE_Get_DAT_08AC5874();
             FUN_089c6350(uVar3,1,0,0);
           }
           FUN_08971b4c(param_1);
@@ -75,9 +75,9 @@ void FUN_0897273c(int param_1)
         else {
           iVar2 = FUN_08971910(param_1);
           if (iVar2 == 1) {
-            iVar2 = _DONE_NotZero_DAT_08AC5874();
+            iVar2 = DONE_NotZero_DAT_08AC5874();
             if (iVar2 != 0) {
-              uVar3 = _DONE_Get_DAT_08AC5874();
+              uVar3 = DONE_Get_DAT_08AC5874();
               FUN_089c6350(uVar3,1,0,0);
             }
             FUN_089720e8(param_1);
@@ -86,9 +86,9 @@ void FUN_0897273c(int param_1)
       }
     }
     else {
-      iVar2 = _DONE_NotZero_DAT_08AC5874();
+      iVar2 = DONE_NotZero_DAT_08AC5874();
       if (iVar2 != 0) {
-        uVar3 = _DONE_Get_DAT_08AC5874();
+        uVar3 = DONE_Get_DAT_08AC5874();
         FUN_089c6350(uVar3,2,0,0);
       }
       *(undefined *)(param_1 + 0xb88) = 1;

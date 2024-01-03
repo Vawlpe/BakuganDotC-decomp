@@ -12,7 +12,7 @@ void FUN_0882f3d8(int param_1)
   float fVar7;
   undefined4 in_V7F;
   
-  uVar1 = _DONE_Get_DAT_08AAC9E0();
+  uVar1 = DONE_Get_DAT_08AAC9E0();
   iVar2 = FUN_0880d0ac(uVar1,2);
   iVar4 = 3;
   if (iVar2 == -1) {

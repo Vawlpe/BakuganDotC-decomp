@@ -48,7 +48,7 @@ void FUN_089c45b8(int param_1,undefined4 param_2)
     }
     memset_jak((undefined *)&local_30,0,4);
     local_30 = param_1;
-    _WIP_Init__LoopThingIdk_Step(param_1 + 6,&local_30,4);
+    WIP_Init_LoopThingIdk_Step(param_1 + 6,&local_30,4);
   }
   return;
 }

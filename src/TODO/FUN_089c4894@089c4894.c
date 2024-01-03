@@ -25,10 +25,10 @@ int * FUN_089c4894(int *param_1,int param_2)
   param_1[2] = param_2;
   param_1[5] = 0;
   param_1[6] = 0;
-  iVar3 = _DONE_Get_DAT_08AC5874();
+  iVar3 = DONE_Get_DAT_08AC5874();
   puVar4 = (undefined *)FUN_089d79a4(*(int *)(iVar3 + 4) * 2,1);
   param_1[7] = (int)puVar4;
-  iVar3 = _DONE_Get_DAT_08AC5874();
+  iVar3 = DONE_Get_DAT_08AC5874();
   memset_jak(puVar4,0,*(int *)(iVar3 + 4) * 2);
   puVar4 = (undefined *)FUN_089d79a4(0x2000,1);
   param_1[10] = (int)puVar4;

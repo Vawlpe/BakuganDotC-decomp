@@ -13,12 +13,12 @@ void FUN_088d9dfc(int param_1,char param_2)
       *(undefined4 *)(param_1 + 0x6c) = 0;
     }
     else {
-      iVar1 = _DONE_NotZero_DAT_08AC5874();
+      iVar1 = DONE_NotZero_DAT_08AC5874();
       if (iVar1 == 0) {
         *(undefined4 *)(param_1 + 0x16c) = 1;
       }
       else {
-        uVar2 = _DONE_Get_DAT_08AC5874();
+        uVar2 = DONE_Get_DAT_08AC5874();
         FUN_089c6350(uVar2,0x2c00015,0,0);
         *(undefined4 *)(param_1 + 0x16c) = 1;
       }

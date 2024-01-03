@@ -9,7 +9,7 @@ int FUN_0883acdc(int param_1,undefined4 param_2)
   
   iVar3 = 0;
   FUN_089b4c84(param_1 + 0x864,"VO_%d.at3",param_2);
-  iVar1 = _DONE_NotZero_DAT_08AC61E8();
+  iVar1 = DONE_NotZero_DAT_08AC61E8();
   if (iVar1 != 0) {
     uVar2 = FUN_089fce94();
     iVar1 = FUN_089fd350(uVar2,param_1 + 0x864);

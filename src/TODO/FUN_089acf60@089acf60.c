@@ -12,7 +12,7 @@ undefined FUN_089acf60(int param_1,byte param_2)
       return *(undefined *)(param_1 + 0xbb2);
     }
     if (param_2 < 4) {
-      piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
       uVar1 = *(undefined *)(*piVar2 + 0x6ab);
     }
     return uVar1;

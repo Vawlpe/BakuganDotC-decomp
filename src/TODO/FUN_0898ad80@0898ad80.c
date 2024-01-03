@@ -20,7 +20,7 @@ void FUN_0898ad80(int param_1)
       do {
         uVar5 = FUN_0898acb4(param_1,1,uVar5);
         uVar6 = uVar5 & 0xff;
-        piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+        piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
         if ((int)uVar6 < 0) {
           uVar3 = -(-uVar6 & 7) & 0x1f;
         }
@@ -29,7 +29,7 @@ void FUN_0898ad80(int param_1)
         }
         if (((uint)*(byte *)(*piVar2 + ((int)uVar6 >> 3) + 0x540) & 1 << uVar3) != 0) {
           *(char *)(param_1 + uVar4 + 0x11c0) = (char)uVar5;
-          piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+          piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
           if ((int)uVar6 < 0) {
             uVar5 = -(-uVar6 & 7) & 0x1f;
           }
@@ -52,7 +52,7 @@ void FUN_0898ad80(int param_1)
       do {
         uVar4 = FUN_0898ad1c(param_1,1,uVar4);
         uVar6 = uVar4 & 0xff;
-        piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+        piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
         if ((int)uVar6 < 0) {
           uVar3 = -(-uVar6 & 7) & 0x1f;
         }
@@ -61,7 +61,7 @@ void FUN_0898ad80(int param_1)
         }
         if (((uint)*(byte *)(*piVar2 + ((int)uVar6 >> 3) + 0x540) & 1 << uVar3) != 0) {
           *(char *)(param_1 + uVar5 + 0x11c0) = (char)uVar4;
-          piVar2 = (int *)_DONE_Get_DAT_08AAC9E0();
+          piVar2 = (int *)DONE_Get_DAT_08AAC9E0();
           if ((int)uVar6 < 0) {
             uVar4 = -(-uVar6 & 7) & 0x1f;
           }

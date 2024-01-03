@@ -32,7 +32,7 @@ undefined4 FUN_0880ec40(undefined4 param_1)
     iVar5 = 4;
   }
   if (iVar4 == 0) {
-    uVar6 = _DONE_Get_DAT_08AAC9E0(0);
+    uVar6 = DONE_Get_DAT_08AAC9E0(0);
     iVar4 = FUN_0880d0ac(uVar6,3);
     if (iVar4 == 0) {
       iVar4 = 1;

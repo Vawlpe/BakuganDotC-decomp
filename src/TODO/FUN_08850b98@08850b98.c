@@ -34,7 +34,7 @@ int FUN_08850b98(int param_1,int *param_2,int param_3)
       }
     }
     else {
-      uVar3 = _DONE_Get_DAT_08AAC9E0();
+      uVar3 = DONE_Get_DAT_08AAC9E0();
       iVar2 = FUN_0880d0ac(uVar3,0x12);
       if ((iVar4 < iVar2) && (iVar2 = FUN_08850b90(param_1,0), iVar4 == iVar2)) {
         bVar1 = true;

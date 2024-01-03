@@ -9,12 +9,12 @@ void FUN_0880dc00(undefined4 param_1)
   
   strcpy(auStack_50,param_1);
   strcat(auStack_50,&DAT_08a341ac);
-  iVar1 = _DONE_NotZero_DAT_08AAC9E0();
+  iVar1 = DONE_NotZero_DAT_08AAC9E0();
   if (iVar1 == 0) {
     strcat(auStack_50,&DAT_08a341b0);
   }
   else {
-    _DONE_Get_DAT_08AAC9E0();
+    DONE_Get_DAT_08AAC9E0();
     uVar2 = FUN_0880dcf4();
     strcat(auStack_50,uVar2);
   }

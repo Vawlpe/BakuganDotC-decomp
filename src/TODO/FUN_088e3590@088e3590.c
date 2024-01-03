@@ -72,7 +72,7 @@ void FUN_088e3590(int param_1)
         *(int *)(param_1 + 0x338) = *(int *)(param_1 + 0x338) + -1;
         return;
       }
-      uVar2 = _DONE_Get_DAT_08AAC9E0();
+      uVar2 = DONE_Get_DAT_08AAC9E0();
       FUN_0880d0e8(uVar2,0x20000000);
       return;
     }

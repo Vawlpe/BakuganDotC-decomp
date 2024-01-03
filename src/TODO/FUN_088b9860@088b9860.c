@@ -33,7 +33,7 @@ int FUN_088b9860(int param_1)
   *(undefined4 *)(param_1 + 0x2e4) = in_V76;
   *(undefined4 *)(param_1 + 0x2e8) = in_V7A;
   *(undefined4 *)(param_1 + 0x2ec) = in_V7E;
-  uVar1 = _DONE_Get_DAT_08AC5258();
+  uVar1 = DONE_Get_DAT_08AC5258();
   FUN_089c00ac(uVar1,puVar2,puVar2);
   *(undefined4 *)(param_1 + 0x2ac) = 0;
   *(undefined4 *)(param_1 + 0x2a8) = 0;

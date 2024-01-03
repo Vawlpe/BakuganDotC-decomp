@@ -79,7 +79,7 @@ void FUN_089d1954(int param_1)
         *(undefined *)(param_1 + 0x10) = uVar2;
         goto LAB_089d1f6c;
       }
-      uVar6 = _DONE_GetPtr_DAT_08AB0300();
+      uVar6 = DONE_GetPtr_DAT_08AB0300();
       iVar5 = FUN_0881b35c(uVar6);
       if (iVar5 == 0) {
         *(undefined *)(param_1 + 0x10) = uVar2;
@@ -99,7 +99,7 @@ void FUN_089d1954(int param_1)
           goto LAB_089d1f6c;
         }
         bVar16 = 5;
-        uVar6 = _DONE_GetPtr_DAT_08AB0300();
+        uVar6 = DONE_GetPtr_DAT_08AB0300();
         iVar5 = FUN_0881b35c(uVar6);
         iVar14 = FUN_089cf8ec(0);
         bVar4 = 5;
@@ -110,7 +110,7 @@ void FUN_089d1954(int param_1)
           }
           bVar16 = 4;
           memcpy_jak(iVar14 + 0x2d,iVar5 + 0x19,6);
-          uVar6 = _DONE_GetPtr_DAT_08AB0300();
+          uVar6 = DONE_GetPtr_DAT_08AB0300();
           FUN_0881b26c(uVar6,5);
           goto switchD_089d1d7c_caseD_2;
         }
@@ -128,7 +128,7 @@ switchD_089d1d7c_caseD_2:
       *(undefined *)(param_1 + 0x10) = uVar2;
       goto LAB_089d1f6c;
     case 4:
-      uVar6 = _DONE_GetPtr_DAT_08AB0300();
+      uVar6 = DONE_GetPtr_DAT_08AB0300();
       iVar5 = FUN_0881b35c(uVar6);
       if (iVar5 == 0) {
         iVar5 = FUN_089cf8ec(0);
@@ -142,16 +142,16 @@ switchD_089d1d7c_caseD_2:
         if (iVar5 != 0) {
           iVar5 = FUN_0881b22c();
           if (iVar5 != 0) {
-            uVar6 = _DONE_GetPtr_DAT_08AB0300();
+            uVar6 = DONE_GetPtr_DAT_08AB0300();
             iVar5 = FUN_0881b264(uVar6);
             if (iVar5 == 5) {
-              uVar6 = _DONE_GetPtr_DAT_08AB0300();
+              uVar6 = DONE_GetPtr_DAT_08AB0300();
               FUN_0881b4f0(uVar6,param_1 + 0x74,*(undefined *)(param_1 + 0x61));
             }
           }
           if (local_ac == 6) {
             bVar16 = 6;
-            uVar6 = _DONE_GetPtr_DAT_08AB0300();
+            uVar6 = DONE_GetPtr_DAT_08AB0300();
             FUN_0881b26c(uVar6,6);
             *(undefined *)(param_1 + 0x10) = uVar2;
           }
@@ -163,7 +163,7 @@ switchD_089d1d7c_caseD_2:
         iVar5 = FUN_089cf8ec(0);
         if (iVar5 != 0) {
           memset_jak((undefined *)(iVar5 + 0x2d),0,6);
-          uVar6 = _DONE_GetPtr_DAT_08AB0300();
+          uVar6 = DONE_GetPtr_DAT_08AB0300();
           FUN_0881b26c(uVar6,4);
           bVar4 = 0;
         }
@@ -199,7 +199,7 @@ switchD_089d1d7c_caseD_2:
       *(undefined *)(param_1 + 0x10) = uVar2;
       goto LAB_089d1f6c;
     }
-    uVar6 = _DONE_GetPtr_DAT_08AB0300();
+    uVar6 = DONE_GetPtr_DAT_08AB0300();
     iVar5 = FUN_0881b278(uVar6);
     bVar4 = 3;
     if (1 < iVar5) break;
@@ -222,7 +222,7 @@ switchD_089d1d7c_caseD_2:
     } while (iVar14 != 0);
     local_98[iVar8 + 2] = uVar7;
     memcpy_jak(auStack_7f,param_1 + 0x6c,6);
-    uVar6 = _DONE_GetPtr_DAT_08AB0300();
+    uVar6 = DONE_GetPtr_DAT_08AB0300();
     iVar5 = FUN_0881b37c(uVar6,local_98);
     if (iVar5 == 0) {
       *(undefined *)(param_1 + 0x10) = uVar2;
@@ -264,7 +264,7 @@ switchD_089d1d7c_caseD_2:
       } while (iVar14 != 0);
       local_79[iVar8 + 2] = uVar7;
       memcpy_jak(auStack_60,param_1 + 0x6c,6);
-      uVar6 = _DONE_GetPtr_DAT_08AB0300();
+      uVar6 = DONE_GetPtr_DAT_08AB0300();
       FUN_0881b3fc(uVar6,local_79);
       bVar4 = 0;
     }
@@ -297,7 +297,7 @@ switchD_089d1d7c_caseD_2:
       } while (iVar14 != 0);
       local_5a[iVar8 + 2] = uVar7;
       memcpy_jak(auStack_41,param_1 + 0x6c,6);
-      uVar6 = _DONE_GetPtr_DAT_08AB0300();
+      uVar6 = DONE_GetPtr_DAT_08AB0300();
       FUN_0881b3fc(uVar6,local_5a);
       bVar4 = 0;
     }
@@ -307,7 +307,7 @@ switchD_089d1d7c_caseD_2:
         *(undefined *)(param_1 + 0x10) = uVar2;
         goto LAB_089d1f6c;
       }
-      uVar6 = _DONE_GetPtr_DAT_08AB0300();
+      uVar6 = DONE_GetPtr_DAT_08AB0300();
       iVar5 = FUN_0881b264(uVar6);
       if (iVar5 < 4) {
         if (iVar5 < 3) {
@@ -353,7 +353,7 @@ switchD_089d1d7c_caseD_2:
     } while (iVar14 != 0);
     local_3b[iVar8 + 2] = uVar7;
     memcpy_jak(auStack_22,param_1 + 0x6c,6);
-    uVar6 = _DONE_GetPtr_DAT_08AB0300();
+    uVar6 = DONE_GetPtr_DAT_08AB0300();
     FUN_0881b3fc(uVar6,local_3b);
     bVar16 = 0;
   case 7:

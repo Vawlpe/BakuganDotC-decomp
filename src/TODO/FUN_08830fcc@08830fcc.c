@@ -63,14 +63,14 @@ void FUN_08830fcc(int param_1,int param_2)
         fVar15 = 1.0 - fVar14;
         *(float *)(iVar5 + 100) = *(float *)(iVar11 + 0x340) - (1.0 - fVar15) * 32.0;
         if ((1.0 <= fVar14) && (*(float *)(iVar3 + 0x4b0) < 1.0)) {
-          iVar7 = _DONE_NotZero_DAT_08AC5874();
+          iVar7 = DONE_NotZero_DAT_08AC5874();
           if (iVar7 != 0) {
-            uVar16 = _DONE_Get_DAT_08AC5874();
+            uVar16 = DONE_Get_DAT_08AC5874();
             FUN_089c6350(uVar16,0x200132,0,0);
           }
           iVar7 = FUN_0885fc80(param_2);
-          if ((iVar7 != 0) && (iVar7 = _DONE_NotZero_DAT_08AC5874(), iVar7 != 0)) {
-            uVar16 = _DONE_Get_DAT_08AC5874();
+          if ((iVar7 != 0) && (iVar7 = DONE_NotZero_DAT_08AC5874(), iVar7 != 0)) {
+            uVar16 = DONE_Get_DAT_08AC5874();
             FUN_089c6350(uVar16,0x5100000,0,0);
           }
         }

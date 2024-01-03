@@ -18,7 +18,7 @@ void FUN_089108d8(int param_1,undefined4 param_2)
     }
   }
   if (bVar1) {
-    iVar2 = _DONE_GetPtr_DAT_08AB0300();
+    iVar2 = DONE_GetPtr_DAT_08AB0300();
     *(undefined *)(*(int *)(iVar2 + 0xe4) + 0x3c) = 1;
     FUN_089d8634();
     uVar3 = FUN_089d81a4();

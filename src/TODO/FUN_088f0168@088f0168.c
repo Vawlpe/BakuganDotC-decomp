@@ -58,7 +58,7 @@ void FUN_088f0168(int param_1,undefined2 param_2)
         DAT_08ac19f0 = 1;
       }
     }
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     FUN_0880cd9c(uVar2,0x14,iVar3);
     FUN_089bf754(0x177,iVar4);
   }

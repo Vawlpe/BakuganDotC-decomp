@@ -66,12 +66,12 @@ LAB_088b0330:
     local_34 = &DAT_08b00680;
     local_38 = &DAT_08b00690;
     if (*(short *)(param_1 + 0x32c) == 0x28) {
-      iVar4 = _DONE_NotZero_DAT_08AC5258();
+      iVar4 = DONE_NotZero_DAT_08AC5258();
       if (iVar4 == 0) {
         sVar3 = *(short *)(param_1 + 0x32c);
       }
       else {
-        uVar8 = _DONE_Get_DAT_08AC5258();
+        uVar8 = DONE_Get_DAT_08AC5258();
         FUN_089c00c4(uVar8,0x2000e7,*(int *)(param_1 + 0x130) + 0xb0,0,1);
         sVar3 = *(short *)(param_1 + 0x32c);
       }
@@ -116,9 +116,9 @@ LAB_088b0330:
     iVar4 = FUN_0881a83c(0x31bf337e,&DAT_08b006b0,2);
     if (iVar4 != 0) {
       FUN_08824594(DAT_08abd5b0,9,&local_70,param_1);
-      iVar4 = _DONE_NotZero_DAT_08AC5258();
+      iVar4 = DONE_NotZero_DAT_08AC5258();
       if (iVar4 != 0) {
-        uVar8 = _DONE_Get_DAT_08AC5258();
+        uVar8 = DONE_Get_DAT_08AC5258();
         FUN_089c00c4(uVar8,0x20000d,&local_70,0,1);
       }
       local_60 = local_70;

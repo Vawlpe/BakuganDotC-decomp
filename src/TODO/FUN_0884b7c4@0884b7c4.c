@@ -122,7 +122,7 @@ void FUN_0884b7c4(int param_1)
         *(undefined4 *)(param_1 + 0x444) = 2;
         *(undefined4 *)(param_1 + 0x448) = 100;
         FUN_0884b3d0(param_1,0);
-        uVar13 = _DONE_Get_DAT_08AC5874();
+        uVar13 = DONE_Get_DAT_08AC5874();
         FUN_089c69a4(uVar13);
         FUN_089c9b9c(3,DAT_08ac58c8);
         *(undefined4 *)(DAT_08ac58c4 + 0x28) = 1;

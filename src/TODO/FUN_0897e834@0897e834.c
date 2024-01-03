@@ -11,12 +11,12 @@ void FUN_0897e834(int param_1)
   if ((((*(byte *)(param_1 + 0x1134) & 8) != 0) &&
       (iVar2 = FUN_0897a03c(param_1,*(undefined *)(param_1 + 0xee1)), iVar2 != 2)) &&
      (((int)*(char *)(*(int *)(param_1 + 0x20) + 5) & 0x80U) != 0)) {
-    iVar2 = _DONE_NotZero_DAT_08AC5874();
+    iVar2 = DONE_NotZero_DAT_08AC5874();
     if (iVar2 == 0) {
       uVar1 = *(undefined *)(param_1 + 0x1318);
     }
     else {
-      uVar3 = _DONE_Get_DAT_08AC5874();
+      uVar3 = DONE_Get_DAT_08AC5874();
       FUN_089c6350(uVar3,0xb,0,0);
       uVar1 = *(undefined *)(param_1 + 0x1318);
     }

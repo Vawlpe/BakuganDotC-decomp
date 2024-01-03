@@ -17,7 +17,7 @@ undefined4 FUN_089278f0(int param_1)
   undefined4 uVar12;
   
   if (*(byte *)(param_1 + 0x2294) == 0) {
-    piVar7 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar7 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar9 = (uint)*(byte *)(param_1 + 0x78);
     cVar2 = FUN_0891c54c(0,*(undefined *)(param_1 + *(char *)(param_1 + 0x79) + 0x224e));
     *(char *)(*piVar7 + (uVar9 & 0xff) + 0x84) = cVar2 * '\x03' + *(char *)(param_1 + 0x76) + '\x0e'
@@ -30,9 +30,9 @@ undefined4 FUN_089278f0(int param_1)
     *(undefined4 *)(*(int *)(*(int *)(param_1 + 0x1c) + iVar11) + 0x128) = 2;
     FUN_089a51fc(0,0,0,*(undefined4 *)(*(int *)(param_1 + 0x1c) + iVar11));
     uVar12 = *(undefined4 *)(*(int *)(param_1 + 0x1c) + iVar11);
-    piVar7 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar7 = (int *)DONE_Get_DAT_08AAC9E0();
     bVar1 = *(byte *)(*piVar7 + (uint)*(byte *)(param_1 + 0x78) + 0x84);
-    piVar7 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar7 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar3 = FUN_0891c54c(1,(int)(*(byte *)(*piVar7 + (uint)*(byte *)(param_1 + 0x78) + 0x84) - 0xe)
                            / 3 & 0xff);
     FUN_0891fd24(param_1,uVar12,(int)(bVar1 - 0xe) % 3 & 0xff,uVar3);
@@ -54,7 +54,7 @@ undefined4 FUN_089278f0(int param_1)
     *(undefined4 *)(*(int *)(*(int *)(param_1 + 0x1c) + iVar11) + 0x128) = 2;
     FUN_089a51fc(0,0,0,*(undefined4 *)(*(int *)(param_1 + 0x1c) + iVar11));
     uVar12 = *(undefined4 *)(*(int *)(param_1 + 0x1c) + iVar11);
-    piVar7 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar7 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar3 = FUN_0891c54c(1,(int)(*(byte *)(*piVar7 + (uint)*(byte *)(param_1 + 0x78) + 0x84) - 0xe)
                            / 3 & 0xff);
     FUN_0891fc88(param_1,uVar12,uVar3,0);
@@ -80,7 +80,7 @@ undefined4 FUN_089278f0(int param_1)
     if (1 < *(byte *)(param_1 + 0x2294)) {
       iVar8 = FUN_0891bbc4(param_1);
       if (iVar8 == 1) {
-        piVar7 = (int *)_DONE_Get_DAT_08AAC9E0();
+        piVar7 = (int *)DONE_Get_DAT_08AAC9E0();
         *(ushort *)(*piVar7 + 0x82) = *(ushort *)(*piVar7 + 0x82) | 1;
         FUN_0891bc5c(param_1);
       }

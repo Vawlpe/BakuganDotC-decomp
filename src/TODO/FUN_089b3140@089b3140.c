@@ -13,7 +13,7 @@ void FUN_089b3140(int param_1)
   if (iVar3 < 1) {
     if ((-1 < iVar3) && (iVar3 = FUN_088660e0(), iVar3 != 0)) {
       *(undefined4 *)(param_1 + 0x70) = *(undefined4 *)(iVar3 + 8);
-      _DONE_Get_DAT_08AAC9E0();
+      DONE_Get_DAT_08AAC9E0();
       uVar1 = FUN_0880dc94();
       FUN_089b4c84(auStack_a0,"data/2d/%s/combolist/%s.lzs",uVar1,
                    *(undefined4 *)(&DAT_08ac439c + *(int *)(param_1 + 0x70) * 4));

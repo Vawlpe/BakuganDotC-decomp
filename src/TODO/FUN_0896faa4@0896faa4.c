@@ -16,7 +16,7 @@ void FUN_0896faa4(int param_1)
   uVar5 = 0;
   do {
     if (uVar5 == 3) {
-      uVar3 = _DONE_Get_DAT_08AAC9E0();
+      uVar3 = DONE_Get_DAT_08AAC9E0();
       iVar4 = FUN_0880d0ac(uVar3,7);
       if (iVar4 != 0) break;
       bVar1 = *(byte *)(param_1 + 0xbb9);

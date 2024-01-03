@@ -15,7 +15,7 @@ undefined4 FUN_089fb074(undefined4 param_1,int param_2)
   }
   else if (param_2 < 3) {
     DAT_08ac61ac = 0;
-    iVar1 = _DONE_GetPtr_DAT_08AC61A8();
+    iVar1 = DONE_GetPtr_DAT_08AC61A8();
     *(undefined *)(iVar1 + 0x109) = 0;
     FUN_089cc664();
   }

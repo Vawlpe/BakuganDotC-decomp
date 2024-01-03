@@ -45,9 +45,9 @@ void FUN_0881c93c(int param_1)
   if (bVar1) {
     *(undefined4 *)(param_1 + 4) = 8;
     *(undefined4 *)(param_1 + 8) = 0;
-    iVar2 = _DONE_NotZero_DAT_08AAC9E0();
+    iVar2 = DONE_NotZero_DAT_08AAC9E0();
     if (iVar2 != 0) {
-      uVar3 = _DONE_Get_DAT_08AAC9E0();
+      uVar3 = DONE_Get_DAT_08AAC9E0();
       FUN_0880d0e8(uVar3,0x80);
     }
   }

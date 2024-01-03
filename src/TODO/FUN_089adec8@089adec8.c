@@ -16,7 +16,7 @@ void FUN_089adec8(int param_1)
   }
   else {
     uVar4 = *(undefined4 *)(*(int *)(param_1 + 0x1c) + 0xf4);
-    piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
     FUN_089adb98(param_1,uVar4,*(undefined *)(*piVar3 + 0x6ab));
   }
   return;

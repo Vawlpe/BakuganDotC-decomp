@@ -118,14 +118,14 @@ void FUN_0890da20(int param_1)
         iVar4 = iVar4 + 4;
       } while (iVar7 < 0x11);
     }
-    iVar4 = _DONE_NotZero_DAT_08AAC9E0();
+    iVar4 = DONE_NotZero_DAT_08AAC9E0();
     if (iVar4 != 0) {
       uVar8 = *(undefined4 *)(*(int *)(DAT_08ac0e80 + 4) + 0x24);
-      uVar5 = _DONE_Get_DAT_08AAC9E0();
+      uVar5 = DONE_Get_DAT_08AAC9E0();
       iVar4 = FUN_0880dba8(uVar5);
       FUN_089f4bf4((float)*(int *)(&DAT_08a9b130 + iVar4 * 4),uVar8);
       uVar8 = *(undefined4 *)(*(int *)(DAT_08ac0e80 + 4) + 0x58);
-      uVar5 = _DONE_Get_DAT_08AAC9E0();
+      uVar5 = DONE_Get_DAT_08AAC9E0();
       iVar4 = FUN_0880dba8(uVar5);
       FUN_089f4bf4((float)*(int *)(&DAT_08a9b130 + iVar4 * 4),uVar8);
     }

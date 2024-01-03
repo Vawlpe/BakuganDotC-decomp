@@ -18,7 +18,7 @@ undefined4 FUN_089adf4c(int param_1)
       }
     }
     else {
-      piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
       if (*(char *)(*piVar1 + 0x6ab) != *(char *)(iVar3 + 3000)) {
         return 1;
       }

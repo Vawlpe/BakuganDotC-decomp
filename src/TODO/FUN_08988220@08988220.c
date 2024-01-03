@@ -9,7 +9,7 @@ void FUN_08988220(int param_1)
   int iVar4;
   uint uVar5;
   
-  piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
   uVar5 = (uint)*(byte *)((int)*(char *)(param_1 + 0x8e0) + *(char *)(param_1 + 0x8e1) * 6 + param_1
                          + 0x8ec);
   iVar4 = *piVar3 + ((int)uVar5 >> 3);

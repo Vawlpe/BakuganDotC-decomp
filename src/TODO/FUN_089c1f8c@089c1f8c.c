@@ -35,7 +35,7 @@ undefined4 FUN_089c1f8c(int param_1,int param_2,undefined param_3,char param_4)
       } while (iVar4 < *(int *)(param_1 + 0x2c));
     }
     if ((!bVar2) && (puVar7 != (undefined4 *)0x0)) {
-      uVar1 = _DONE_Get_DAT_08AC5258();
+      uVar1 = DONE_Get_DAT_08AC5258();
       uVar1 = FUN_089c02f4(uVar1,param_2,*(undefined4 *)(param_1 + 0x30),param_3,1);
       *puVar7 = uVar1;
       uVar1 = 1;

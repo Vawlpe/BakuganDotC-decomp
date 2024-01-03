@@ -12,7 +12,7 @@ undefined4 FUN_089c2d54(int param_1)
   undefined4 uVar7;
   
   uVar7 = 1;
-  iVar1 = _DONE_NotZero_DAT_08AC61E8();
+  iVar1 = DONE_NotZero_DAT_08AC61E8();
   if (iVar1 != 0) {
     uVar2 = FUN_089fce94();
     piVar6 = (int *)&DAT_08ac5604;

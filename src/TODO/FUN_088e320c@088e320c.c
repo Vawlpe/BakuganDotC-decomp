@@ -18,7 +18,7 @@ void FUN_088e320c(int param_1)
     bVar3 = true;
     if (*(int *)(param_1 + 0x338) < 1) {
       FUN_088e1184(param_1);
-      piVar5 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar5 = (int *)DONE_Get_DAT_08AAC9E0();
       if (*(char *)(*piVar5 + 0x410) < '\x01') {
         *(undefined4 *)(param_1 + 0x324) = 2;
         *(undefined4 *)(param_1 + 0x338) = 0x2d;

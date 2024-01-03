@@ -15,7 +15,7 @@ undefined4 FUN_089c5258(undefined4 *param_1)
   cVar5 = '\0';
   FUN_089bb728(*param_1);
   iVar6 = param_1[7];
-  iVar1 = _DONE_Get_DAT_08AC5874();
+  iVar1 = DONE_Get_DAT_08AC5874();
   iVar6 = iVar6 + *(int *)(iVar1 + 4) * param_1[8];
   if (0 < (int)param_1[9]) {
     iVar1 = param_1[8] + 1;

@@ -38,7 +38,7 @@ int FUN_089cfbf4(int param_1)
         iVar4 = 0;
         iVar3 = FUN_0881b22c();
         if (iVar3 != 0) {
-          uVar2 = _DONE_GetPtr_DAT_08AB0300();
+          uVar2 = DONE_GetPtr_DAT_08AB0300();
           iVar4 = FUN_0881b280(uVar2,0);
         }
         if (iVar4 == 0) {

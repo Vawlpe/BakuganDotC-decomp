@@ -14,17 +14,17 @@ void FUN_0880e0c4(int param_1)
   
   memset_jak(auStack_70,0,0x19);
   memset_jak(auStack_54,0,0x27);
-  iVar1 = _DONE_NotZero_DAT_08AAC9E0();
+  iVar1 = DONE_NotZero_DAT_08AAC9E0();
   if (iVar1 != 0) {
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     iVar1 = FUN_0880d840(uVar2,auStack_70);
     if (iVar1 != 0) {
       FUN_089eac40(auStack_54,auStack_70);
     }
   }
-  iVar1 = _DONE_NotZero_DAT_08AAC9E0();
+  iVar1 = DONE_NotZero_DAT_08AAC9E0();
   if (iVar1 != 0) {
-    uVar2 = _DONE_Get_DAT_08AAC9E0();
+    uVar2 = DONE_Get_DAT_08AAC9E0();
     uVar2 = FUN_0880dba8(uVar2);
     switch(uVar2) {
     case 1:
@@ -52,11 +52,11 @@ void FUN_0880e0c4(int param_1)
   strcpy(param_1,*(undefined4 *)PTR_PTR_DAT_08aacaf4);
   FUN_089b4c84(param_1 + 0x80,*(undefined4 *)(PTR_PTR_DAT_08aacaf4 + 4),auStack_54);
   iVar5 = 0;
-  uVar2 = _DONE_Get_DAT_08AAC9E0();
+  uVar2 = DONE_Get_DAT_08AAC9E0();
   iVar1 = FUN_0880d4e4(uVar2,0);
   uVar6 = 0;
   do {
-    piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
     uVar6 = uVar6 + 1;
     if ((int)uVar6 < 0) {
       uVar4 = -(-uVar6 & 7) & 0x1f;

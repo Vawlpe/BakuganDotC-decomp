@@ -13,7 +13,7 @@ int FUN_089c9144(int param_1)
   *(undefined4 *)(param_1 + 0x38) = 0;
   *(undefined4 *)(param_1 + 0x3c) = 0;
   *(undefined4 *)(param_1 + 0x48) = 0;
-  uVar1 = _DONE_GetPtr_DAT_08AC5278();
+  uVar1 = DONE_GetPtr_DAT_08AC5278();
   uVar1 = FUN_089c2730(uVar1,4);
   *(undefined4 *)(param_1 + 0x4c) = uVar1;
   *(undefined *)(param_1 + 0x54) = 0;

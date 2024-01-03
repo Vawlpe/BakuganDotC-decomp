@@ -36,7 +36,7 @@ LAB_08993aa0:
     }
     local_70 = 0;
     memset_jak(auStack_6f,0,0x3f);
-    _DONE_Get_DAT_08AAC9E0();
+    DONE_Get_DAT_08AAC9E0();
     uVar2 = FUN_0880dc94();
     FUN_089b4c84(&local_70,"data/2d/%s/name.lzs",uVar2);
     iVar3 = FUN_089bda88(*(undefined4 *)(param_1 + 0x6c),&local_70,10,1,1);

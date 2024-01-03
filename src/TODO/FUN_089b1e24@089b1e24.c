@@ -5,7 +5,7 @@ void FUN_089b1e24(byte param_1)
 {
   undefined4 uVar1;
   
-  uVar1 = _DONE_Get_DAT_08AAC9E0();
+  uVar1 = DONE_Get_DAT_08AAC9E0();
   FUN_0880cd9c(uVar1,0x32,param_1);
   FUN_089b1cac(0,1);
   FUN_089b1cac(1,8);

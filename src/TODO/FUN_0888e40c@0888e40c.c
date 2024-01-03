@@ -38,7 +38,7 @@ int FUN_0888e40c(int param_1)
             goto LAB_0888e658;
           }
           if (*(int *)(DAT_08ac58c4 + 0x20) == 2) {
-            uVar2 = _DONE_Get_DAT_08AAC9E0();
+            uVar2 = DONE_Get_DAT_08AAC9E0();
             iVar3 = FUN_0880d0ac(uVar2,7);
             if (iVar3 == 2) {
               fVar10 = 0.0;
@@ -51,7 +51,7 @@ int FUN_0888e40c(int param_1)
               if (fVar9 != 0.0) {
                 fVar10 = (1.0 - fVar7 / fVar9) * 100.0;
               }
-              uVar2 = _DONE_Get_DAT_08AAC9E0();
+              uVar2 = DONE_Get_DAT_08AAC9E0();
               iVar3 = FUN_0880d0ac(uVar2,*(int *)(iVar6 + 0x150) + 0xe);
               iVar4 = *(int *)(*(int *)(param_1 + 0x2cc) + 4);
               fVar7 = (float)(**(code **)(iVar4 + 0x44))

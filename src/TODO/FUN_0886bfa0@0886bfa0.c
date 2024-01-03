@@ -44,7 +44,7 @@ undefined4 FUN_0886bfa0(int param_1)
   iVar7 = FUN_0884b248();
   if (iVar7 != 0) {
     FUN_0884b268();
-    uVar8 = _DONE_Get_DAT_08AAC9E0();
+    uVar8 = DONE_Get_DAT_08AAC9E0();
     iVar7 = FUN_0880d0ac(uVar8,2);
     if (iVar7 == 0) {
       return 0;

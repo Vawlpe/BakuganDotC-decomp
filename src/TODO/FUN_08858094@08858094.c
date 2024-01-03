@@ -83,12 +83,12 @@ LAB_08858188:
     *(undefined4 *)(param_1 + 0x8ec) = *(undefined4 *)(param_1 + 0x2c);
     iVar4 = FUN_08823f5c(DAT_08abd5b0,0x5c);
     *(float *)(iVar4 + 0x1e0) = *(float *)(param_1 + 0x40) * 0.4;
-    iVar4 = _DONE_NotZero_DAT_08AC5874();
+    iVar4 = DONE_NotZero_DAT_08AC5874();
     if (iVar4 == 0) {
       iVar4 = *(int *)(param_1 + 0xa74);
     }
     else {
-      uVar8 = _DONE_Get_DAT_08AC5874();
+      uVar8 = DONE_Get_DAT_08AC5874();
       FUN_089c6350(uVar8,0x20025d,0,0);
       iVar4 = *(int *)(param_1 + 0xa74);
     }

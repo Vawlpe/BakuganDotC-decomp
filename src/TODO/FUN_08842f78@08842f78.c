@@ -132,7 +132,7 @@ void FUN_08842f78(int param_1)
       iVar4 = 0;
       iVar2 = 0;
       do {
-        uVar3 = _DONE_Get_DAT_08AAC9E0();
+        uVar3 = DONE_Get_DAT_08AAC9E0();
         iVar10 = FUN_0880d0ac(uVar3,iVar4 + 3);
         if (0 < iVar10) {
           iVar2 = iVar2 + 1;
@@ -150,7 +150,7 @@ void FUN_08842f78(int param_1)
         FUN_08842654(param_1,*(undefined4 *)(param_1 + 0x60),iVar4);
         iVar4 = iVar4 + 1;
       } while (iVar4 < 0x10);
-      uVar3 = _DONE_Get_DAT_08AAC9E0();
+      uVar3 = DONE_Get_DAT_08AAC9E0();
       iVar4 = FUN_0880d0ac(uVar3,7);
       if (iVar4 != 0) {
         FUN_08842720(param_1);
@@ -267,7 +267,7 @@ LAB_08843688:
         iVar4 = iVar4 + 1;
         iVar2 = iVar2 + 4;
       } while (iVar4 < 4);
-      uVar3 = _DONE_Get_DAT_08AAC9E0();
+      uVar3 = DONE_Get_DAT_08AAC9E0();
       iVar2 = FUN_0880d0ac(uVar3,7);
       if (iVar2 < 1) {
         if (-1 < iVar2) {
@@ -318,7 +318,7 @@ LAB_08843688:
         if (iVar2 != 0) {
           iVar2 = 0;
           do {
-            uVar3 = _DONE_Get_DAT_08AAC9E0();
+            uVar3 = DONE_Get_DAT_08AAC9E0();
             iVar10 = FUN_0880d0ac(uVar3,iVar2 + 3);
             if (0 < iVar10) {
               iVar4 = iVar4 + 1;
@@ -335,7 +335,7 @@ LAB_08843688:
             }
             iVar10 = iVar10 + 1;
           } while (iVar10 < 4);
-          uVar3 = _DONE_Get_DAT_08AAC9E0();
+          uVar3 = DONE_Get_DAT_08AAC9E0();
           iVar10 = FUN_0880d0ac(uVar3,7);
           if (iVar10 == 1) {
             iVar11 = 0;
@@ -452,7 +452,7 @@ LAB_08843a60:
     } while (iVar10 < 0x29);
     *(float *)(*(int *)(*(int *)(param_1 + 0x60) + 0x7c) + 0xbc) = fVar13 * 0.5;
     *(float *)(*(int *)(*(int *)(param_1 + 0x60) + 0x70) + 0xbc) = fVar13 * 0.5;
-    uVar3 = _DONE_Get_DAT_08AAC9E0();
+    uVar3 = DONE_Get_DAT_08AAC9E0();
     iVar2 = FUN_0880d0ac(uVar3,7);
     if (iVar2 < 1) {
       if (-1 < iVar2) {
@@ -583,7 +583,7 @@ LAB_08842468:
     iVar2 = *(int *)(unaff_s4 + 0x68c);
     FUN_089f51b8(iVar2);
     *(undefined4 *)(iVar2 + 0x84) = 0;
-    piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
     iVar4 = FUN_0883f58c();
     iVar4 = *(int *)(*piVar1 + 0x464) + iVar4;
     iVar2 = 9999999;

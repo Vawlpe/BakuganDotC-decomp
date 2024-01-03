@@ -10,7 +10,7 @@ void FUN_089cc200(void)
   
   iVar1 = FUN_089bc814();
   if (iVar1 != 0) {
-    uVar2 = _DONE_GetPtr_DAT_08AC51F8();
+    uVar2 = DONE_GetPtr_DAT_08AC51F8();
     iVar1 = FUN_089bc984(uVar2);
     if (((iVar1 != 0) && (*(int *)(DAT_08ac58e0 + 4) != 0)) && (iVar1 = FUN_08a30d50(), iVar1 != 0))
     {

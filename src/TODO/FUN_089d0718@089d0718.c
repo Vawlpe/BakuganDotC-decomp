@@ -13,7 +13,7 @@ undefined4 FUN_089d0718(int param_1)
     uVar3 = 1;
     iVar1 = FUN_0881b22c();
     if (iVar1 != 0) {
-      uVar2 = _DONE_GetPtr_DAT_08AB0300();
+      uVar2 = DONE_GetPtr_DAT_08AB0300();
       iVar1 = FUN_0881b278(uVar2);
       if (1 < iVar1) {
         uVar3 = 0;

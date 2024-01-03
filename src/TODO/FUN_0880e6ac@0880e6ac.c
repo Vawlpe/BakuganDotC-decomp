@@ -29,7 +29,7 @@ undefined4 FUN_0880e6ac(undefined4 param_1)
   local_24 = FUN_089c9e3c(param_1);
   iVar4 = FUN_089c9da8(param_1);
   if (iVar7 == 0x2f) {
-    uVar5 = _DONE_Get_DAT_08AAC9E0();
+    uVar5 = DONE_Get_DAT_08AAC9E0();
     iVar6 = FUN_0880d0ac(uVar5,9);
     if (iVar4 != iVar6) {
       return 0;

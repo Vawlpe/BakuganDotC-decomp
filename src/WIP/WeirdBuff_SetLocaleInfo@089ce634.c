@@ -1,6 +1,6 @@
 #include "ULUS10536_MYTHREAD-MAIN.BIN.h"
 
-int _WIP_WeirdBuff_SetLocaleInfo(unknown_buffer *param_1)
+int WIP_WeirdBuff_SetLocaleInfo(config_buffer *param_1)
 
 {
   int err;

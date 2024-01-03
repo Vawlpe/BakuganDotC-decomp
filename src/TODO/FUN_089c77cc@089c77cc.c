@@ -23,7 +23,7 @@ bool FUN_089c77cc(int param_1)
   do {
     switch(*(undefined2 *)(puVar10 + 0x108)) {
     case 1:
-      iVar6 = _DONE_NotZero_DAT_08AC61E8();
+      iVar6 = DONE_NotZero_DAT_08AC61E8();
       if (iVar6 != 0) {
         uVar5 = FUN_089fce94();
         iVar6 = FUN_089fd350(uVar5,(&PTR_s_seGRP_SYS_COM_pac_08ac56e8)[puVar10[0x10b]]);

@@ -16,14 +16,14 @@ void FUN_088d7770(int param_1)
   if (iVar2 < 2) {
     if (-1 < iVar2) {
       if (iVar2 < 1) {
-        iVar2 = _DONE_NotZero_DAT_08AC5874();
+        iVar2 = DONE_NotZero_DAT_08AC5874();
         if (iVar2 != 0) {
-          uVar1 = _DONE_Get_DAT_08AC5874();
+          uVar1 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar1,0x2c00032,0,0);
         }
-        iVar2 = _DONE_NotZero_DAT_08AC5874();
+        iVar2 = DONE_NotZero_DAT_08AC5874();
         if (iVar2 != 0) {
-          uVar1 = _DONE_Get_DAT_08AC5874();
+          uVar1 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar1,0x2c00039,0,0);
         }
         local_20 = *(undefined4 *)(param_1 + 0x20);

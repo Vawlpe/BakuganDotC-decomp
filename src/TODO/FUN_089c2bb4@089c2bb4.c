@@ -9,7 +9,7 @@ void FUN_089c2bb4(int param_1)
   int *piVar4;
   int *piVar5;
   
-  iVar1 = _DONE_NotZero_DAT_08AC61E8();
+  iVar1 = DONE_NotZero_DAT_08AC61E8();
   if (iVar1 != 0) {
     iVar1 = 0;
     piVar5 = (int *)&DAT_08ac5604;

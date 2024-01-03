@@ -11,7 +11,7 @@ void FUN_08886c94(int *param_1)
   FUN_08886820();
   if (*(int *)(DAT_08ac58c4 + 0x20) == 2) {
     iVar3 = *(int *)(*param_1 + 0x150);
-    iVar1 = _DONE_Get_DAT_08AAC9E0();
+    iVar1 = DONE_Get_DAT_08AAC9E0();
     iVar2 = 0;
     fVar4 = *(float *)(param_1[0x22] + 0x90);
     if (*(int *)(iVar1 + 4) != 0) {

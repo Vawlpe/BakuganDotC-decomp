@@ -40,17 +40,17 @@ void FUN_08856bc8(int param_1)
   uVar16 = *(undefined4 *)(*(int *)(param_1 + 0x130) + 0xb4);
   iVar11 = FUN_0884b248();
   if (iVar11 != 0) {
-    iVar11 = _DONE_NotZero_DAT_08AC5258();
+    iVar11 = DONE_NotZero_DAT_08AC5258();
     if (iVar11 != 0) {
-      uVar12 = _DONE_Get_DAT_08AC5258();
+      uVar12 = DONE_Get_DAT_08AC5258();
       FUN_089c00c4(uVar12,0x20001f,*(int *)(param_1 + 0x130) + 0xb0,0,1);
     }
-    iVar11 = _DONE_NotZero_DAT_08AC5258();
+    iVar11 = DONE_NotZero_DAT_08AC5258();
     if (iVar11 == 0) {
       cVar2 = *(char *)(param_1 + 0xa7b);
     }
     else {
-      uVar12 = _DONE_Get_DAT_08AC5258();
+      uVar12 = DONE_Get_DAT_08AC5258();
       FUN_089c00c4(uVar12,0x20025c,*(int *)(param_1 + 0x130) + 0xb0,0,1);
       cVar2 = *(char *)(param_1 + 0xa7b);
     }

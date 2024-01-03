@@ -9,12 +9,12 @@ void FUN_089c6bfc(void)
   int iVar4;
   int iVar5;
   
-  iVar1 = _DONE_Get_DAT_08AC5874();
+  iVar1 = DONE_Get_DAT_08AC5874();
   if (*(int *)(iVar1 + 0x18) == 0) {
-    uVar2 = _DONE_GetPtr_DAT_08AC51F8();
+    uVar2 = DONE_GetPtr_DAT_08AC51F8();
     iVar3 = FUN_089bcb80(uVar2,0x1a0000,"c:/bullets/bkn2pspsys/src/pspsys/sys/Sound/COSoundSndp.cpp"
                          ,0x8f9);
-    uVar2 = _DONE_GetPtr_DAT_08AC51F8();
+    uVar2 = DONE_GetPtr_DAT_08AC51F8();
     iVar4 = FUN_089bcb80(uVar2,0x1a0000,"c:/bullets/bkn2pspsys/src/pspsys/sys/Sound/COSoundSndp.cpp"
                          ,0x8fa);
     *(int *)(iVar1 + 0x18) = iVar3;

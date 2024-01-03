@@ -28,7 +28,7 @@ undefined4 FUN_0880e808(int param_1)
       }
     }
     else if ((iVar4 < 2) && (iVar4 = FUN_088deaec(iVar6), iVar4 != 0)) {
-      piVar7 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar7 = (int *)DONE_Get_DAT_08AAC9E0();
       iVar8 = 0;
       iVar10 = *piVar7 + *(int *)(DAT_08ac58c4 + 4) * 10;
       iVar4 = iVar10;

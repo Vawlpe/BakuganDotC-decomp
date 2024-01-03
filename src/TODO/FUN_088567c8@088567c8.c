@@ -96,12 +96,12 @@ void FUN_088567c8(int param_1)
   *(undefined *)(param_1 + 0xbc) = 1;
   iVar2 = FUN_08823f5c(DAT_08abd5b0,0x5b,param_1 + 0x20);
   *(float *)(iVar2 + 0x1e0) = *(float *)(param_1 + 0x40) * 0.4;
-  iVar2 = _DONE_NotZero_DAT_08AC5874();
+  iVar2 = DONE_NotZero_DAT_08AC5874();
   if (iVar2 == 0) {
     iVar2 = *(int *)(param_1 + 0xa34);
   }
   else {
-    uVar7 = _DONE_Get_DAT_08AC5874();
+    uVar7 = DONE_Get_DAT_08AC5874();
     FUN_089c6350(uVar7,0x20025e,0,0);
     iVar2 = *(int *)(param_1 + 0xa34);
   }

@@ -19,7 +19,7 @@ void FUN_089ceff8(int param_1)
   *(undefined4 *)(param_1 + 0x24) = uVar1;
   iVar2 = FUN_089cc058();
   if (iVar2 != 0) {
-    uVar1 = _DONE_GetPtr_DAT_08AC58E0();
+    uVar1 = DONE_GetPtr_DAT_08AC58E0();
     FUN_089cc200(uVar1);
   }
   FUN_089cf0a0(param_1);

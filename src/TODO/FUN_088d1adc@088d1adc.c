@@ -18,7 +18,7 @@ void FUN_088d1adc(int param_1)
   undefined4 uStack_68;
   undefined4 uStack_64;
   
-  piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+  piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
   iVar5 = *(int *)(*piVar3 + 0x464);
   bVar2 = false;
   if (*(int *)(param_1 + 0xbc) == iVar5) {

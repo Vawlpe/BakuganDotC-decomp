@@ -268,7 +268,7 @@ void FUN_089637a4(int param_1,char param_2,uint param_3)
         uVar7 = (uint)*(ushort *)(param_1 + 0x51fc);
       }
       else {
-        piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+        piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
         uVar7 = (uint)*(ushort *)(param_1 + 0x51fc);
         uVar5 = (uint)*(ushort *)(param_1 + 0x51fa);
         uVar8 = (uint)*(byte *)(iVar6 + (uVar10 - (uVar5 + uVar7 * param_3)) + 0x4fb8);

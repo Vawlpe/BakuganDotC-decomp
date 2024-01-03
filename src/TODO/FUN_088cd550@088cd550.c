@@ -178,17 +178,17 @@ LAB_088cd8a0:
     uVar2 = FUN_089edb80();
     iVar3 = FUN_089edf70(uVar2);
     if (iVar3 != 0) {
-      piVar4 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar4 = (int *)DONE_Get_DAT_08AAC9E0();
       *(char *)(*piVar4 + 0x80) = (char)*(int *)(param_1 + 0x28) + (6 < *(int *)(param_1 + 0x28));
-      piVar4 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar4 = (int *)DONE_Get_DAT_08AAC9E0();
       *(char *)(*piVar4 + 0x81) = (char)*(undefined4 *)(param_1 + 0x2c);
-      piVar4 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar4 = (int *)DONE_Get_DAT_08AAC9E0();
       bVar1 = *(byte *)(*piVar4 + 0x80);
-      piVar4 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar4 = (int *)DONE_Get_DAT_08AAC9E0();
       *(uint *)(DAT_08ac58c4 + 4) = (uint)bVar1 * 4 + (uint)*(byte *)(*piVar4 + 0x81);
-      uVar2 = _DONE_Get_DAT_08AAC9E0();
+      uVar2 = DONE_Get_DAT_08AAC9E0();
       FUN_0880cd9c(uVar2,8,0);
-      uVar2 = _DONE_Get_DAT_08AAC9E0();
+      uVar2 = DONE_Get_DAT_08AAC9E0();
       FUN_0880cd9c(uVar2,9,0);
       iVar3 = 0;
       puVar7 = &DAT_08a91c00;

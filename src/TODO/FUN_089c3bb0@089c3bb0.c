@@ -38,7 +38,7 @@ undefined4 FUN_089c3bb0(int *param_1)
           cVar8 = *(char *)((int)param_1 + 199);
           goto LAB_089c3c78;
         }
-        uVar6 = _DONE_GetPtr_DAT_08AC51F8();
+        uVar6 = DONE_GetPtr_DAT_08AC51F8();
         FUN_089bcc3c(uVar6,param_1[3]);
         *(undefined *)((int)param_1 + 0x1d) = 1;
         *(undefined *)((int)param_1 + 0xc5) = 1;
@@ -131,7 +131,7 @@ LAB_089c3d28:
   zz_sceDisplayWaitVblankStartCB();
   iVar5 = iVar13 + 6;
   do {
-    iVar9 = _DONE_Get_DAT_08AC5874();
+    iVar9 = DONE_Get_DAT_08AC5874();
     if (*(char *)(iVar9 + 0x8be4) == '\0') {
       return 1;
     }

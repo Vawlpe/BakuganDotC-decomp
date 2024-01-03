@@ -28,7 +28,7 @@ void FUN_08836888(int param_1)
   piVar3 = local_50;
   piVar5 = local_50;
   if (*(int *)(param_1 + 0xb90) != 0) {
-    piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+    piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
     iVar6 = *(int *)(param_1 + 0xb90);
     if ((*(char *)(*piVar1 + 0x6ab) == '\x01') && (iVar6 == 3)) {
       FUN_0882cd3c(param_1,0,0);

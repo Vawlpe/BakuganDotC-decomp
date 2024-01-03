@@ -48,9 +48,9 @@ void FUN_089aaf88(int param_1)
       FUN_089a75c0(param_1,1,*(undefined *)(param_1 + 0x74));
       *(undefined *)(param_1 + 0x9c0) = 1;
       *(int *)(param_1 + 0x2c) = *(int *)(param_1 + 0x2c) + 1;
-      piVar3 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar3 = (int *)DONE_Get_DAT_08AAC9E0();
       if ((*(ushort *)(*piVar3 + 0x6a6) & 1) == 0) {
-        piVar3 = (int *)_DONE_Get_DAT_08AAC9E0(param_1);
+        piVar3 = (int *)DONE_Get_DAT_08AAC9E0(param_1);
         if ((*(ushort *)(*piVar3 + 0x6a6) & 2) != 0) {
           FUN_089a95a4(param_1,7);
           *(undefined4 *)(param_1 + 0x2c) = 0xc;
@@ -67,9 +67,9 @@ void FUN_089aaf88(int param_1)
     cVar2 = FUN_089a85ac(param_1);
     if (cVar2 == '\0') {
       if ((*(byte *)(*(int *)(param_1 + 0x20) + 3) & 0x20) != 0) {
-        iVar6 = _DONE_NotZero_DAT_08AC5874();
+        iVar6 = DONE_NotZero_DAT_08AC5874();
         if (iVar6 != 0) {
-          uVar7 = _DONE_Get_DAT_08AC5874();
+          uVar7 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar7,2,0,0);
         }
         *(undefined *)(param_1 + 0x672) = 1;
@@ -79,9 +79,9 @@ void FUN_089aaf88(int param_1)
       }
       iVar6 = FUN_089a8bf4(param_1);
       if (iVar6 == 1) {
-        iVar6 = _DONE_NotZero_DAT_08AC5874();
+        iVar6 = DONE_NotZero_DAT_08AC5874();
         if (iVar6 != 0) {
-          uVar7 = _DONE_Get_DAT_08AC5874();
+          uVar7 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar7,1,0,0);
         }
         FUN_089aa658(param_1);
@@ -91,9 +91,9 @@ void FUN_089aaf88(int param_1)
     }
     else {
       if (cVar2 == '\x01') {
-        iVar6 = _DONE_NotZero_DAT_08AC5874();
+        iVar6 = DONE_NotZero_DAT_08AC5874();
         if (iVar6 != 0) {
-          uVar7 = _DONE_Get_DAT_08AC5874();
+          uVar7 = DONE_Get_DAT_08AC5874();
           FUN_089c6350(uVar7,0,0,0);
         }
         FUN_089a8dc4(param_1);
@@ -101,9 +101,9 @@ void FUN_089aaf88(int param_1)
         *(undefined4 *)(param_1 + 0x2c) = 5;
         return;
       }
-      iVar6 = _DONE_NotZero_DAT_08AC5874();
+      iVar6 = DONE_NotZero_DAT_08AC5874();
       if (iVar6 != 0) {
-        uVar7 = _DONE_Get_DAT_08AC5874();
+        uVar7 = DONE_Get_DAT_08AC5874();
         FUN_089c6350(uVar7,3,0,0);
       }
     }

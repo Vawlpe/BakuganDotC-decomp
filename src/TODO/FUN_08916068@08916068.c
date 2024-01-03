@@ -31,7 +31,7 @@ void FUN_08916068(int param_1,char param_2)
     iVar7 = 0;
     iVar8 = 0x4c;
     do {
-      piVar1 = (int *)_DONE_Get_DAT_08AAC9E0();
+      piVar1 = (int *)DONE_Get_DAT_08AAC9E0();
       iVar2 = *(int *)(param_1 + 0x1c);
       if (*(char *)(*piVar1 + *(int *)(param_1 + 0x16a8) * 6 + iVar5 + 0x540) == '\0') {
         iVar6 = FUN_08913084(*(int *)(param_1 + 0x16a8),iVar5);
